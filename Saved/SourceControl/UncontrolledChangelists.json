@@ -1,12 +1,3 @@
-{
-	"version": 1,
-	"changelists": [
-		{
-			"guid": "00000000000000000000000000000000",
-			"description": "Default Uncontrolled Changelist",
-			"files": [
-				"C:/Users/1027992/Documents/Unreal Projects/SpaceTrip/Content/StarterContent/Props/MaterialSphere.uasset"
-			]
-		}
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b16f38a5cae018d484c5a8a404005adeb577a8cc10be61cc29357f80ae8d0ae
+size 287
