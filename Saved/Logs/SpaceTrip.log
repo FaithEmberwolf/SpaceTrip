@@ -8455,3 +8455,6 @@ Saving these assets will allow them to be unloaded.
 [2024.02.14-11.49.04:978][382]LogAssetRegistry: Error: Package C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/StarterContent/Maps/StarterMap_BuiltData.uasset has malformed tag
 [2024.02.14-11.49.04:978][382]LogAssetRegistry: Error: Package C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset has malformed tag
 [2024.02.14-11.49.04:979][382]LogAssetRegistry: Error: Package C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset has malformed tag
+[2024.02.14-11.52.32:683][  5]LogAssetRegistry: Error: Package C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/StarterContent/Maps/StarterMap_BuiltData.uasset has malformed tag
+[2024.02.14-11.52.32:683][  5]LogAssetRegistry: Error: Package C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset has malformed tag
+[2024.02.14-11.52.32:683][  5]LogAssetRegistry: Error: Package C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset has malformed tag
