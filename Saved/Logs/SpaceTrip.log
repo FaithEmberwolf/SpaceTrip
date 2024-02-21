@@ -3434,3 +3434,243 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.02.21-05.06.04:629][945]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Jupiter/untitled.untitled
 [2024.02.21-05.06.04:629][945]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Jupiter/Material.Material
 [2024.02.21-05.12.52:387][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.02.21-05.21.29:515][136]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.02.21-05.21.29:550][136]LogContentBrowser: Creating deferred item: NewFolder
+[2024.02.21-05.21.29:562][137]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.02.21-05.21.33:346][301]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2024.02.21-05.21.33:346][301]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.21-05.21.58:815][937]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.02.21-05.21.58:823][937]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.02.21-05.21.58:831][937]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.02.21-05.21.58:852][939]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.02.21-05.22.08:818][371]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Platform
+[2024.02.21-05.22.08:824][371]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.02.21-05.22.12:903][548]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform
+[2024.02.21-05.22.12:903][548]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-05.22.12:904][548]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-05.22.12:934][548]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.02.21-05.22.13:836][548]LogViewport: Scene viewport resized to 1481x1118, mode Windowed.
+[2024.02.21-05.23.01:911][270]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-05.23.43:049][816]BlueprintLog: New page: Compile BP_Platform
+[2024.02.21-05.23.43:081][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.02.21-05.23.45:515][901]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-05.23.45:619][901]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/Blueprints/BP_Platform
+[2024.02.21-05.23.45:619][901]LogSavePackage: Moving '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Saved/BP_Platform78C57B0E4854F6D6F39B7BA98D159BE0.tmp' to '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_Platform.uasset'
+[2024.02.21-05.23.45:630][901]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 923 ms)
+[2024.02.21-05.23.45:631][901]AssetCheck: New page: Asset Save: BP_Platform
+[2024.02.21-05.23.45:631][901]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform
+[2024.02.21-05.23.59:090][418]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform_C
+[2024.02.21-05.23.59:090][418]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform_C
+[2024.02.21-05.23.59:091][418]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform as actor: BP_Platform_C /Game/Levels/Jupiter/L_Jupiter.L_Jupiter:PersistentLevel.BP_Platform_C_0
+[2024.02.21-05.23.59:092][418]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform as actor: BP_Platform_C /Game/Levels/Jupiter/L_Jupiter.L_Jupiter:PersistentLevel.BP_Platform_C_0
+[2024.02.21-05.24.06:196][711]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform_C
+[2024.02.21-05.24.06:196][711]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform_C
+[2024.02.21-05.24.06:198][711]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform as actor: BP_Platform_C /Game/Levels/Jupiter/L_Jupiter.L_Jupiter:PersistentLevel.BP_Platform_C_1
+[2024.02.21-05.24.06:199][711]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform as actor: BP_Platform_C /Game/Levels/Jupiter/L_Jupiter.L_Jupiter:PersistentLevel.BP_Platform_C_1
+[2024.02.21-05.24.41:820][605]BlueprintLog: New page: Compile BP_Platform
+[2024.02.21-05.24.41:855][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.02.21-05.24.45:320][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-05.24.45:432][721]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/Blueprints/BP_Platform
+[2024.02.21-05.24.45:433][721]LogSavePackage: Moving '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Saved/BP_Platform65A10144488E507D4EEAD49A0C8B32EA.tmp' to '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_Platform.uasset'
+[2024.02.21-05.24.45:441][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 1.04 sec)
+[2024.02.21-05.24.45:443][721]AssetCheck: New page: Asset Save: BP_Platform
+[2024.02.21-05.24.45:443][721]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform
+[2024.02.21-05.24.52:992][ 32]Cmd: DELETE
+[2024.02.21-05.24.52:992][ 32]Cmd: ACTOR DELETE
+[2024.02.21-05.24.52:993][ 32]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.21-05.24.53:016][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.02.21-05.24.53:017][ 32]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2024.02.21-05.27.33:385][778]BlueprintLog: New page: Compile BP_Platform
+[2024.02.21-05.27.33:419][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.02.21-05.27.35:267][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-05.27.35:365][838]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/Blueprints/BP_Platform
+[2024.02.21-05.27.35:365][838]LogSavePackage: Moving '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Saved/BP_Platform451907A94F597BAEE0740CA220B95949.tmp' to '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_Platform.uasset'
+[2024.02.21-05.27.35:375][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 1.15 sec)
+[2024.02.21-05.27.35:377][838]AssetCheck: New page: Asset Save: BP_Platform
+[2024.02.21-05.27.35:377][838]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform
+[2024.02.21-05.27.39:116][981]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-05.27.39:128][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-05.27.39:128][981]PIE: New page: PIE session: L_Jupiter (22 Feb 2024, 3:27:39 am)
+[2024.02.21-05.27.39:128][981]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.21-05.27.39:130][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001751s)
+[2024.02.21-05.27.39:130][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.001779s)
+[2024.02.21-05.27.39:145][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.02.21-05.27.39:146][981]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-05.27.39:146][981]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-05.27.39:147][981]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.21-05.27.39:147][981]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2024.02.21-05.27.39:147][981]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.02.21-05.27.39:147][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-05.27.39:147][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-05.27.39:147][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-05.27.39:147][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-05.27.39:147][981]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-05.27.39:147][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-05.27.39:147][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-05.27.39:147][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-05.27.39:148][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-05.27.39:148][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-05.27.39:148][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-05.27.39:150][981]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-05.27.39:196][981]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.21-05.27.39:196][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-05.27.39:196][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-05.27.39:196][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-05.27.39:197][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.02.21-05.27.39:197][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.02.21-05.27.39:199][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.02.21-05.27.39:199][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.02.21-05.27.39:199][981]LogInit: FAudioDevice initialized with ID 33.
+[2024.02.21-05.27.39:199][981]LogAudio: Display: Audio Device (ID: 33) registered with world 'L_Jupiter'.
+[2024.02.21-05.27.39:199][981]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.02.21-05.27.39:202][981]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.21-05.27.39:203][981]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.21-16.27.39
+[2024.02.21-05.27.39:203][981]LogWorld: Bringing up level for play took: 0.000746
+[2024.02.21-05.27.39:206][981]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.02.21-05.27.39:210][981]PIE: Server logged in
+[2024.02.21-05.27.39:210][981]PIE: Play in editor total start time 0.084 seconds.
+[2024.02.21-05.27.52:988][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-05.27.52:988][569]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.21-05.27.52:988][569]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-05.27.52:988][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-05.27.53:006][569]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-05.27.53:010][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-05.27.53:024][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-05.27.53:024][569]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.02.21-05.27.53:024][569]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.02.21-05.27.53:026][569]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.02.21-05.27.53:032][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.02.21-05.27.53:095][570]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.02.21-05.31.54:725][216]LogSlate: Took 0.000992 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.02.21-05.32.01:461][473]BlueprintLog: New page: Compile BP_Platform
+[2024.02.21-05.32.01:494][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.02.21-05.32.28:981][541]BlueprintLog: New page: Compile BP_Platform
+[2024.02.21-05.32.29:013][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.02.21-05.32.49:842][344]BlueprintLog: New page: Compile BP_Platform
+[2024.02.21-05.32.49:873][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.02.21-05.32.51:841][414]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-05.32.52:003][414]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/Blueprints/BP_Platform
+[2024.02.21-05.32.52:004][414]LogSavePackage: Moving '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Saved/BP_Platform6C3FA9494D472276E4BD84B970AE920D.tmp' to '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_Platform.uasset'
+[2024.02.21-05.32.52:013][414]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 1.32 sec)
+[2024.02.21-05.32.52:016][414]AssetCheck: New page: Asset Save: BP_Platform
+[2024.02.21-05.32.52:016][414]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform
+[2024.02.21-05.33.17:260][452]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-05.33.17:272][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-05.33.17:272][452]PIE: New page: PIE session: L_Jupiter (22 Feb 2024, 3:33:17 am)
+[2024.02.21-05.33.17:272][452]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.21-05.33.17:274][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001993s)
+[2024.02.21-05.33.17:274][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.002030s)
+[2024.02.21-05.33.17:290][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.21-05.33.17:292][452]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-05.33.17:293][452]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-05.33.17:293][452]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.21-05.33.17:293][452]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2024.02.21-05.33.17:293][452]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.02.21-05.33.17:293][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-05.33.17:293][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-05.33.17:293][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-05.33.17:293][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-05.33.17:293][452]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-05.33.17:294][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-05.33.17:294][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-05.33.17:294][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-05.33.17:294][452]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-05.33.17:294][452]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-05.33.17:294][452]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-05.33.17:297][452]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-05.33.17:341][452]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.21-05.33.17:341][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-05.33.17:341][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-05.33.17:341][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-05.33.17:342][452]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.02.21-05.33.17:342][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.02.21-05.33.17:343][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.02.21-05.33.17:344][452]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.02.21-05.33.17:344][452]LogInit: FAudioDevice initialized with ID 34.
+[2024.02.21-05.33.17:344][452]LogAudio: Display: Audio Device (ID: 34) registered with world 'L_Jupiter'.
+[2024.02.21-05.33.17:344][452]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.02.21-05.33.17:347][452]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.21-05.33.17:348][452]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.21-16.33.17
+[2024.02.21-05.33.17:348][452]LogWorld: Bringing up level for play took: 0.000739
+[2024.02.21-05.33.17:350][452]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.02.21-05.33.17:354][452]PIE: Server logged in
+[2024.02.21-05.33.17:354][452]PIE: Play in editor total start time 0.083 seconds.
+[2024.02.21-05.33.45:059][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-05.33.45:059][694]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.21-05.33.45:059][694]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-05.33.45:059][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-05.33.45:065][694]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-05.33.45:070][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-05.33.45:083][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-05.33.45:083][694]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.02.21-05.33.45:083][694]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.02.21-05.33.45:085][694]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.02.21-05.33.45:091][694]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.02.21-05.33.45:166][695]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.02.21-05.33.58:468][184]BlueprintLog: New page: Compile BP_Platform
+[2024.02.21-05.33.58:504][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.02.21-05.34.01:456][297]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-05.34.01:467][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-05.34.01:467][297]PIE: New page: PIE session: L_Jupiter (22 Feb 2024, 3:34:01 am)
+[2024.02.21-05.34.01:468][297]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.21-05.34.01:469][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001752s)
+[2024.02.21-05.34.01:469][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.001781s)
+[2024.02.21-05.34.01:484][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.02.21-05.34.01:487][297]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-05.34.01:487][297]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-05.34.01:487][297]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.21-05.34.01:488][297]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2024.02.21-05.34.01:488][297]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2024.02.21-05.34.01:488][297]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-05.34.01:488][297]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-05.34.01:488][297]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-05.34.01:488][297]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-05.34.01:488][297]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-05.34.01:488][297]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-05.34.01:488][297]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-05.34.01:488][297]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-05.34.01:488][297]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-05.34.01:488][297]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-05.34.01:488][297]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-05.34.01:490][297]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-05.34.01:535][297]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.21-05.34.01:535][297]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-05.34.01:535][297]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-05.34.01:535][297]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-05.34.01:536][297]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2024.02.21-05.34.01:536][297]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2024.02.21-05.34.01:537][297]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2024.02.21-05.34.01:538][297]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2024.02.21-05.34.01:538][297]LogInit: FAudioDevice initialized with ID 35.
+[2024.02.21-05.34.01:538][297]LogAudio: Display: Audio Device (ID: 35) registered with world 'L_Jupiter'.
+[2024.02.21-05.34.01:538][297]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2024.02.21-05.34.01:541][297]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.21-05.34.01:542][297]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.21-16.34.01
+[2024.02.21-05.34.01:542][297]LogWorld: Bringing up level for play took: 0.000706
+[2024.02.21-05.34.01:544][297]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.02.21-05.34.01:547][297]PIE: Server logged in
+[2024.02.21-05.34.01:548][297]PIE: Play in editor total start time 0.08 seconds.
+[2024.02.21-05.34.20:181][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-05.34.20:181][104]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.21-05.34.20:181][104]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-05.34.20:181][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-05.34.20:209][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-05.34.20:214][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-05.34.20:227][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-05.34.20:227][104]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2024.02.21-05.34.20:227][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.02.21-05.34.20:229][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.02.21-05.34.20:236][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.02.21-05.34.20:301][105]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.02.21-05.34.26:275][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.02.21-05.34.26:280][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-05.34.26:417][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.02.21-05.34.26:435][347]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.21-05.34.26:436][347]LogSavePackage: Moving '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Saved/L_JupiterE342C79C467E98D933204C9AEC96F275.tmp' to '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap'
+[2024.02.21-05.34.26:446][347]LogFileHelpers: Saving map 'L_Jupiter' took 0.075
+[2024.02.21-05.34.26:514][347]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/Blueprints/BP_Platform
+[2024.02.21-05.34.26:515][347]LogSavePackage: Moving '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Saved/BP_PlatformE20D38694A8CE4134AC76199779E3FDE.tmp' to '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_Platform.uasset'
+[2024.02.21-05.34.26:544][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 263 ms (total: 1.59 sec)
+[2024.02.21-05.34.26:547][347]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.21-05.34.26:547][347]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
+[2024.02.21-05.34.26:547][347]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/Jupiter/Blueprints/BP_Platform.BP_Platform
