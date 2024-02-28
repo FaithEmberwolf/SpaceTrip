@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/eye.uasset",
+				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/Untitled_001.uasset",
+				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.uasset",
+				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/Untitled_001.uasset",
+				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/Material_005_Base_Color_1.uasset",
 				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/3DModels/Jupiter.uasset",
 				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Jupiter.uasset",
 				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/3DModels/Land_Innit.uasset",

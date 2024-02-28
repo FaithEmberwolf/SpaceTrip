@@ -1131,3 +1131,86 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2024.02.28-05.30.06:402][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/' took 0.18s
 [2024.02.28-05.30.06:440][  1]LogD3D12RHI: Cannot end block when stack is empty
 [2024.02.28-05.31.57:582][ 27]LogDerivedDataCache: C:/Users/1029002/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.093 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 437 files in 797 folders with total size 16 MiB.
+[2024.02.28-05.34.01:098][642]AssetReimport: New page: Outstanding source content changes 3:34:01 am
+[2024.02.28-05.34.01:104][642]LogEditorFactories: Performing atomic reimport of [C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/eye.png]
+[2024.02.28-05.34.01:105][642]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/eye.png)
+[2024.02.28-05.34.01:128][642]LogEditorFactories: -- imported successfully
+[2024.02.28-05.34.01:141][642]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.28-05.34.01:181][643]LogEditorFactories: Performing atomic reimport of [C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/Untitled.001.png]
+[2024.02.28-05.34.01:184][643]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/Untitled.001.png)
+[2024.02.28-05.34.01:330][643]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.02.28-05.34.01:339][643]LogEditorFactories: -- imported successfully
+[2024.02.28-05.34.01:417][644]LogSkeletalMesh: Building Skeletal Mesh mooo00...
+[2024.02.28-05.34.01:583][644]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00
+[2024.02.28-05.34.01:604][644]LogEditorFactories: Performing atomic reimport of [C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbx]
+[2024.02.28-05.34.01:636][644]LogFbx: Loading FBX Scene from C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbx
+[2024.02.28-05.34.01:863][644]LogFbx: FBX Scene Loaded Succesfully
+[2024.02.28-05.34.01:873][644]LogFbx: Valid bind pose for Pose (Cube.002) - Body
+[2024.02.28-05.34.01:877][644]LogFbx: Triangulating skeletal mesh Body
+[2024.02.28-05.34.02:057][644]LogFbx: Bones digested - 74  Depth of hierarchy - 12
+[2024.02.28-05.34.02:179][644]LogSkeletalMesh: Section 0: Material=0, 4236 triangles
+[2024.02.28-05.34.02:179][644]LogSkeletalMesh: Section 1: Material=1, 350 triangles
+[2024.02.28-05.34.02:179][644]LogSkeletalMesh: Section 2: Material=2, 1536 triangles
+[2024.02.28-05.34.02:198][644]LogEditorFactories: -- imported successfully
+[2024.02.28-05.34.02:206][644]LogSkeletalMesh: Building Skeletal Mesh mooo00...
+[2024.02.28-05.34.02:322][644]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00
+[2024.02.28-05.34.02:328][644]LogDerivedDataCache: C:/Users/1029002/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/1029002/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacySKELETALMESH/04/7c/ac5a6ae09739ef981ae54ae261df56186561.udd from '/Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00'.
+[2024.02.28-05.34.02:382][645]LogEditorFactories: Performing atomic reimport of [C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbm/Untitled.001.png]
+[2024.02.28-05.34.02:387][645]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbm/Untitled.001.png)
+[2024.02.28-05.34.02:434][645]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.02.28-05.34.02:443][645]LogEditorFactories: -- imported successfully
+[2024.02.28-05.34.02:467][646]LogEditorFactories: Performing atomic reimport of [C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbm/Material.005_Base_Color 1.png]
+[2024.02.28-05.34.02:467][646]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbm/Material.005_Base_Color 1.png)
+[2024.02.28-05.34.02:489][646]LogEditorFactories: -- imported successfully
+[2024.02.28-05.34.02:498][647]LogTexture: Display: Building textures: /Game/Levels/Jupiter/mooncake-final-space/source/Material_005_Base_Color_1.Material_005_Base_Color_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2024.02.28-05.34.02:504][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.28-05.34.02:565][647]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.006408 seconds
+[2024.02.28-05.34.02:570][647]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/mooncake-final-space/textures/eye
+[2024.02.28-05.34.02:571][647]LogSavePackage: Moving '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Saved/eyeA521DA0649B8F97001576EA7B344BE99.tmp' to '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/eye.uasset'
+[2024.02.28-05.34.02:647][647]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/mooncake-final-space/textures/Untitled_001
+[2024.02.28-05.34.02:648][647]LogSavePackage: Moving '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Saved/Untitled_00189B98D7C43601E5BBE892DB5247FDFD9.tmp' to '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/Untitled_001.uasset'
+[2024.02.28-05.34.02:650][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.34.02:809][647]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/mooncake-final-space/source/mooo00
+[2024.02.28-05.34.02:810][647]LogSavePackage: Moving '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Saved/mooo00FA45D49E42AC55C297AFC1BAF048500E.tmp' to '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.uasset'
+[2024.02.28-05.34.02:897][647]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/mooncake-final-space/source/Untitled_001
+[2024.02.28-05.34.02:898][647]LogSavePackage: Moving '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Saved/Untitled_001F930E3B149DE63E609CD25AC0D5A0940.tmp' to '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/Untitled_001.uasset'
+[2024.02.28-05.34.02:923][647]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/mooncake-final-space/source/Material_005_Base_Color_1
+[2024.02.28-05.34.02:924][647]LogSavePackage: Moving '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Saved/Material_005_Base_Color_17A67584F4B9CA71F17BE68A0F5CCD9E4.tmp' to '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/Material_005_Base_Color_1.uasset'
+[2024.02.28-05.34.02:936][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 431 ms
+[2024.02.28-05.34.02:952][648]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.28-05.34.02:952][648]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Jupiter/mooncake-final-space/textures/eye.eye
+[2024.02.28-05.34.02:952][648]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Jupiter/mooncake-final-space/textures/Untitled_001.Untitled_001
+[2024.02.28-05.34.02:952][648]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00
+[2024.02.28-05.34.02:952][648]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Jupiter/mooncake-final-space/source/Untitled_001.Untitled_001
+[2024.02.28-05.34.02:952][648]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Levels/Jupiter/mooncake-final-space/source/Material_005_Base_Color_1.Material_005_Base_Color_1
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: ================================================
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Total job queries 6, among them cache hits 0 (0.00%)
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Tracking 6 distinct input hashes that result in 4 distinct outputs (66.67%)
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: RAM used: 136.45 KiB of 1.60 GiB budget. Usage: 0.01%
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Shaders Compiled: 6
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.05 s
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Job execution time: average 0.78 s, max 0.78 s
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Job life time (pending + execution): average 0.83 s, max 0.83
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Shader code size: average 37.02 KiB, min 35.891 KiB, max 37.809 KiB
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.83 s
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.28-05.34.03:576][696]LogShaderCompilers: Display: Average processing rate: 7.23 jobs/sec
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display: Total thread time: 2.132 s
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display: Total thread preprocess time: 0.24 s
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display: Percentage time preprocessing: 11.24%
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display: Effective parallelization: 2.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.36 sec, max 0.37 sec, min 0.36 sec)
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.35 sec, max 0.35 sec, min 0.34 sec)
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 51.32% of total time (compiled    3 times, average 0.36 sec, max 0.37 sec, min 0.36 sec)
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 48.68% of total time (compiled    3 times, average 0.35 sec, max 0.35 sec, min 0.34 sec)
+[2024.02.28-05.34.03:577][696]LogShaderCompilers: Display: ================================================
+[2024.02.28-05.34.05:939][942]AssetReimport: Reimported asset eye from C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/eye.png.
+[2024.02.28-05.34.05:939][942]AssetReimport: Reimported asset Untitled_001 from C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/Untitled.001.png.
+[2024.02.28-05.34.05:939][942]AssetReimport: Reimported asset mooo00 from C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbx.
+[2024.02.28-05.34.05:939][942]AssetReimport: Reimported asset Untitled_001 from C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbm/Untitled.001.png.
+[2024.02.28-05.34.05:939][942]AssetReimport: Reimported asset Material_005_Base_Color_1 from C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.fbm/Material.005_Base_Color 1.png.
