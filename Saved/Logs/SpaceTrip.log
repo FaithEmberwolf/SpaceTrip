@@ -2195,3 +2195,1065 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.28-03.29.22:652][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 241 ms (total: 2.02 sec)
 [2024.02.28-03.29.22:654][ 86]AssetCheck: New page: Asset Save: L_Spaceship
 [2024.02.28-03.29.22:654][ 86]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship
+[2024.02.28-03.30.12:038][377]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-03.30.12:050][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.28-03.30.12:050][377]PIE: New page: PIE session: L_Spaceship (29 Feb 2024, 1:30:12 am)
+[2024.02.28-03.30.12:050][377]LogPlayLevel: Creating play world package: /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-03.30.12:053][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003073s)
+[2024.02.28-03.30.12:054][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship to /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship (0.003101s)
+[2024.02.28-03.30.12:064][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.02.28-03.30.12:065][377]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-03.30.12:065][377]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-03.30.12:066][377]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.02.28-03.30.12:066][377]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2024.02.28-03.30.12:066][377]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.02.28-03.30.12:067][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-03.30.12:067][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-03.30.12:067][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-03.30.12:067][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-03.30.12:067][377]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-03.30.12:067][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-03.30.12:067][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-03.30.12:067][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-03.30.12:067][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-03.30.12:067][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-03.30.12:067][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-03.30.12:069][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-03.30.12:113][377]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-03.30.12:113][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-03.30.12:113][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-03.30.12:113][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-03.30.12:113][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.02.28-03.30.12:113][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.02.28-03.30.12:115][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.02.28-03.30.12:115][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.02.28-03.30.12:115][377]LogInit: FAudioDevice initialized with ID 12.
+[2024.02.28-03.30.12:115][377]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_Spaceship'.
+[2024.02.28-03.30.12:115][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.28-03.30.12:118][377]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.02.28-03.30.12:120][377]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.02.28-14.30.12
+[2024.02.28-03.30.12:120][377]LogWorld: Bringing up level for play took: 0.001476
+[2024.02.28-03.30.12:122][377]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.02.28-03.30.12:123][377]PIE: Server logged in
+[2024.02.28-03.30.12:124][377]PIE: Play in editor total start time 0.074 seconds.
+[2024.02.28-03.30.25:441][ 88]LogNet: Browse: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.28-03.30.25:441][ 88]LogLoad: LoadMap: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.28-03.30.25:441][ 88]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-03.30.25:441][ 88]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-03.30.25:442][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-03.30.25:458][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-03.30.25:464][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.02.28-03.30.25:544][ 88]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_Jupiter'.
+[2024.02.28-03.30.25:544][ 88]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-03.30.25:544][ 88]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-03.30.25:545][ 88]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-03.30.25:545][ 88]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2024.02.28-03.30.25:545][ 88]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.28-03.30.25:556][ 88]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.28-14.30.25
+[2024.02.28-03.30.25:798][ 88]LogWorld: Bringing up level for play took: 0.251814
+[2024.02.28-03.30.25:802][ 88]LogLoad: Took 0.361392 seconds to LoadMap(/Game/Levels/Jupiter/L_Jupiter)
+[2024.02.28-03.31.03:931][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-03.31.03:931][640]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.28-03.31.03:932][640]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-03.31.03:934][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-03.31.03:955][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-03.31.03:962][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-03.31.03:980][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-03.31.03:980][640]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.28-03.31.03:980][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.28-03.31.03:982][640]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.28-03.31.03:992][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.02.28-03.31.04:063][641]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.02.28-04.06.25:524][814]LogDerivedDataCache: C:/Users/1028560/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.231 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1663 files in 2519 folders with total size 221 MiB.
+[2024.02.28-04.10.41:755][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-04.10.41:768][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.28-04.10.41:768][632]PIE: New page: PIE session: L_Spaceship (29 Feb 2024, 2:10:41 am)
+[2024.02.28-04.10.41:768][632]LogPlayLevel: Creating play world package: /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-04.10.41:772][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003313s)
+[2024.02.28-04.10.41:772][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship to /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship (0.003357s)
+[2024.02.28-04.10.41:785][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.02.28-04.10.41:787][632]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.10.41:787][632]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.10.41:788][632]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.02.28-04.10.41:788][632]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2024.02.28-04.10.41:788][632]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.02.28-04.10.41:788][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-04.10.41:788][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-04.10.41:788][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-04.10.41:788][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-04.10.41:788][632]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-04.10.41:788][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-04.10.41:788][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-04.10.41:788][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-04.10.41:789][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-04.10.41:789][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-04.10.41:789][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-04.10.41:791][632]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-04.10.41:850][632]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-04.10.41:850][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-04.10.41:850][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-04.10.41:850][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-04.10.41:851][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.02.28-04.10.41:851][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.02.28-04.10.41:853][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.02.28-04.10.41:853][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.02.28-04.10.41:853][632]LogInit: FAudioDevice initialized with ID 13.
+[2024.02.28-04.10.41:853][632]LogAudio: Display: Audio Device (ID: 13) registered with world 'L_Spaceship'.
+[2024.02.28-04.10.41:853][632]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.28-04.10.41:856][632]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.02.28-04.10.41:858][632]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.02.28-15.10.41
+[2024.02.28-04.10.41:858][632]LogWorld: Bringing up level for play took: 0.001625
+[2024.02.28-04.10.41:860][632]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.02.28-04.10.41:862][632]PIE: Server logged in
+[2024.02.28-04.10.41:862][632]PIE: Play in editor total start time 0.094 seconds.
+[2024.02.28-04.10.52:711][212]LogNet: Browse: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.28-04.10.52:711][212]LogLoad: LoadMap: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.28-04.10.52:711][212]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-04.10.52:711][212]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.10.52:711][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.10.52:726][212]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-04.10.52:737][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.02.28-04.10.52:816][212]LogAudio: Display: Audio Device (ID: 13) registered with world 'L_Jupiter'.
+[2024.02.28-04.10.52:816][212]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.10.52:816][212]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.10.52:817][212]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-04.10.52:817][212]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2024.02.28-04.10.52:817][212]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.28-04.10.52:828][212]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.28-15.10.52
+[2024.02.28-04.10.53:081][212]LogWorld: Bringing up level for play took: 0.262847
+[2024.02.28-04.10.53:085][212]LogLoad: Took 0.373984 seconds to LoadMap(/Game/Levels/Jupiter/L_Jupiter)
+[2024.02.28-04.11.04:114][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.11.04:114][676]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.28-04.11.04:115][676]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.11.04:118][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.11.04:121][676]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-04.11.04:126][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.11.04:145][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.11.04:145][676]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.28-04.11.04:145][676]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.28-04.11.04:147][676]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.28-04.11.04:156][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.02.28-04.11.04:230][677]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.02.28-04.11.11:083][977]LogContentBrowser: Deferred new asset file creation: BP_TeleportLevel_Jupiter1
+[2024.02.28-04.11.11:144][977]LogContentBrowser: Creating deferred item: BP_TeleportLevel_Jupiter1
+[2024.02.28-04.11.11:164][978]LogContentBrowser: Renaming the item being created (Deferred Item: BP_TeleportLevel_Jupiter1).
+[2024.02.28-04.11.20:282][403]LogContentBrowser: Attempting asset rename: BP_TeleportLevel_Jupiter1 -> BP_TeleportLevel_Mars
+[2024.02.28-04.11.20:302][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.02.28-04.11.20:313][403]LogContentBrowser: End creating deferred item BP_TeleportLevel_Jupiter1
+[2024.02.28-04.11.20:314][403]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.11.22:110][472]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars
+[2024.02.28-04.11.22:110][472]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.11.22:110][472]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.11.40:001][258]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.28-04.11.40:148][258]LogSavePackage: Moving output files for package: /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars
+[2024.02.28-04.11.40:148][258]LogSavePackage: Moving '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Saved/BP_TeleportLevel_Mars341067194407DEB57ECEFC91911566BE.tmp' to '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.uasset'
+[2024.02.28-04.11.40:160][258]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 2.18 sec)
+[2024.02.28-04.11.40:161][258]AssetCheck: New page: Asset Save: BP_TeleportLevel_Mars
+[2024.02.28-04.11.40:161][258]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars
+[2024.02.28-04.11.59:156][107]LogSlate: Window 'BP_TeleportLevel_Mars' being destroyed
+[2024.02.28-04.11.59:176][107]LogSlate: Window 'BP_TeleportLevel_Mars' being destroyed
+[2024.02.28-04.11.59:189][107]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.11.59:189][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.12.09:554][562]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars_C
+[2024.02.28-04.12.09:554][562]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars_C
+[2024.02.28-04.12.09:556][562]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars as actor: BP_TeleportLevel_Mars_C /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_TeleportLevel_Mars_C_0
+[2024.02.28-04.12.09:557][562]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars as actor: BP_TeleportLevel_Mars_C /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_TeleportLevel_Mars_C_0
+[2024.02.28-04.12.11:028][630]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars_C
+[2024.02.28-04.12.11:028][630]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars_C
+[2024.02.28-04.12.11:030][630]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars as actor: BP_TeleportLevel_Mars_C /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_TeleportLevel_Mars_C_1
+[2024.02.28-04.12.11:031][630]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars as actor: BP_TeleportLevel_Mars_C /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_TeleportLevel_Mars_C_1
+[2024.02.28-04.12.12:359][692]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.02.28-04.12.22:039][ 99]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.BP_TeleportLevel_Mars
+[2024.02.28-04.12.22:039][ 99]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.12.22:039][ 99]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.12.27:903][343]LogSlate: Window 'BP_TeleportLevel_Mars' being destroyed
+[2024.02.28-04.12.27:927][343]LogSlate: Window 'BP_TeleportLevel_Mars' being destroyed
+[2024.02.28-04.12.27:937][343]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.12.27:937][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.12.31:262][484]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Jupiter.BP_TeleportLevel_Jupiter
+[2024.02.28-04.12.31:262][484]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.12.31:262][484]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.12.35:289][648]LogSlate: Window 'BP_TeleportLevel_Jupiter' being destroyed
+[2024.02.28-04.12.35:309][648]LogSlate: Window 'BP_TeleportLevel_Jupiter' being destroyed
+[2024.02.28-04.12.35:320][648]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.12.35:320][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.12.52:762][348]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Jupiter.BP_TeleportLevel_Jupiter
+[2024.02.28-04.12.52:763][348]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.12.52:763][348]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.13.03:393][703]BlueprintLog: New page: Compile BP_TeleportLevel_Jupiter
+[2024.02.28-04.13.03:426][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.28-04.13.15:166][116]LogViewport: Scene viewport resized to 1494x897, mode Windowed.
+[2024.02.28-04.13.27:273][510]LogSlate: Window 'BP_TeleportLevel_Jupiter' being destroyed
+[2024.02.28-04.13.27:304][510]LogSlate: Window 'BP_TeleportLevel_Jupiter' being destroyed
+[2024.02.28-04.13.27:315][510]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.13.27:315][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.13.33:300][726]Cmd: DELETE
+[2024.02.28-04.13.33:301][726]Cmd: ACTOR DELETE
+[2024.02.28-04.13.33:303][726]LogEditorActor: Deleted Actor: BP_TeleportLevel_Mars_C
+[2024.02.28-04.13.33:322][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.02.28-04.13.33:327][726]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.02.28-04.13.39:085][991]Cmd: TRANSACTION UNDO
+[2024.02.28-04.13.39:085][991]LogEditorTransaction: Undo Delete Elements
+[2024.02.28-04.13.44:194][187]Cmd: TRANSACTION UNDO
+[2024.02.28-04.13.44:195][187]LogEditorTransaction: Undo Modify Component(s)
+[2024.02.28-04.13.52:276][510]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-04.13.52:289][510]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.28-04.13.52:289][510]LogPlayLevel: [PlayLevel] Compiling BP_TeleportLevel_Jupiter before play...
+[2024.02.28-04.13.52:301][510]LogPlayLevel: [PlayLevel] Compiling BP_TeleportLevel_Mars before play...
+[2024.02.28-04.13.52:328][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.28-04.13.52:330][510]LogPlayLevel: PlayLevel: Blueprint regeneration took 42 ms (2 blueprints)
+[2024.02.28-04.13.52:330][510]PIE: New page: PIE session: L_Spaceship (29 Feb 2024, 2:13:52 am)
+[2024.02.28-04.13.52:330][510]LogPlayLevel: Creating play world package: /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-04.13.52:334][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003247s)
+[2024.02.28-04.13.52:334][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship to /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship (0.003275s)
+[2024.02.28-04.13.52:349][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.02.28-04.13.52:349][510]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.13.52:350][510]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.13.52:350][510]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.02.28-04.13.52:350][510]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2024.02.28-04.13.52:350][510]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.02.28-04.13.52:350][510]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-04.13.52:350][510]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-04.13.52:350][510]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-04.13.52:350][510]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-04.13.52:350][510]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-04.13.52:350][510]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-04.13.52:350][510]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-04.13.52:350][510]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-04.13.52:351][510]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-04.13.52:351][510]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-04.13.52:351][510]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-04.13.52:354][510]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-04.13.52:397][510]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-04.13.52:398][510]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-04.13.52:398][510]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-04.13.52:398][510]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-04.13.52:398][510]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.02.28-04.13.52:398][510]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.02.28-04.13.52:400][510]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.02.28-04.13.52:400][510]LogInit: FAudioDevice initialized with ID 14.
+[2024.02.28-04.13.52:400][510]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.02.28-04.13.52:400][510]LogAudio: Display: Audio Device (ID: 14) registered with world 'L_Spaceship'.
+[2024.02.28-04.13.52:400][510]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.28-04.13.52:403][510]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.02.28-04.13.52:404][510]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.02.28-15.13.52
+[2024.02.28-04.13.52:404][510]LogWorld: Bringing up level for play took: 0.001470
+[2024.02.28-04.13.52:407][510]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.02.28-04.13.52:409][510]PIE: Server logged in
+[2024.02.28-04.13.52:409][510]PIE: Play in editor total start time 0.121 seconds.
+[2024.02.28-04.14.00:526][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.14.00:526][948]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-04.14.00:526][948]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.14.00:527][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.14.00:530][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-04.14.00:535][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.14.00:547][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.14.00:549][948]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.28-04.14.00:549][948]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.28-04.14.00:550][948]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.28-04.14.00:556][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.28-04.14.00:620][949]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.02.28-04.14.09:110][321]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-04.14.09:123][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.28-04.14.09:123][321]PIE: New page: PIE session: L_Spaceship (29 Feb 2024, 2:14:09 am)
+[2024.02.28-04.14.09:146][321]LogPlayLevel: Creating play world package: /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-04.14.09:149][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003241s)
+[2024.02.28-04.14.09:149][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship to /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship (0.003272s)
+[2024.02.28-04.14.09:164][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.02.28-04.14.09:168][321]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.14.09:168][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.14.09:168][321]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.02.28-04.14.09:168][321]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2024.02.28-04.14.09:168][321]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.02.28-04.14.09:168][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-04.14.09:168][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-04.14.09:168][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-04.14.09:168][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-04.14.09:168][321]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-04.14.09:169][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-04.14.09:169][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-04.14.09:169][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-04.14.09:169][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-04.14.09:169][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-04.14.09:169][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-04.14.09:171][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-04.14.09:215][321]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-04.14.09:215][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-04.14.09:215][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-04.14.09:215][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-04.14.09:216][321]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.02.28-04.14.09:216][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.02.28-04.14.09:218][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.02.28-04.14.09:218][321]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.02.28-04.14.09:218][321]LogInit: FAudioDevice initialized with ID 15.
+[2024.02.28-04.14.09:218][321]LogAudio: Display: Audio Device (ID: 15) registered with world 'L_Spaceship'.
+[2024.02.28-04.14.09:218][321]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.28-04.14.09:221][321]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.02.28-04.14.09:222][321]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.02.28-15.14.09
+[2024.02.28-04.14.09:223][321]LogWorld: Bringing up level for play took: 0.001507
+[2024.02.28-04.14.09:224][321]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.02.28-04.14.09:226][321]PIE: Server logged in
+[2024.02.28-04.14.09:226][321]PIE: Play in editor total start time 0.104 seconds.
+[2024.02.28-04.14.11:516][442]LogNet: Browse: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.28-04.14.11:516][442]LogLoad: LoadMap: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.28-04.14.11:516][442]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-04.14.11:516][442]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.14.11:516][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.14.11:532][442]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-04.14.11:535][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.02.28-04.14.11:606][442]LogAudio: Display: Audio Device (ID: 15) registered with world 'L_Jupiter'.
+[2024.02.28-04.14.11:606][442]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.14.11:606][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.14.11:606][442]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-04.14.11:607][442]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2024.02.28-04.14.11:607][442]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.28-04.14.11:618][442]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.28-15.14.11
+[2024.02.28-04.14.11:852][442]LogWorld: Bringing up level for play took: 0.244891
+[2024.02.28-04.14.11:856][442]LogLoad: Took 0.339988 seconds to LoadMap(/Game/Levels/Jupiter/L_Jupiter)
+[2024.02.28-04.14.13:427][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.14.13:427][503]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.28-04.14.13:427][503]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.14.13:430][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.14.13:446][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-04.14.13:451][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.14.13:469][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.14.13:469][503]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.28-04.14.13:469][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.28-04.14.13:471][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.28-04.14.13:480][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.02.28-04.14.13:546][504]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.02.28-04.14.45:289][899]Cmd: DELETE
+[2024.02.28-04.14.45:289][899]Cmd: ACTOR DELETE
+[2024.02.28-04.14.45:290][899]LogEditorActor: Cannot delete component StaticMeshComponent /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_TeleportLevel_Jupiter_C_1.StaticMesh: Can't delete non-instanced components or the scene root.
+[2024.02.28-04.14.48:560][ 59]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.48:560][ 59]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.28-04.14.49:046][ 62]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.49:046][ 62]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.28-04.14.49:262][ 63]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.49:262][ 63]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.28-04.14.49:504][ 65]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.49:504][ 65]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.28-04.14.49:731][ 74]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.49:731][ 74]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.28-04.14.50:027][ 88]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.50:027][ 88]LogEditorTransaction: Undo Scale Elements
+[2024.02.28-04.14.50:621][117]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.50:621][117]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.28-04.14.51:057][138]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.51:057][138]LogEditorTransaction: Undo Edit Static Mesh
+[2024.02.28-04.14.51:466][158]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.51:466][158]LogEditorTransaction: Undo Scale Elements
+[2024.02.28-04.14.51:915][180]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.51:915][180]LogEditorTransaction: Undo Create Actors
+[2024.02.28-04.14.52:432][201]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.52:432][201]LogEditorTransaction: Undo Promote To Variable
+[2024.02.28-04.14.53:014][205]Cmd: TRANSACTION UNDO
+[2024.02.28-04.14.53:014][205]LogEditorTransaction: Undo Change String Pin Value
+[2024.02.28-04.14.58:099][445]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-04.14.58:112][445]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.28-04.14.58:112][445]LogPlayLevel: [PlayLevel] Compiling BP_TeleportLevel_Mars before play...
+[2024.02.28-04.14.58:136][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.28-04.14.58:140][445]LogPlayLevel: PlayLevel: Blueprint regeneration took 28 ms (1 blueprints)
+[2024.02.28-04.14.58:140][445]PIE: New page: PIE session: L_Spaceship (29 Feb 2024, 2:14:58 am)
+[2024.02.28-04.14.58:140][445]LogPlayLevel: Creating play world package: /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-04.14.58:143][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002886s)
+[2024.02.28-04.14.58:143][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship to /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship (0.002912s)
+[2024.02.28-04.14.58:157][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.02.28-04.14.58:157][445]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.14.58:157][445]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.14.58:158][445]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.02.28-04.14.58:158][445]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2024.02.28-04.14.58:158][445]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.28-04.14.58:158][445]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-04.14.58:158][445]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-04.14.58:158][445]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-04.14.58:158][445]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-04.14.58:158][445]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-04.14.58:158][445]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-04.14.58:158][445]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-04.14.58:158][445]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-04.14.58:159][445]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-04.14.58:159][445]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-04.14.58:159][445]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-04.14.58:161][445]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-04.14.58:206][445]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-04.14.58:206][445]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-04.14.58:206][445]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-04.14.58:206][445]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-04.14.58:207][445]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.28-04.14.58:207][445]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.28-04.14.58:208][445]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.28-04.14.58:208][445]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.28-04.14.58:208][445]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.28-04.14.58:208][445]LogAudio: Display: Audio Device (ID: 16) registered with world 'L_Spaceship'.
+[2024.02.28-04.14.58:208][445]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.28-04.14.58:211][445]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.02.28-04.14.58:213][445]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.02.28-15.14.58
+[2024.02.28-04.14.58:213][445]LogWorld: Bringing up level for play took: 0.001412
+[2024.02.28-04.14.58:215][445]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.02.28-04.14.58:216][445]PIE: Server logged in
+[2024.02.28-04.14.58:217][445]PIE: Play in editor total start time 0.105 seconds.
+[2024.02.28-04.15.13:018][241]LogNet: Browse: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.28-04.15.13:018][241]LogLoad: LoadMap: /Game/Levels/Jupiter/L_Jupiter
+[2024.02.28-04.15.13:018][241]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-04.15.13:018][241]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.15.13:018][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.15.13:033][241]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-04.15.13:045][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.02.28-04.15.13:119][241]LogAudio: Display: Audio Device (ID: 16) registered with world 'L_Jupiter'.
+[2024.02.28-04.15.13:120][241]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.15.13:120][241]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.15.13:120][241]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-04.15.13:120][241]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2024.02.28-04.15.13:121][241]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.28-04.15.13:132][241]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.28-15.15.13
+[2024.02.28-04.15.13:390][241]LogWorld: Bringing up level for play took: 0.269110
+[2024.02.28-04.15.13:395][241]LogLoad: Took 0.376299 seconds to LoadMap(/Game/Levels/Jupiter/L_Jupiter)
+[2024.02.28-04.15.25:871][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.15.25:871][769]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.28-04.15.25:872][769]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.15.25:874][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.15.25:897][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-04.15.25:902][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.15.25:920][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.15.25:920][769]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.28-04.15.25:921][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.28-04.15.25:922][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.28-04.15.25:932][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.02.28-04.15.26:002][770]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.02.28-04.15.47:661][697]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: ================================================
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Total job queries 3,956, among them cache hits 140 (3.54%)
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Tracking 3,808 distinct input hashes that result in 2,707 distinct outputs (71.09%)
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: RAM used: 70.63 MiB of 1.60 GiB budget. Usage: 4.31%
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Shaders Compiled: 3,808
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Jobs assigned 3,808, completed 3,808 (100%)
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Average time worker was idle: 22.80 s
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Time job spent in pending queue: average 63.46 s, longest 146.04 s
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Job execution time: average 3.50 s, max 12.79 s
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Job life time (pending + execution): average 66.96 s, max 152.31
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Shader code size: average 38.229 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 178.43 s
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Jobs were issued in 577 batches (only local compilation was used), average 6.60 jobs/batch
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Average processing rate: 21.34 jobs/sec
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Total thread time: 1,413.993 s
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Total thread preprocess time: 97.453 s
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Percentage time preprocessing: 6.89%
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Effective parallelization: 7.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.21 sec, max 6.51 sec, min 3.85 sec)
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.51 sec, max 7.66 sec, min 1.52 sec)
+[2024.02.28-04.15.48:495][733]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.97 sec, max 3.43 sec, min 0.92 sec)
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.74 sec, max 1.74 sec, min 1.74 sec)
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.25 sec, max 1.99 sec, min 1.02 sec)
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.88% of total time (compiled  134 times, average 1.25 sec, max 1.99 sec, min 1.02 sec)
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.61% of total time (compiled   96 times, average 0.83 sec, max 1.45 sec, min 0.52 sec)
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 4.59% of total time (compiled   33 times, average 1.97 sec, max 3.43 sec, min 0.92 sec)
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.52% of total time (compiled   96 times, average 0.67 sec, max 1.07 sec, min 0.17 sec)
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.03% of total time (compiled  128 times, average 0.44 sec, max 0.75 sec, min 0.33 sec)
+[2024.02.28-04.15.48:496][733]LogShaderCompilers: Display: ================================================
+[2024.02.28-04.18.25:260][440]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/Jupiter/BP_JupiterCharacter.BP_JupiterCharacter
+[2024.02.28-04.18.25:261][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.18.25:261][440]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.18.27:035][471]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.18.41:198][ 88]LogSlate: Window 'BP_JupiterCharacter' being destroyed
+[2024.02.28-04.18.41:221][ 88]LogSlate: Window 'BP_JupiterCharacter' being destroyed
+[2024.02.28-04.18.41:232][ 88]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.18.41:232][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.20.21:906][631]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.02.28-04.20.57:130][ 96]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2024.02.28-04.20.57:130][ 96]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2024.02.28-04.21.04:118][257]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.02.28-04.21.04:126][257]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.02.28-04.21.04:135][257]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.02.28-04.21.04:147][258]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.02.28-04.21.05:966][336]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2024.02.28-04.21.05:972][336]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.02.28-04.21.12:489][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.02.28-04.21.14:330][622]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.28-04.21.14:363][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.28-04.21.14:377][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.28-04.21.14:392][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.02.28-04.21.48:877][116]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/SpaceLevel/Blueprints/GM_Spaceship.GM_Spaceship
+[2024.02.28-04.21.48:877][116]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.21.48:877][116]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.22.00:302][577]LogSlate: Window 'GM_Spaceship' being destroyed
+[2024.02.28-04.22.00:325][577]LogSlate: Window 'GM_Spaceship' being destroyed
+[2024.02.28-04.22.00:336][577]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.22.00:336][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.22.42:293][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.02.28-04.22.42:442][444]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.22.42:476][444]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
+[2024.02.28-04.22.42:476][444]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-04.22.42:476][444]LightingResults: New page: Lighting Build
+[2024.02.28-04.22.42:476][444]LoadErrors: New page: Loading map: L_Jupiter.umap
+[2024.02.28-04.22.42:569][444]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.22.42:569][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.22.42:569][444]MapCheck: New page: Map Check
+[2024.02.28-04.22.42:569][444]LightingResults: New page: Lighting Build
+[2024.02.28-04.22.42:585][444]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-04.22.42:590][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.02.28-04.22.42:596][444]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.22.42:600][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.22.42:622][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.02.28-04.22.42:639][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.28-04.22.42:690][444]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Jupiter'.
+[2024.02.28-04.22.42:690][444]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.22.42:690][444]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.22.42:690][444]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-04.22.43:083][444]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-04.22.43:118][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.02.28-04.22.43:129][444]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-04.22.43:130][444]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
+[2024.02.28-04.24.48:144][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.02.28-04.24.48:313][259]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.24.48:315][259]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.02.28-04.24.48:316][259]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-04.24.48:316][259]LightingResults: New page: Lighting Build
+[2024.02.28-04.24.48:316][259]LoadErrors: New page: Loading map: L_Pluto.umap
+[2024.02.28-04.24.48:374][259]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.24.48:375][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.24.48:375][259]MapCheck: New page: Map Check
+[2024.02.28-04.24.48:375][259]LightingResults: New page: Lighting Build
+[2024.02.28-04.24.48:389][259]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-04.24.48:402][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.02.28-04.24.48:407][259]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.24.48:407][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.24.48:427][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.02.28-04.24.48:444][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.02.28-04.24.48:451][259]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Pluto'.
+[2024.02.28-04.24.48:451][259]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.24.48:451][259]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.24.48:451][259]LogAIModule: Creating AISystem for world L_Pluto
+[2024.02.28-04.24.48:525][259]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-04.24.48:540][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.02.28-04.24.48:551][259]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-04.24.48:551][259]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.115ms to complete.
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: ================================================
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Total job queries 3,970, among them cache hits 140 (3.53%)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Tracking 3,819 distinct input hashes that result in 2,711 distinct outputs (70.99%)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: RAM used: 70.90 MiB of 1.60 GiB budget. Usage: 4.33%
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Shaders Compiled: 3,819
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Jobs assigned 3,822, completed 3,819 (99.92%)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Average time worker was idle: 61.39 s
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Time job spent in pending queue: average 63.23 s, longest 146.04 s
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Job execution time: average 3.49 s, max 12.79 s
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Job life time (pending + execution): average 66.77 s, max 152.31
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Shader code size: average 38.221 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 179.91 s
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Jobs were issued in 591 batches (only local compilation was used), average 6.47 jobs/batch
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Average processing rate: 21.23 jobs/sec
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Total thread time: 1,417.946 s
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Total thread preprocess time: 97.949 s
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Percentage time preprocessing: 6.91%
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Effective parallelization: 7.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.21 sec, max 6.51 sec, min 3.85 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.51 sec, max 7.66 sec, min 1.52 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.97 sec, max 3.43 sec, min 0.92 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.74 sec, max 1.74 sec, min 1.74 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.25 sec, max 1.99 sec, min 1.02 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.84% of total time (compiled  134 times, average 1.25 sec, max 1.99 sec, min 1.02 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.59% of total time (compiled   96 times, average 0.83 sec, max 1.45 sec, min 0.52 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 4.57% of total time (compiled   33 times, average 1.97 sec, max 3.43 sec, min 0.92 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.51% of total time (compiled   96 times, average 0.67 sec, max 1.07 sec, min 0.17 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.01% of total time (compiled  128 times, average 0.44 sec, max 0.75 sec, min 0.33 sec)
+[2024.02.28-04.24.49:113][272]LogShaderCompilers: Display: ================================================
+[2024.02.28-04.24.56:242][580]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-04.24.56:254][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.28-04.24.56:254][580]PIE: New page: PIE session: L_Pluto (29 Feb 2024, 2:24:56 am)
+[2024.02.28-04.24.56:255][580]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.02.28-04.24.56:256][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001542s)
+[2024.02.28-04.24.56:256][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.001572s)
+[2024.02.28-04.24.56:268][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.02.28-04.24.56:271][580]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.24.56:271][580]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.24.56:271][580]LogAIModule: Creating AISystem for world L_Pluto
+[2024.02.28-04.24.56:272][580]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2024.02.28-04.24.56:272][580]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.28-04.24.56:272][580]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-04.24.56:272][580]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-04.24.56:272][580]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-04.24.56:272][580]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-04.24.56:272][580]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-04.24.56:272][580]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-04.24.56:272][580]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-04.24.56:272][580]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-04.24.56:272][580]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-04.24.56:272][580]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-04.24.56:272][580]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-04.24.56:274][580]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-04.24.56:320][580]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-04.24.56:321][580]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-04.24.56:321][580]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-04.24.56:321][580]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-04.24.56:321][580]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.28-04.24.56:321][580]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.02.28-04.24.56:323][580]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.28-04.24.56:323][580]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.28-04.24.56:323][580]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.28-04.24.56:323][580]LogAudio: Display: Audio Device (ID: 17) registered with world 'L_Pluto'.
+[2024.02.28-04.24.56:323][580]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.28-04.24.56:326][580]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.28-04.24.56:327][580]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.02.28-15.24.56
+[2024.02.28-04.24.56:327][580]LogWorld: Bringing up level for play took: 0.000556
+[2024.02.28-04.24.56:329][580]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.02.28-04.24.56:335][580]PIE: Server logged in
+[2024.02.28-04.24.56:335][580]PIE: Play in editor total start time 0.081 seconds.
+[2024.02.28-04.26.50:634][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.26.50:634][317]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.02.28-04.26.50:635][317]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.26.50:635][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.26.50:655][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-04.26.50:660][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.26.50:673][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-04.26.50:673][317]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.28-04.26.50:673][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.28-04.26.50:675][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.28-04.26.50:682][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.02.28-04.26.50:752][318]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.02.28-04.34.28:274][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.02.28-04.34.28:422][ 53]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.34.28:455][ 53]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
+[2024.02.28-04.34.28:456][ 53]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-04.34.28:456][ 53]LightingResults: New page: Lighting Build
+[2024.02.28-04.34.28:456][ 53]LoadErrors: New page: Loading map: L_Jupiter.umap
+[2024.02.28-04.34.28:502][ 53]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.34.28:502][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.34.28:502][ 53]MapCheck: New page: Map Check
+[2024.02.28-04.34.28:502][ 53]LightingResults: New page: Lighting Build
+[2024.02.28-04.34.28:514][ 53]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-04.34.28:516][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.02.28-04.34.28:521][ 53]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.34.28:525][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.34.28:544][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.02.28-04.34.28:559][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.02.28-04.34.28:612][ 53]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Jupiter'.
+[2024.02.28-04.34.28:612][ 53]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.34.28:612][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.34.28:613][ 53]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-04.34.29:005][ 53]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-04.34.29:038][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.02.28-04.34.29:049][ 53]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-04.34.29:049][ 53]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.171ms to complete.
+[2024.02.28-04.34.33:441][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.02.28-04.34.33:514][214]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.34.33:516][214]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship
+[2024.02.28-04.34.33:516][214]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/L_Spaceship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-04.34.33:516][214]LightingResults: New page: Lighting Build
+[2024.02.28-04.34.33:516][214]LoadErrors: New page: Loading map: L_Spaceship.umap
+[2024.02.28-04.34.33:567][214]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.34.33:567][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.34.33:568][214]MapCheck: New page: Map Check
+[2024.02.28-04.34.33:568][214]LightingResults: New page: Lighting Build
+[2024.02.28-04.34.33:586][214]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-04.34.33:590][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.02.28-04.34.33:595][214]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-04.34.33:595][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-04.34.33:607][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.28-04.34.33:622][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.02.28-04.34.33:627][214]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Spaceship'.
+[2024.02.28-04.34.33:627][214]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-04.34.33:627][214]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-04.34.33:627][214]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.02.28-04.34.33:694][214]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-04.34.33:708][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.02.28-04.34.33:722][214]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-04.34.33:722][214]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.118ms to complete.
+[2024.02.28-05.06.26:481][109]LogDerivedDataCache: C:/Users/1028560/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.185 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1678 files in 2534 folders with total size 221 MiB.
+[2024.02.28-05.07.36:660][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.02.28-05.07.36:758][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.07.36:791][ 48]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
+[2024.02.28-05.07.36:792][ 48]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-05.07.36:792][ 48]LightingResults: New page: Lighting Build
+[2024.02.28-05.07.36:792][ 48]LoadErrors: New page: Loading map: L_Jupiter.umap
+[2024.02.28-05.07.36:840][ 48]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.07.36:840][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.07.36:840][ 48]MapCheck: New page: Map Check
+[2024.02.28-05.07.36:840][ 48]LightingResults: New page: Lighting Build
+[2024.02.28-05.07.36:852][ 48]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-05.07.36:854][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.02.28-05.07.36:859][ 48]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.07.36:863][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.07.36:882][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.02.28-05.07.36:895][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.02.28-05.07.36:949][ 48]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Jupiter'.
+[2024.02.28-05.07.36:949][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.07.36:950][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.07.36:950][ 48]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-05.07.37:384][ 48]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-05.07.37:417][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.02.28-05.07.37:428][ 48]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-05.07.37:429][ 48]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
+[2024.02.28-05.07.38:566][ 85]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-05.07.38:582][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.28-05.07.38:582][ 85]PIE: New page: PIE session: L_Jupiter (29 Feb 2024, 3:07:38 am)
+[2024.02.28-05.07.38:582][ 85]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.28-05.07.38:635][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053767s)
+[2024.02.28-05.07.38:635][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.053799s)
+[2024.02.28-05.07.38:651][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.02.28-05.07.38:654][ 85]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.07.38:654][ 85]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.07.38:655][ 85]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-05.07.38:655][ 85]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2024.02.28-05.07.38:655][ 85]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.02.28-05.07.38:655][ 85]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-05.07.38:655][ 85]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-05.07.38:655][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-05.07.38:655][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-05.07.38:655][ 85]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-05.07.38:655][ 85]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-05.07.38:655][ 85]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-05.07.38:655][ 85]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-05.07.38:656][ 85]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-05.07.38:656][ 85]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-05.07.38:656][ 85]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-05.07.38:658][ 85]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-05.07.38:705][ 85]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-05.07.38:705][ 85]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-05.07.38:705][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-05.07.38:705][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-05.07.38:706][ 85]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.02.28-05.07.38:706][ 85]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.02.28-05.07.38:707][ 85]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.02.28-05.07.38:707][ 85]LogInit: FAudioDevice initialized with ID 18.
+[2024.02.28-05.07.38:707][ 85]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.02.28-05.07.38:707][ 85]LogAudio: Display: Audio Device (ID: 18) registered with world 'L_Jupiter'.
+[2024.02.28-05.07.38:707][ 85]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.28-05.07.38:711][ 85]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.28-05.07.38:717][ 85]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.28-16.07.38
+[2024.02.28-05.07.38:949][ 85]LogWorld: Bringing up level for play took: 0.238766
+[2024.02.28-05.07.38:952][ 85]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.02.28-05.07.38:956][ 85]PIE: Server logged in
+[2024.02.28-05.07.38:957][ 85]PIE: Play in editor total start time 0.376 seconds.
+[2024.02.28-05.08.06:124][197]LogBlueprintUserMessages: [BP_JupiterCharacter_C_0] Mission Failed
+[2024.02.28-05.08.06:148][198]LogNet: Browse: /Game/Levels/SpaceLevel/L_Spaceship
+[2024.02.28-05.08.06:148][198]LogLoad: LoadMap: /Game/Levels/SpaceLevel/L_Spaceship
+[2024.02.28-05.08.06:148][198]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.28-05.08.06:149][198]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.08.06:151][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.08.06:167][198]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-05.08.06:177][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.02.28-05.08.06:192][198]LogAudio: Display: Audio Device (ID: 18) registered with world 'L_Spaceship'.
+[2024.02.28-05.08.06:192][198]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.08.06:192][198]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.08.06:192][198]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.02.28-05.08.06:192][198]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2024.02.28-05.08.06:193][198]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.02.28-05.08.06:194][198]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.02.28-16.08.06
+[2024.02.28-05.08.06:195][198]LogWorld: Bringing up level for play took: 0.001924
+[2024.02.28-05.08.06:196][198]LogLoad: Took 0.047651 seconds to LoadMap(/Game/Levels/SpaceLevel/L_Spaceship)
+[2024.02.28-05.08.11:623][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-05.08.11:623][510]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.02.28-05.08.11:623][510]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.08.11:623][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.08.11:640][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-05.08.11:644][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.08.11:658][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-05.08.11:658][510]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.28-05.08.11:658][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.28-05.08.11:660][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.28-05.08.11:667][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.02.28-05.08.11:727][511]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.02.28-05.08.45:864][861]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Levels/Jupiter/M_HydrogenOcean.M_HydrogenOcean
+[2024.02.28-05.08.45:869][861]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.08.45:869][861]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.08.46:116][861]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.28-05.08.46:117][861]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.02.28-05.08.46:117][861]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.28-05.08.46:117][861]MaterialEditorStats: LWC Promote usages (Est.): 4
+[2024.02.28-05.08.46:117][861]MaterialEditorStats: Shader Count: 0
+[2024.02.28-05.08.46:127][861]LogViewport: Scene viewport resized to 493x591, mode Windowed.
+[2024.02.28-05.08.46:648][880]LogShaderCompilers: Display: ================================================
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Total job queries 3,976, among them cache hits 140 (3.52%)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Tracking 3,823 distinct input hashes that result in 2,711 distinct outputs (70.91%)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: RAM used: 70.98 MiB of 1.60 GiB budget. Usage: 4.33%
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Shaders Compiled: 3,823
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Jobs assigned 3,828, completed 3,823 (99.87%)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Average time worker was idle: 88.97 s
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Time job spent in pending queue: average 63.13 s, longest 146.04 s
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Job execution time: average 3.49 s, max 12.79 s
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Job life time (pending + execution): average 66.70 s, max 152.31
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Shader code size: average 38.216 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 180.50 s
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Jobs were issued in 597 batches (only local compilation was used), average 6.41 jobs/batch
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Average processing rate: 21.18 jobs/sec
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Total thread time: 1,418.881 s
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Total thread preprocess time: 98.111 s
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Percentage time preprocessing: 6.91%
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Effective parallelization: 7.86 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.21 sec, max 6.51 sec, min 3.85 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.51 sec, max 7.66 sec, min 1.52 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.97 sec, max 3.43 sec, min 0.92 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.74 sec, max 1.74 sec, min 1.74 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.25 sec, max 1.99 sec, min 1.02 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.84% of total time (compiled  134 times, average 1.25 sec, max 1.99 sec, min 1.02 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.59% of total time (compiled   96 times, average 0.83 sec, max 1.45 sec, min 0.52 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 4.57% of total time (compiled   33 times, average 1.97 sec, max 3.43 sec, min 0.92 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.51% of total time (compiled   96 times, average 0.67 sec, max 1.07 sec, min 0.17 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.01% of total time (compiled  128 times, average 0.44 sec, max 0.75 sec, min 0.33 sec)
+[2024.02.28-05.08.46:649][880]LogShaderCompilers: Display: ================================================
+[2024.02.28-05.08.46:671][881]MaterialEditorStats: Texture samplers: 1/16
+[2024.02.28-05.08.46:671][881]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.02.28-05.08.46:671][881]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.28-05.08.46:671][881]MaterialEditorStats: LWC Promote usages (Est.): 4
+[2024.02.28-05.08.46:671][881]MaterialEditorStats: Shader Count: 1
+[2024.02.28-05.08.46:885][888]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.02.28-05.08.46:885][888]MaterialEditorStats: Texture samplers: 1/16
+[2024.02.28-05.08.46:885][888]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.02.28-05.08.46:885][888]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.28-05.08.46:885][888]MaterialEditorStats: LWC Promote usages (Est.): 4
+[2024.02.28-05.08.46:885][888]MaterialEditorStats: Shader Count: 3
+[2024.02.28-05.08.48:730][950]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.02.28-05.08.48:730][950]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.28-05.08.48:730][950]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.02.28-05.08.48:730][950]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.28-05.08.48:730][950]MaterialEditorStats: LWC Promote usages (Est.): 4
+[2024.02.28-05.08.48:730][950]MaterialEditorStats: Shader Count: 4
+[2024.02.28-05.08.51:401][ 46]LogSlate: Window 'M_HydrogenOcean' being destroyed
+[2024.02.28-05.08.51:427][ 46]LogSlate: Window 'M_HydrogenOcean' being destroyed
+[2024.02.28-05.08.51:461][ 46]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.08.51:461][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.09.48:795][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.02.28-05.09.48:854][325]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.09.48:855][325]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.02.28-05.09.48:855][325]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-05.09.48:855][325]LightingResults: New page: Lighting Build
+[2024.02.28-05.09.48:855][325]LoadErrors: New page: Loading map: L_Pluto.umap
+[2024.02.28-05.09.48:907][325]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.09.48:908][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.09.48:908][325]MapCheck: New page: Map Check
+[2024.02.28-05.09.48:908][325]LightingResults: New page: Lighting Build
+[2024.02.28-05.09.48:919][325]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-05.09.48:928][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.28-05.09.48:932][325]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.09.48:933][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.09.48:948][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.02.28-05.09.48:959][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.02.28-05.09.48:962][325]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Pluto'.
+[2024.02.28-05.09.48:962][325]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.09.48:963][325]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.09.48:963][325]LogAIModule: Creating AISystem for world L_Pluto
+[2024.02.28-05.09.49:029][325]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-05.09.49:043][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.02.28-05.09.49:054][325]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-05.09.49:057][325]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.274ms to complete.
+[2024.02.28-05.16.35:206][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.28-05.16.35:358][913]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.16.35:391][913]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
+[2024.02.28-05.16.35:391][913]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-05.16.35:391][913]LightingResults: New page: Lighting Build
+[2024.02.28-05.16.35:391][913]LoadErrors: New page: Loading map: L_Jupiter.umap
+[2024.02.28-05.16.35:443][913]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.16.35:443][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.16.35:443][913]MapCheck: New page: Map Check
+[2024.02.28-05.16.35:443][913]LightingResults: New page: Lighting Build
+[2024.02.28-05.16.35:457][913]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-05.16.35:460][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.02.28-05.16.35:465][913]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.16.35:469][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.16.35:488][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.02.28-05.16.35:500][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.02.28-05.16.35:552][913]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Jupiter'.
+[2024.02.28-05.16.35:552][913]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.16.35:553][913]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.16.35:553][913]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-05.16.35:945][913]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-05.16.35:979][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.02.28-05.16.35:990][913]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-05.16.35:991][913]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.177ms to complete.
+[2024.02.28-05.16.44:414][223]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-05.16.44:431][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.28-05.16.44:431][223]PIE: New page: PIE session: L_Jupiter (29 Feb 2024, 3:16:44 am)
+[2024.02.28-05.16.44:431][223]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.28-05.16.44:486][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055289s)
+[2024.02.28-05.16.44:486][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.055321s)
+[2024.02.28-05.16.44:499][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.02.28-05.16.44:502][223]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.16.44:502][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.16.44:502][223]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.02.28-05.16.44:503][223]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2024.02.28-05.16.44:503][223]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.02.28-05.16.44:503][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-05.16.44:503][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-05.16.44:503][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-05.16.44:503][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-05.16.44:503][223]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-05.16.44:503][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-05.16.44:503][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-05.16.44:503][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-05.16.44:504][223]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-05.16.44:504][223]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-05.16.44:504][223]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-05.16.44:506][223]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-05.16.44:549][223]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-05.16.44:550][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-05.16.44:550][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-05.16.44:550][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-05.16.44:551][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.02.28-05.16.44:551][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.02.28-05.16.44:552][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.02.28-05.16.44:552][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.02.28-05.16.44:552][223]LogInit: FAudioDevice initialized with ID 19.
+[2024.02.28-05.16.44:552][223]LogAudio: Display: Audio Device (ID: 19) registered with world 'L_Jupiter'.
+[2024.02.28-05.16.44:552][223]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.28-05.16.44:555][223]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.28-05.16.44:562][223]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.02.28-16.16.44
+[2024.02.28-05.16.44:792][223]LogWorld: Bringing up level for play took: 0.236865
+[2024.02.28-05.16.44:794][223]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.02.28-05.16.44:799][223]PIE: Server logged in
+[2024.02.28-05.16.44:799][223]PIE: Play in editor total start time 0.37 seconds.
+[2024.02.28-05.17.04:436][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-05.17.04:436][ 19]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.02.28-05.17.04:437][ 19]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.17.04:439][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.17.04:453][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-05.17.04:458][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.17.04:472][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-05.17.04:476][ 19]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.28-05.17.04:477][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.28-05.17.04:478][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.28-05.17.04:489][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.02.28-05.17.04:546][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.02.28-05.17.18:651][515]Cmd: EDIT COPY
+[2024.02.28-05.17.24:411][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.28-05.17.24:517][717]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.17.24:518][717]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.02.28-05.17.24:519][717]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-05.17.24:519][717]LightingResults: New page: Lighting Build
+[2024.02.28-05.17.24:519][717]LoadErrors: New page: Loading map: L_Pluto.umap
+[2024.02.28-05.17.24:572][717]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.17.24:572][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.17.24:573][717]MapCheck: New page: Map Check
+[2024.02.28-05.17.24:573][717]LightingResults: New page: Lighting Build
+[2024.02.28-05.17.24:586][717]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-05.17.24:596][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.28-05.17.24:600][717]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.17.24:600][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.17.24:612][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.02.28-05.17.24:627][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.02.28-05.17.24:630][717]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Pluto'.
+[2024.02.28-05.17.24:631][717]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.17.24:631][717]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.17.24:631][717]LogAIModule: Creating AISystem for world L_Pluto
+[2024.02.28-05.17.24:695][717]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-05.17.24:711][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.02.28-05.17.24:721][717]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-05.17.24:725][717]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.64ms to complete.
+[2024.02.28-05.17.44:670][460]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: ================================================
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Total job queries 3,998, among them cache hits 149 (3.73%)
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Tracking 3,835 distinct input hashes that result in 2,716 distinct outputs (70.82%)
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: RAM used: 71.24 MiB of 1.60 GiB budget. Usage: 4.35%
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Shaders Compiled: 3,835
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Jobs assigned 3,841, completed 3,835 (99.84%)
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Average time worker was idle: 98.33 s
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Time job spent in pending queue: average 62.91 s, longest 146.04 s
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Job execution time: average 3.48 s, max 12.79 s
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Job life time (pending + execution): average 66.49 s, max 152.31
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Shader code size: average 38.212 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 183.40 s
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Jobs were issued in 610 batches (only local compilation was used), average 6.30 jobs/batch
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Average processing rate: 20.91 jobs/sec
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Total thread time: 1,424.116 s
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Total thread preprocess time: 98.631 s
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Percentage time preprocessing: 6.93%
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Effective parallelization: 7.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.21 sec, max 6.51 sec, min 3.85 sec)
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.51 sec, max 7.66 sec, min 1.52 sec)
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.97 sec, max 3.43 sec, min 0.92 sec)
+[2024.02.28-05.17.45:504][488]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.74 sec, max 1.74 sec, min 1.74 sec)
+[2024.02.28-05.17.45:505][488]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.25 sec, max 1.99 sec, min 1.02 sec)
+[2024.02.28-05.17.45:505][488]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.28-05.17.45:505][488]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.79% of total time (compiled  134 times, average 1.25 sec, max 1.99 sec, min 1.02 sec)
+[2024.02.28-05.17.45:505][488]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.57% of total time (compiled   96 times, average 0.83 sec, max 1.45 sec, min 0.52 sec)
+[2024.02.28-05.17.45:505][488]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 4.55% of total time (compiled   33 times, average 1.97 sec, max 3.43 sec, min 0.92 sec)
+[2024.02.28-05.17.45:505][488]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.49% of total time (compiled   96 times, average 0.67 sec, max 1.07 sec, min 0.17 sec)
+[2024.02.28-05.17.45:505][488]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.00% of total time (compiled  128 times, average 0.44 sec, max 0.75 sec, min 0.33 sec)
+[2024.02.28-05.17.45:505][488]LogShaderCompilers: Display: ================================================
+[2024.02.28-05.17.45:686][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.17.45:822][496]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.17.55:087][828]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00
+[2024.02.28-05.17.55:087][828]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00
+[2024.02.28-05.17.55:088][828]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00 as actor: SkeletalMeshActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.SkeletalMeshActor_0
+[2024.02.28-05.17.55:089][828]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00 as actor: SkeletalMeshActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.SkeletalMeshActor_0
+[2024.02.28-05.17.56:464][880]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00
+[2024.02.28-05.17.56:464][880]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00
+[2024.02.28-05.17.56:465][880]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00 as actor: SkeletalMeshActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.SkeletalMeshActor_1
+[2024.02.28-05.17.56:466][880]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Levels/Jupiter/mooncake-final-space/source/mooo00.mooo00 as actor: SkeletalMeshActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.SkeletalMeshActor_1
+[2024.02.28-05.18.37:025][434]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.28-05.18.37:038][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.28-05.18.37:038][434]PIE: New page: PIE session: L_Pluto (29 Feb 2024, 3:18:37 am)
+[2024.02.28-05.18.37:038][434]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.02.28-05.18.37:040][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001592s)
+[2024.02.28-05.18.37:040][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.001619s)
+[2024.02.28-05.18.37:055][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.02.28-05.18.37:059][434]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.18.37:059][434]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.18.37:059][434]LogAIModule: Creating AISystem for world L_Pluto
+[2024.02.28-05.18.37:060][434]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2024.02.28-05.18.37:060][434]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.02.28-05.18.37:060][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.28-05.18.37:060][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.28-05.18.37:060][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.28-05.18.37:060][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.28-05.18.37:060][434]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.28-05.18.37:060][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.28-05.18.37:060][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.28-05.18.37:060][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.28-05.18.37:060][434]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.28-05.18.37:060][434]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.28-05.18.37:060][434]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.28-05.18.37:062][434]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.28-05.18.37:105][434]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.02.28-05.18.37:105][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.28-05.18.37:105][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.28-05.18.37:105][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.28-05.18.37:106][434]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.02.28-05.18.37:106][434]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.02.28-05.18.37:108][434]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.02.28-05.18.37:108][434]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.02.28-05.18.37:108][434]LogInit: FAudioDevice initialized with ID 20.
+[2024.02.28-05.18.37:108][434]LogAudio: Display: Audio Device (ID: 20) registered with world 'L_Pluto'.
+[2024.02.28-05.18.37:108][434]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.02.28-05.18.37:111][434]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.28-05.18.37:112][434]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.02.28-16.18.37
+[2024.02.28-05.18.37:112][434]LogWorld: Bringing up level for play took: 0.000721
+[2024.02.28-05.18.37:114][434]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.02.28-05.18.37:118][434]PIE: Server logged in
+[2024.02.28-05.18.37:118][434]PIE: Play in editor total start time 0.081 seconds.
+[2024.02.28-05.19.04:014][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-05.19.04:014][531]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.02.28-05.19.04:014][531]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.19.04:014][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.19.04:030][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.28-05.19.04:035][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.19.04:047][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.28-05.19.04:047][531]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.02.28-05.19.04:047][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.02.28-05.19.04:049][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.02.28-05.19.04:059][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.02.28-05.19.04:148][532]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.02.28-05.19.13:304][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.02.28-05.19.13:309][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.28-05.19.13:490][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.02.28-05.19.13:506][874]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/L_Pluto
+[2024.02.28-05.19.13:507][874]LogSavePackage: Moving '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Saved/L_Pluto19FA22E4433B4DDC202B5DA0726F6212.tmp' to '../../../../../Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap'
+[2024.02.28-05.19.13:520][874]LogFileHelpers: Saving map 'L_Pluto' took 0.090
+[2024.02.28-05.19.13:544][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 234 ms (total: 2.42 sec)
+[2024.02.28-05.19.13:547][874]AssetCheck: New page: Asset Save: L_Pluto
+[2024.02.28-05.19.13:547][874]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.02.28-05.20.13:508][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
