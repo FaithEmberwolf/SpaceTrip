@@ -1130,3 +1130,4 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2024.02.28-05.30.06:392][  1]Running Python start-up script 'C:/UE5/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.031566 secs
 [2024.02.28-05.30.06:402][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/' took 0.18s
 [2024.02.28-05.30.06:440][  1]LogD3D12RHI: Cannot end block when stack is empty
+[2024.02.28-05.31.57:582][ 27]LogDerivedDataCache: C:/Users/1029002/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.093 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 437 files in 797 folders with total size 16 MiB.
