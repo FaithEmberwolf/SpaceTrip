@@ -1128,3 +1128,54 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.02.28-05.35.55:704][  1]Running Python start-up script 'C:/UE5/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.031038 secs
 [2024.02.28-05.35.55:714][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/' took 0.18s
 [2024.02.28-05.35.55:754][  1]LogD3D12RHI: Cannot end block when stack is empty
+[2024.02.28-05.36.33:655][439]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.02.28-05.36.33:671][439]LogContentBrowser: Creating deferred item: NewFolder
+[2024.02.28-05.36.33:678][440]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.02.28-05.36.36:894][820]LogContentBrowser: Attempting asset rename: NewFolder -> Earth
+[2024.02.28-05.36.36:895][820]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.28-05.36.43:442][363]LogSlate: Window 'New Level' being destroyed
+[2024.02.28-05.36.43:449][363]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-05.36.43:449][363]LightingResults: New page: Lighting Build
+[2024.02.28-05.36.43:449][363]LoadErrors: New page: Loading map: Template_Default.umap
+[2024.02.28-05.36.43:496][363]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.36.43:497][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.36.43:497][363]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.02.28-05.36.43:498][363]MapCheck: New page: Map Check
+[2024.02.28-05.36.43:498][363]LightingResults: New page: Lighting Build
+[2024.02.28-05.36.43:501][363]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-05.36.43:506][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.02.28-05.36.43:522][363]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2024.02.28-05.36.43:522][363]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.36.43:522][363]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.36.43:522][363]LogAIModule: Creating AISystem for world Untitled_1
+[2024.02.28-05.36.43:535][363]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-05.36.43:541][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.02.28-05.36.43:542][363]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-05.36.43:542][363]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.25ms to complete.
+[2024.02.28-05.36.48:330][509]LogSlate: Window 'Save Level As' being destroyed
+[2024.02.28-05.36.48:396][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EARTH" FILE="../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Content/EARTH.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.28-05.36.48:446][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.02.28-05.36.48:452][509]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.005341 seconds
+[2024.02.28-05.36.48:467][509]LogSavePackage: Moving output files for package: /Game/EARTH
+[2024.02.28-05.36.48:467][509]LogSavePackage: Moving '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Saved/EARTHB15E52FD4741C7014B90498EAF11C609.tmp' to '../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Content/EARTH.umap'
+[2024.02.28-05.36.48:484][509]LogFileHelpers: Saving map 'EARTH' took 0.147
+[2024.02.28-05.36.48:484][509]Cmd: MAP LOAD FILE="../../../../../Users/1029002/Documents/GitHub/SpaceTrip/Content/EARTH.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.02.28-05.36.48:484][509]LightingResults: New page: Lighting Build
+[2024.02.28-05.36.48:484][509]LoadErrors: New page: Loading map: EARTH.umap
+[2024.02.28-05.36.48:553][509]LogWorld: UWorld::CleanupWorld for EARTH, bSessionEnded=true, bCleanupResources=true
+[2024.02.28-05.36.48:553][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.28-05.36.48:553][509]MapCheck: New page: Map Check
+[2024.02.28-05.36.48:553][509]LightingResults: New page: Lighting Build
+[2024.02.28-05.36.48:556][509]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.28-05.36.48:557][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.02.28-05.36.48:560][509]LogAudio: Display: Audio Device (ID: 1) registered with world 'EARTH'.
+[2024.02.28-05.36.48:560][509]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.28-05.36.48:560][509]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.28-05.36.48:561][509]LogAIModule: Creating AISystem for world EARTH
+[2024.02.28-05.36.48:573][509]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.28-05.36.48:579][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.02.28-05.36.48:589][509]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.28-05.36.48:589][509]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.109ms to complete.
+[2024.02.28-05.36.48:590][509]AssetCheck: New page: Asset Save: EARTH
+[2024.02.28-05.36.48:590][509]LogContentValidation: Display: Validating /Script/Engine.World /Game/EARTH.EARTH
+[2024.02.28-05.36.54:205][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
