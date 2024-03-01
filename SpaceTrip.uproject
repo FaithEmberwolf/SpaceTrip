@@ -1,6 +1,10 @@
 {
 	"FileVersion": 3,
+<<<<<<< HEAD
 	"EngineAssociation": "5.3",
+=======
+	"EngineAssociation": "{90833582-4DBA-5450-C494-A9B1075672C3}",
+>>>>>>> Bella_Branch
 	"Category": "",
 	"Description": "",
 	"Plugins": [
