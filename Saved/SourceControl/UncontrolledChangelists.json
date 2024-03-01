@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< HEAD
 				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap",
 				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_Teleport.uasset",
 				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_GetNameInterface.uasset",
@@ -26,6 +27,21 @@
 				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/L_Spaceship.umap",
 				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.uasset",
 				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap"
+=======
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/NewFolder/I_InteractionInterface.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/NewFolder/F_PlanetStruct.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/NewFolder/DT_PlanetDataTable.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/NewFolder/F_FactStruct.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/NewFolder/DT_SunFacts.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/NewFolder/AC_InventorySystem.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/NewFolder/AC_FactCollectionSystem.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/F_FactStruct.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/NewFolder/AC_FactData.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/BP_LIstViewData.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uasset",
+				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/Menus/PauseMenu/W_ListViewEntry.uasset"
+>>>>>>> UI
 			]
 		}
 	]
