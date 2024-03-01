@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< HEAD
 				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/Menus/Blueprints/WBP_MainMenu.uasset",
 				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/Blueprints/F_LogStruct.uasset",
 				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/Blueprints/DT_levels.uasset",
@@ -138,6 +139,14 @@
 				"C:/Users/Roxee.ROXEES_PC/Documents/University/24T1/GDS213/Space Trip/SpaceTrip/Content/MenusandUI/Blueprints/LevelActorComponents/AC_InventorySystemUranus.uasset",
 				"C:/Users/Roxee.ROXEES_PC/Documents/University/24T1/GDS213/Space Trip/SpaceTrip/Content/MenusandUI/Blueprints/LevelActorComponents/AC_InventorySystemNeptune.uasset",
 				"C:/Users/Roxee.ROXEES_PC/Documents/University/24T1/GDS213/Space Trip/SpaceTrip/Content/MenusandUI/Blueprints/LevelActorComponents/AC_InventorySystemPluto.uasset",
+=======
+				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap",
+				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_Teleport.uasset",
+				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_GetNameInterface.uasset",
+				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/Blueprints/BP_Item.uasset",
+				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/Blueprints/NameWidget.uasset",
+				"C:/Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/BP_JupiterCharacter.uasset",
+>>>>>>> 178a5be5507093cef8be2388e0c5cd35e9603b5e
 				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/eye.uasset",
 				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/textures/Untitled_001.uasset",
 				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/mooo00.uasset",
