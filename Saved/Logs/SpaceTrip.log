@@ -3189,3 +3189,12 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.01-01.42.25:242][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
 [2024.03.01-01.42.25:250][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
 [2024.03.01-01.42.25:298][951]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.03.01-01.42.41:015][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.03.01-01.42.41:021][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-01.42.41:122][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.01-01.42.41:141][243]LogSavePackage: Moving output files for package: /Game/Levels/SpaceLevel/L_Spaceship
+[2024.03.01-01.42.41:141][243]LogSavePackage: Moving '../../../../../Users/1028560/Documents/GitHub/SpaceTrip/Saved/L_SpaceshipC8959A8C417DF28CD722A6A5B046E4E1.tmp' to '../../../../../Users/1028560/Documents/GitHub/SpaceTrip/Content/Levels/SpaceLevel/L_Spaceship.umap'
+[2024.03.01-01.42.41:151][243]LogFileHelpers: Saving map 'L_Spaceship' took 0.077
+[2024.03.01-01.42.41:163][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 3.17 sec)
+[2024.03.01-01.42.41:166][243]AssetCheck: New page: Asset Save: L_Spaceship
+[2024.03.01-01.42.41:166][243]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship
