@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/3DModels/Jupiter.uasset",
+				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Jupiter.uasset",
+				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/3DModels/Land_Innit.uasset",
+				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/L_Spaceship.umap",
+				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.uasset",
+				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap",
+				"C:/Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
 				"C:/Users/1027992/Documents/SpaceTrip/Content/MenusandUI/BP_LIstViewData.uasset",
 				"C:/Users/1027992/Documents/SpaceTrip/Content/LogCollection/FactCollectData/AC_FactCollectionSystem.uasset",
 				"C:/Users/1027992/Documents/SpaceTrip/Content/LogCollection/FactCollectData/F_FactStruct.uasset",
@@ -69,13 +76,7 @@
 				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/Untitled_001.uasset",
 				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/mooncake-final-space/source/Material_005_Base_Color_1.uasset",
 				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/EARTH.umap",
-				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Earth/EARTH.umap",
-				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/3DModels/Jupiter.uasset",
-				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Jupiter.uasset",
-				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/3DModels/Land_Innit.uasset",
-				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/L_Spaceship.umap",
-				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.uasset",
-				"C:/Users/1028560/Documents/Space Trip/SpaceTrip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap"
+				"C:/Users/1029002/Documents/GitHub/SpaceTrip/Content/Levels/Earth/EARTH.umap"
 			]
 		}
 	]
