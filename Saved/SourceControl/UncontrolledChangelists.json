@@ -6,6 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/BlueprintsandStructs/WidgetSetup/WBP_PlanetButtons.uasset",
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/BlueprintsandStructs/WidgetSetup/WBP_LogMenu.uasset",
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/BlueprintsandStructs/WidgetSetup/WBP_FactSlotVenus.uasset",
@@ -31,6 +32,8 @@
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/MenuWidgets/WBP_PlayerLogMenu.uasset",
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/MenuWidgets/WBP_PlanetLIstButtons.uasset",
 =======
+=======
+>>>>>>> Stashed changes
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/MenusandUI/CollectablesBundlePack/Content/CollectablesBundlePack/Widgets/W_CollectableFound.uasset",
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/MenusandUI/CollectablesBundlePack/Content/CollectablesBundlePack/Widgets/W_Collectables.uasset",
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/MenusandUI/CollectablesBundlePack/Content/CollectablesBundlePack/Widgets/W_CollectablesMenu.uasset",
@@ -100,6 +103,9 @@
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/MenusandUI/CollectablesBundlePack/Content/CollectablesBundlePack/Blueprints/BP_SaveGame.uasset",
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/MenusandUI/CollectablesBundlePack/Content/CollectablesBundlePack/Blueprints/FunctionLibrary.uasset",
 				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/MenusandUI/CollectablesBundlePack/Content/CollectablesBundlePack/Blueprints/WidgetMacroLibrary.uasset",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				"C:/Users/Roxee.ROXEES_PC/Documents/University/24T1/GDS213/Space Trip/SpaceTrip/Content/Levels/Jupiter/BP_JupiterCharacter.uasset",
 				"C:/Users/Roxee.ROXEES_PC/Documents/University/24T1/GDS213/Space Trip/SpaceTrip/Content/LogCollection/FactCollectData/Items/TestItem.uasset",
