@@ -10784,3 +10784,129 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.03.06-04.45.05:418][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
 [2024.03.06-04.45.05:459][507]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
 [2024.03.06-04.45.05:540][508]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.47.19:761][583]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.47.20:941][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.06-04.47.21:018][606]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.47.21:112][607]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.47.57:355][787]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.05:840][733]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.05:846][734]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.06-04.53.05:891][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.06-04.53.05:891][734]PIE: New page: PIE session: L_Pluto (7 Mar 2024, 2:53:05 am)
+[2024.03.06-04.53.05:891][734]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-04.53.05:894][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003000s)
+[2024.03.06-04.53.05:894][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.003038s)
+[2024.03.06-04.53.05:911][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.03.06-04.53.05:912][734]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-04.53.05:912][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-04.53.05:913][734]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.06-04.53.05:913][734]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2024.03.06-04.53.05:913][734]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.03.06-04.53.05:913][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.06-04.53.05:913][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.06-04.53.05:913][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.06-04.53.05:913][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.06-04.53.05:913][734]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.06-04.53.05:913][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.06-04.53.05:913][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.06-04.53.05:913][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.06-04.53.05:914][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.06-04.53.05:914][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.06-04.53.05:914][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.06-04.53.05:916][734]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.06-04.53.05:963][734]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.06-04.53.05:964][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.06-04.53.05:964][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.06-04.53.05:964][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.06-04.53.05:965][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.03.06-04.53.05:965][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.03.06-04.53.05:966][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.03.06-04.53.05:966][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.03.06-04.53.05:966][734]LogInit: FAudioDevice initialized with ID 22.
+[2024.03.06-04.53.05:966][734]LogAudio: Display: Audio Device (ID: 22) registered with world 'L_Pluto'.
+[2024.03.06-04.53.05:966][734]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.03.06-04.53.06:010][734]LogLoad: Game class is 'BP_PlutoGameMode_C'
+[2024.03.06-04.53.06:011][734]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.06-15.53.06
+[2024.03.06-04.53.06:011][734]LogWorld: Bringing up level for play took: 0.001538
+[2024.03.06-04.53.06:014][734]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.03.06-04.53.06:017][734]PIE: Server logged in
+[2024.03.06-04.53.06:018][734]PIE: Play in editor total start time 0.127 seconds.
+[2024.03.06-04.53.11:435][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-04.53.11:435][961]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-04.53.11:435][961]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-04.53.11:435][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-04.53.11:466][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.06-04.53.11:472][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-04.53.11:486][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-04.53.11:486][961]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.03.06-04.53.11:486][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.03.06-04.53.11:488][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.03.06-04.53.11:496][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.03.06-04.53.11:514][961]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.11:548][962]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.03.06-04.53.11:583][962]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.11:675][962]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.11:760][963]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.11:915][967]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.12:134][973]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.12:968][996]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.13:196][  2]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.15:280][ 57]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.06-04.53.15:326][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.06-04.53.15:326][ 57]PIE: New page: PIE session: L_Pluto (7 Mar 2024, 2:53:15 am)
+[2024.03.06-04.53.15:326][ 57]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-04.53.15:328][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002506s)
+[2024.03.06-04.53.15:328][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.002536s)
+[2024.03.06-04.53.15:343][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.06-04.53.15:344][ 57]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-04.53.15:344][ 57]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-04.53.15:344][ 57]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.06-04.53.15:345][ 57]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2024.03.06-04.53.15:345][ 57]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.03.06-04.53.15:345][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.06-04.53.15:345][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.06-04.53.15:345][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.06-04.53.15:345][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.06-04.53.15:345][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.06-04.53.15:345][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.06-04.53.15:345][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.06-04.53.15:345][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.06-04.53.15:345][ 57]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.06-04.53.15:345][ 57]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.06-04.53.15:345][ 57]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.06-04.53.15:347][ 57]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.06-04.53.15:389][ 57]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.06-04.53.15:389][ 57]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.06-04.53.15:390][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.06-04.53.15:390][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.06-04.53.15:390][ 57]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.03.06-04.53.15:390][ 57]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.03.06-04.53.15:392][ 57]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.03.06-04.53.15:392][ 57]LogInit: FAudioDevice initialized with ID 23.
+[2024.03.06-04.53.15:392][ 57]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.03.06-04.53.15:392][ 57]LogAudio: Display: Audio Device (ID: 23) registered with world 'L_Pluto'.
+[2024.03.06-04.53.15:392][ 57]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.03.06-04.53.15:395][ 57]LogLoad: Game class is 'BP_PlutoGameMode_C'
+[2024.03.06-04.53.15:396][ 57]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.06-15.53.15
+[2024.03.06-04.53.15:396][ 57]LogWorld: Bringing up level for play took: 0.001365
+[2024.03.06-04.53.15:398][ 57]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.03.06-04.53.15:402][ 57]PIE: Server logged in
+[2024.03.06-04.53.15:402][ 57]PIE: Play in editor total start time 0.078 seconds.
+[2024.03.06-04.53.18:411][143]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.18:475][145]LogActor: Warning: SkeletalMeshActor_1 is outside the world bounds!
+[2024.03.06-04.53.21:145][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-04.53.21:145][216]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-04.53.21:145][216]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-04.53.21:147][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-04.53.21:150][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.06-04.53.21:155][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-04.53.21:166][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-04.53.21:166][216]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.03.06-04.53.21:166][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.03.06-04.53.21:167][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.03.06-04.53.21:179][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.06-04.53.21:196][216]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.21:230][217]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.03.06-04.53.21:263][217]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.21:318][217]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-04.53.21:401][218]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
