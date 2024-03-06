@@ -1430,3 +1430,609 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.03.06-03.08.13:341][250]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
 [2024.03.06-03.08.13:953][273]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
 [2024.03.06-03.08.14:115][279]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.08.31:653][339]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.08.32:205][354]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.08.32:365][360]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.08.32:969][382]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.08.33:205][395]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.06-03.08.33:219][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.06-03.08.33:219][395]PIE: New page: PIE session: L_Pluto (7 Mar 2024, 1:08:33 am)
+[2024.03.06-03.08.33:219][395]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-03.08.33:221][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002023s)
+[2024.03.06-03.08.33:221][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.002051s)
+[2024.03.06-03.08.33:234][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.03.06-03.08.33:235][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.08.33:235][395]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.08.33:235][395]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.06-03.08.33:235][395]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2024.03.06-03.08.33:235][395]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.03.06-03.08.33:235][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.06-03.08.33:235][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.06-03.08.33:235][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.06-03.08.33:235][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.06-03.08.33:235][395]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.06-03.08.33:235][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.06-03.08.33:235][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.06-03.08.33:235][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.06-03.08.33:236][395]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.06-03.08.33:236][395]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.06-03.08.33:236][395]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.06-03.08.33:238][395]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.06-03.08.33:282][395]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.06-03.08.33:282][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.06-03.08.33:282][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.06-03.08.33:282][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.06-03.08.33:283][395]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.03.06-03.08.33:283][395]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.03.06-03.08.33:284][395]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.03.06-03.08.33:284][395]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.03.06-03.08.33:284][395]LogInit: FAudioDevice initialized with ID 4.
+[2024.03.06-03.08.33:284][395]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_Pluto'.
+[2024.03.06-03.08.33:284][395]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.06-03.08.33:288][395]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.03.06-03.08.33:289][395]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.06-14.08.33
+[2024.03.06-03.08.33:289][395]LogWorld: Bringing up level for play took: 0.001074
+[2024.03.06-03.08.33:291][395]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.03.06-03.08.33:295][395]PIE: Server logged in
+[2024.03.06-03.08.33:295][395]PIE: Play in editor total start time 0.077 seconds.
+[2024.03.06-03.08.33:298][395]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.08.35:248][473]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.08.35:278][474]LogActor: Warning: SkeletalMeshActor_1 is outside the world bounds!
+[2024.03.06-03.08.37:546][568]LogDerivedDataCache: C:/Users/1028560/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.259 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1838 files in 2717 folders with total size 225 MiB.
+[2024.03.06-03.09.47:124][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-03.09.47:124][354]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-03.09.47:124][354]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.09.47:124][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.09.47:148][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.06-03.09.47:154][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.09.47:166][354]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.06-03.09.47:167][354]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.06-03.09.47:167][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.06-03.09.47:168][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.06-03.09.47:173][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-03.09.47:175][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.03.06-03.09.47:224][355]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.03.06-03.09.51:594][518]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.09.51:620][519]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.09.51:648][520]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.09.51:676][521]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.09.51:758][524]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 0 (Found bundle for host: 0x98376960000 [serially])
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 6 (Closing connection)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC5AB30A0-4BD4-3713-9569-0C9A7EF20E09%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=324d8731425f7b8734ac799166316c36%7C%7C58010254-f725-451e-a812-5e04b43fc520&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 9 (  Trying 18.213.99.160:443...)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (18.213.99.160) port 443)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.06-03.10.42:843][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 25 (Server certificate:)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 26 ( subject: CN=*.ol.epicgames.com)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 27 ( start date: Feb 28 00:00:00 2023 GMT)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 28 ( expire date: Mar 27 23:59:59 2024 GMT)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "*.ol.epicgames.com")
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M02)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 34 (Closing connection)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: 00000984398C5F00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.06-03.10.42:844][762]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC5AB30A0-4BD4-3713-9569-0C9A7EF20E09%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=324d8731425f7b8734ac799166316c36%7C%7C58010254-f725-451e-a812-5e04b43fc520&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.06-03.18.33:513][743]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Levels/Pluto/floor.floor
+[2024.03.06-03.18.33:539][743]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.18.33:539][743]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.18.33:846][743]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.06-03.18.33:847][743]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.06-03.18.33:847][743]MaterialEditorStats: Shader Count: 0
+[2024.03.06-03.18.33:865][743]LogViewport: Scene viewport resized to 505x621, mode Windowed.
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: ================================================
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Total job queries 52, among them cache hits 9 (17.31%)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Tracking 19 distinct input hashes that result in 14 distinct outputs (73.68%)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: RAM used: 438.63 KiB of 1.60 GiB budget. Usage: 0.03%
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Shaders Compiled: 19
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Jobs assigned 19, completed 19 (100%)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Average time worker was idle: 5.51 s
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 0.56 s
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Job execution time: average 0.59 s, max 0.95 s
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Job life time (pending + execution): average 0.71 s, max 0.95
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Shader code size: average 39.968 KiB, min 28.512 KiB, max 70.504 KiB
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.20 s
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Jobs were issued in 19 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Average processing rate: 8.63 jobs/sec
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Total thread time: 6.786 s
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Total thread preprocess time: 0.859 s
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Percentage time preprocessing: 12.65%
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Effective parallelization: 3.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                                                FMeshDecalsVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.41 sec, max 0.52 sec, min 0.37 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.38 sec, max 0.50 sec, min 0.25 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.32 sec, max 0.33 sec, min 0.32 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 36.36% of total time (compiled    6 times, average 0.41 sec, max 0.52 sec, min 0.37 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 33.46% of total time (compiled    6 times, average 0.38 sec, max 0.50 sec, min 0.25 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.54% of total time (compiled    2 times, average 0.32 sec, max 0.33 sec, min 0.32 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.54% of total time (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display:                                                FMeshDecalsVS - 6.40% of total time (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.03.06-03.18.33:952][745]LogShaderCompilers: Display: ================================================
+[2024.03.06-03.18.33:966][746]MaterialEditorStats: Base pass vertex shader: 282 instructions
+[2024.03.06-03.18.33:966][746]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.06-03.18.33:966][746]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.06-03.18.33:966][746]MaterialEditorStats: Shader Count: 2
+[2024.03.06-03.18.37:911][883]LogSlate: Window 'floor' being destroyed
+[2024.03.06-03.18.37:938][883]LogSlate: Window 'floor' being destroyed
+[2024.03.06-03.18.37:973][883]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.18.37:973][883]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.18.47:712][222]LogContentBrowser: Attempting asset rename: floor -> M_Floor
+[2024.03.06-03.18.47:774][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.18.47:874][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/M_Floor" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Floor.uasset" SILENT=true
+[2024.03.06-03.18.47:877][222]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/M_Floor
+[2024.03.06-03.18.47:877][222]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/M_FloorC9841F59449794CD45781F9015B34402.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Floor.uasset'
+[2024.03.06-03.18.47:879][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/floor" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/floor.uasset" SILENT=true
+[2024.03.06-03.18.47:880][222]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/floor
+[2024.03.06-03.18.47:881][222]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/floor250AB8DE4F70B3F55AA2CBAEB419CCC5.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/floor.uasset'
+[2024.03.06-03.18.47:888][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 232 ms)
+[2024.03.06-03.18.47:890][222]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.06-03.18.47:890][222]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Pluto/M_Floor.M_Floor
+[2024.03.06-03.18.47:890][222]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Levels/Pluto/floor.floor
+[2024.03.06-03.18.55:914][496]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Levels/Pluto/Material_001.Material_001
+[2024.03.06-03.18.55:918][496]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.18.55:918][496]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.18.56:176][496]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.06-03.18.56:176][496]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.06-03.18.56:176][496]MaterialEditorStats: Shader Count: 0
+[2024.03.06-03.18.56:205][496]LogViewport: Scene viewport resized to 505x622, mode Windowed.
+[2024.03.06-03.18.56:286][498]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.03.06-03.18.56:286][498]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.06-03.18.56:286][498]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.06-03.18.56:286][498]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.06-03.18.56:286][498]MaterialEditorStats: Shader Count: 4
+[2024.03.06-03.18.59:523][609]LogSlate: Window 'Material_001' being destroyed
+[2024.03.06-03.18.59:549][609]LogSlate: Window 'Material_001' being destroyed
+[2024.03.06-03.18.59:583][609]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.18.59:583][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.19.09:478][952]LogContentBrowser: Attempting asset rename: snow_ncl1_1 -> M_Snow
+[2024.03.06-03.19.09:500][952]LogStaticMesh: Display: Building static mesh rock...
+[2024.03.06-03.19.09:515][952]LogStaticMesh: Built static mesh [0.02s] /Game/Levels/Pluto/rock.rock
+[2024.03.06-03.19.09:517][952]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Levels/Pluto/rock) ...
+[2024.03.06-03.19.09:527][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.19.09:639][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/plutotest" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/plutotest.uasset" SILENT=true
+[2024.03.06-03.19.09:664][952]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/plutotest
+[2024.03.06-03.19.09:665][952]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/plutotestAF9C14484C915199D1680880361E1AC4.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/plutotest.uasset'
+[2024.03.06-03.19.09:675][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/rock" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/rock.uasset" SILENT=true
+[2024.03.06-03.19.09:688][952]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/rock
+[2024.03.06-03.19.09:689][952]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/rockDCF9EBE341058C7A6D7DBFACE4830708.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/rock.uasset'
+[2024.03.06-03.19.09:691][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/M_Snow" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Snow.uasset" SILENT=true
+[2024.03.06-03.19.09:694][952]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/M_Snow
+[2024.03.06-03.19.09:694][952]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/M_Snow1B4986624F4A1C127DEF7FB6B25E7D4B.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Snow.uasset'
+[2024.03.06-03.19.09:701][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 407 ms)
+[2024.03.06-03.19.09:730][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.06-03.19.09:746][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.03.06-03.19.09:760][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.03.06-03.19.09:764][952]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.06-03.19.09:764][952]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Pluto/plutotest.plutotest
+[2024.03.06-03.19.09:764][952]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Pluto/rock.rock
+[2024.03.06-03.19.09:764][952]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Pluto/M_Snow.M_Snow
+[2024.03.06-03.19.18:382][252]LogContentBrowser: Attempting asset rename: Material_001 -> M_Snow_2
+[2024.03.06-03.19.18:440][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.19.18:507][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/plutotest" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/plutotest.uasset" SILENT=true
+[2024.03.06-03.19.18:526][252]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/plutotest
+[2024.03.06-03.19.18:527][252]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/plutotest33CA4BC347D123DCA0EE2988942006AE.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/plutotest.uasset'
+[2024.03.06-03.19.18:529][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/rock" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/rock.uasset" SILENT=true
+[2024.03.06-03.19.18:536][252]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/rock
+[2024.03.06-03.19.18:537][252]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/rock9F64BF874C1E88B74579938AF47449AF.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/rock.uasset'
+[2024.03.06-03.19.18:538][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/M_Snow_2" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Snow_2.uasset" SILENT=true
+[2024.03.06-03.19.18:541][252]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/M_Snow_2
+[2024.03.06-03.19.18:541][252]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/M_Snow_2C838A58946242F47FA87A9BADEB80B6A.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Snow_2.uasset'
+[2024.03.06-03.19.18:550][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 516 ms)
+[2024.03.06-03.19.18:570][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.06-03.19.18:584][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.06-03.19.18:598][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.06-03.19.18:600][252]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.06-03.19.18:600][252]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Pluto/plutotest.plutotest
+[2024.03.06-03.19.18:600][252]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Pluto/rock.rock
+[2024.03.06-03.19.18:600][252]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Pluto/M_Snow_2.M_Snow_2
+[2024.03.06-03.19.27:561][558]LogContentBrowser: Attempting asset rename: Snow -> M_Snow_3
+[2024.03.06-03.19.27:591][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.19.27:717][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/M_Snow_3" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Snow_3.uasset" SILENT=true
+[2024.03.06-03.19.27:719][558]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/M_Snow_3
+[2024.03.06-03.19.27:719][558]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/M_Snow_35D2C9DCD4924EDADDD317EA168B10300.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Snow_3.uasset'
+[2024.03.06-03.19.27:721][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/Snow" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/Snow.uasset" SILENT=true
+[2024.03.06-03.19.27:722][558]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/Snow
+[2024.03.06-03.19.27:723][558]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/Snow8D02669043FEC4B873B7F1956C0CBD45.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/Snow.uasset'
+[2024.03.06-03.19.27:730][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 656 ms)
+[2024.03.06-03.19.27:731][558]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.06-03.19.27:731][558]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Pluto/M_Snow_3.M_Snow_3
+[2024.03.06-03.19.27:731][558]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Levels/Pluto/Snow.Snow
+[2024.03.06-03.19.37:427][896]LogContentBrowser: Attempting asset rename: Mountain -> M_Mountain
+[2024.03.06-03.19.37:455][896]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.19.37:542][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/plutotest" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/plutotest.uasset" SILENT=true
+[2024.03.06-03.19.37:561][896]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/plutotest
+[2024.03.06-03.19.37:562][896]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/plutotestCFE8960B43B858FF1DF85AAAC4C8A741.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/plutotest.uasset'
+[2024.03.06-03.19.37:563][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/rock" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/rock.uasset" SILENT=true
+[2024.03.06-03.19.37:571][896]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/rock
+[2024.03.06-03.19.37:572][896]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/rock2C9FA9F24E3338875B72D496D575EB3F.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/rock.uasset'
+[2024.03.06-03.19.37:573][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/M_Mountain" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Mountain.uasset" SILENT=true
+[2024.03.06-03.19.37:575][896]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/M_Mountain
+[2024.03.06-03.19.37:575][896]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/M_Mountain6FB689C546D7406908B4358E82F19A46.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/M_Mountain.uasset'
+[2024.03.06-03.19.37:583][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 784 ms)
+[2024.03.06-03.19.37:604][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.06-03.19.37:618][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.03.06-03.19.37:631][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.06-03.19.37:634][896]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.06-03.19.37:634][896]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Pluto/plutotest.plutotest
+[2024.03.06-03.19.37:634][896]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/Pluto/rock.rock
+[2024.03.06-03.19.37:634][896]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Levels/Pluto/M_Mountain.M_Mountain
+[2024.03.06-03.24.22:092][866]LogSlate: Took 0.001211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.03.06-03.24.32:050][866]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2024.03.06-03.24.32:371][866]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2024.03.06-03.24.32:435][866]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2024.03.06-03.24.32:467][867]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2024.03.06-03.24.43:360][259]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NS_Volcano
+[2024.03.06-03.24.43:436][259]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: ================================================
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Total job queries 71, among them cache hits 25 (35.21%)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Tracking 22 distinct input hashes that result in 17 distinct outputs (77.27%)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: RAM used: 501.93 KiB of 1.60 GiB budget. Usage: 0.03%
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Shaders Compiled: 22
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Jobs assigned 22, completed 22 (100%)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Average time worker was idle: 129.99 s
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 0.56 s
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Job execution time: average 0.59 s, max 0.95 s
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Job life time (pending + execution): average 0.70 s, max 0.95
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Shader code size: average 38.605 KiB, min 23.379 KiB, max 70.504 KiB
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.52 s
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Average processing rate: 6.26 jobs/sec
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Total thread time: 7.547 s
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Total thread preprocess time: 0.931 s
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Percentage time preprocessing: 12.34%
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Effective parallelization: 2.15 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                                                FMeshDecalsVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.39 sec, max 0.52 sec, min 0.25 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.36 sec, max 0.50 sec, min 0.22 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.32 sec, max 0.33 sec, min 0.32 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 36.04% of total time (compiled    7 times, average 0.39 sec, max 0.52 sec, min 0.25 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.98% of total time (compiled    7 times, average 0.36 sec, max 0.50 sec, min 0.22 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.58% of total time (compiled    2 times, average 0.32 sec, max 0.33 sec, min 0.32 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.88% of total time (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display:                                                FMeshDecalsVS - 5.75% of total time (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.03.06-03.24.44:386][285]LogShaderCompilers: Display: ================================================
+[2024.03.06-03.24.45:299][314]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.24.45:522][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.24.45:522][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.24.45:546][314]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 2.162118 sec (time since issued), 1.770809 sec (combined shader worker time).
+[2024.03.06-03.24.45:669][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.24.45:669][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.24.45:937][314]LogViewport: Scene viewport resized to 509x586, mode Windowed.
+[2024.03.06-03.24.47:323][352]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 1.792284 sec (time since issued), 1.422920 sec (combined shader worker time).
+[2024.03.06-03.24.47:575][359]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.24.52:775][516]LogUMG: Warning: The requested size for SRetainerWidget is 0. W:414 H:0
+[2024.03.06-03.25.19:657][304]98781_NS_Volcano_MessageLog: System compile status unknown.
+[2024.03.06-03.25.20:705][335]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 1.254843 sec (time since issued), 1.129406 sec (combined shader worker time).
+[2024.03.06-03.25.21:670][361]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.25.27:208][525]98781_NS_Volcano_MessageLog: System compile status unknown.
+[2024.03.06-03.25.28:004][548]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 0.971486 sec (time since issued), 0.858742 sec (combined shader worker time).
+[2024.03.06-03.25.29:208][584]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.25.32:742][678]98781_NS_Volcano_MessageLog: System compile status unknown.
+[2024.03.06-03.25.33:444][697]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 0.869511 sec (time since issued), 0.811911 sec (combined shader worker time).
+[2024.03.06-03.25.34:768][737]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.25.37:100][785]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 0.686361 sec (time since issued), 1.375006 sec (combined shader worker time).
+[2024.03.06-03.25.37:112][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.25.37:197][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/NS_Volcano" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/NS_Volcano.uasset" SILENT=true
+[2024.03.06-03.25.37:304][785]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/NS_Volcano
+[2024.03.06-03.25.37:304][785]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/NS_VolcanoF871BC2B451B8C52D72F82BDBFFCD017.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/NS_Volcano.uasset'
+[2024.03.06-03.25.37:313][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 201 ms (total: 986 ms)
+[2024.03.06-03.25.37:336][785]AssetCheck: New page: Asset Save: NS_Volcano
+[2024.03.06-03.25.37:336][785]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.25.48:668][113]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.06-03.25.50:263][158]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.06-03.26.12:898][819]LogSlate: Window 'NS_Volcano' being destroyed
+[2024.03.06-03.26.12:928][819]LogSlate: Window 'NS_Volcano' being destroyed
+[2024.03.06-03.26.12:955][819]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.26.12:955][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.26.12:985][819]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.26.12:985][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.26.13:042][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.03.06-03.26.16:690][942]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.26.16:692][942]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.26.16:693][942]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano as actor: NiagaraActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.NiagaraActor_0
+[2024.03.06-03.26.16:693][942]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano as actor: NiagaraActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.NiagaraActor_0
+[2024.03.06-03.26.19:192][ 32]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.26.19:192][ 32]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.26.19:194][ 32]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano as actor: NiagaraActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.NiagaraActor_1
+[2024.03.06-03.26.19:194][ 32]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano as actor: NiagaraActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.NiagaraActor_1
+[2024.03.06-03.26.41:178][794]Cmd: DELETE
+[2024.03.06-03.26.41:180][794]Cmd: ACTOR DELETE
+[2024.03.06-03.26.41:182][794]LogEditorActor: Deleted Actor: NiagaraActor
+[2024.03.06-03.26.41:213][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.06-03.26.41:216][794]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2024.03.06-03.26.45:331][938]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.26.45:414][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.26.45:414][938]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.26.45:572][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.26.45:572][938]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.26.45:655][938]LogViewport: Scene viewport resized to 510x587, mode Windowed.
+[2024.03.06-03.26.45:908][944]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.27.00:514][383]98781_NS_Volcano_MessageLog: System compile status unknown.
+[2024.03.06-03.27.01:514][413]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 1.201722 sec (time since issued), 1.068255 sec (combined shader worker time).
+[2024.03.06-03.27.02:527][444]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.28.20:287][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.06-03.28.20:292][852]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.28.20:377][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/L_Pluto" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.06-03.28.20:439][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.03.06-03.28.20:459][852]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/L_Pluto
+[2024.03.06-03.28.20:459][852]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/L_PlutoB866A29F4573E02B55710D9A1AF4E57A.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap'
+[2024.03.06-03.28.20:472][852]LogFileHelpers: Saving map 'L_Pluto' took 0.096
+[2024.03.06-03.28.20:473][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/NS_Volcano" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/NS_Volcano.uasset" SILENT=true
+[2024.03.06-03.28.20:575][852]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/NS_Volcano
+[2024.03.06-03.28.20:575][852]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/NS_Volcano679526D64DA09B1EF1C148A6BBC11B78.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/NS_Volcano.uasset'
+[2024.03.06-03.28.20:590][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 297 ms (total: 1.28 sec)
+[2024.03.06-03.28.20:593][852]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.06-03.28.20:593][852]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.03.06-03.28.20:593][852]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.28.26:153][ 41]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.28.26:153][ 41]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.28.26:155][ 41]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano as actor: NiagaraActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.NiagaraActor_2
+[2024.03.06-03.28.26:155][ 41]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano as actor: NiagaraActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.NiagaraActor_2
+[2024.03.06-03.28.28:504][127]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.28.28:504][127]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.28.28:506][127]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano as actor: NiagaraActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.NiagaraActor_3
+[2024.03.06-03.28.28:506][127]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano as actor: NiagaraActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.NiagaraActor_3
+[2024.03.06-03.29.31:821][356]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.06-03.29.31:838][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.06-03.29.31:838][356]PIE: New page: PIE session: L_Pluto (7 Mar 2024, 1:29:31 am)
+[2024.03.06-03.29.31:838][356]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-03.29.31:840][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002491s)
+[2024.03.06-03.29.31:840][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.002524s)
+[2024.03.06-03.29.31:855][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.06-03.29.31:857][356]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.29.31:857][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.29.31:857][356]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.06-03.29.31:858][356]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2024.03.06-03.29.31:858][356]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.03.06-03.29.31:858][356]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.06-03.29.31:858][356]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.06-03.29.31:858][356]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.06-03.29.31:858][356]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.06-03.29.31:858][356]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.06-03.29.31:858][356]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.06-03.29.31:858][356]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.06-03.29.31:858][356]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.06-03.29.31:858][356]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.06-03.29.31:858][356]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.06-03.29.31:858][356]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.06-03.29.31:861][356]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.06-03.29.31:907][356]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.06-03.29.31:907][356]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.06-03.29.31:907][356]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.06-03.29.31:907][356]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.06-03.29.31:908][356]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.03.06-03.29.31:908][356]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.03.06-03.29.31:910][356]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.03.06-03.29.31:910][356]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.03.06-03.29.31:910][356]LogInit: FAudioDevice initialized with ID 5.
+[2024.03.06-03.29.31:910][356]LogAudio: Display: Audio Device (ID: 5) registered with world 'L_Pluto'.
+[2024.03.06-03.29.31:910][356]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.06-03.29.31:913][356]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.03.06-03.29.31:915][356]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.06-14.29.31
+[2024.03.06-03.29.31:915][356]LogWorld: Bringing up level for play took: 0.001325
+[2024.03.06-03.29.31:917][356]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.03.06-03.29.31:921][356]PIE: Server logged in
+[2024.03.06-03.29.31:922][356]PIE: Play in editor total start time 0.086 seconds.
+[2024.03.06-03.29.50:122][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-03.29.50:122][ 90]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-03.29.50:122][ 90]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.29.50:122][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.29.50:140][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.06-03.29.50:144][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.29.50:157][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-03.29.50:157][ 90]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.06-03.29.50:157][ 90]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.06-03.29.50:159][ 90]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.06-03.29.50:166][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.06-03.29.50:243][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.03.06-03.29.58:300][351]98781_NS_Volcano_MessageLog: System compile status unknown.
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: ================================================
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Total job queries 103, among them cache hits 32 (31.07%)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Tracking 47 distinct input hashes that result in 34 distinct outputs (72.34%)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: RAM used: 1.04 MiB of 1.60 GiB budget. Usage: 0.06%
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Shaders Compiled: 47
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Jobs assigned 47, completed 47 (100%)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Average time worker was idle: 124.01 s
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.56 s
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Job execution time: average 0.43 s, max 0.95 s
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Job life time (pending + execution): average 0.51 s, max 0.95
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Shader code size: average 32.382 KiB, min 1.932 KiB, max 70.504 KiB
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.35 s
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Jobs were issued in 47 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Average processing rate: 5.03 jobs/sec
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Total thread time: 12.375 s
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Total thread preprocess time: 1.205 s
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Percentage time preprocessing: 9.73%
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Effective parallelization: 1.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                                FMeshDecalsVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.37 sec, max 0.52 sec, min 0.25 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.35 sec, max 0.50 sec, min 0.22 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 0.31 sec, max 0.33 sec, min 0.28 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.70% of total time (compiled    9 times, average 0.37 sec, max 0.52 sec, min 0.25 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.38% of total time (compiled    9 times, average 0.35 sec, max 0.50 sec, min 0.22 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                               FNiagaraShader - 24.54% of total time (compiled   18 times, average 0.17 sec, max 0.30 sec, min 0.05 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.89% of total time (compiled    4 times, average 0.31 sec, max 0.33 sec, min 0.28 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.06% of total time (compiled    4 times, average 0.16 sec, max 0.19 sec, min 0.12 sec)
+[2024.03.06-03.29.58:859][367]LogShaderCompilers: Display: ================================================
+[2024.03.06-03.29.59:136][375]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 0.999484 sec (time since issued), 0.963256 sec (combined shader worker time).
+[2024.03.06-03.30.00:331][411]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.30.02:332][470]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.30.03:632][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.06-03.30.03:637][508]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.30.03:752][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/L_Pluto" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.06-03.30.03:816][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.03.06-03.30.03:837][508]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/L_Pluto
+[2024.03.06-03.30.03:838][508]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/L_Pluto5C7588B74FE718AB6DB16BBB4E917546.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap'
+[2024.03.06-03.30.03:851][508]LogFileHelpers: Saving map 'L_Pluto' took 0.098
+[2024.03.06-03.30.03:851][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/NS_Volcano" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/NS_Volcano.uasset" SILENT=true
+[2024.03.06-03.30.03:954][508]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/NS_Volcano
+[2024.03.06-03.30.03:955][508]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/NS_Volcano1CF27A1D4D36E9C25F2EBD8252E5949A.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/NS_Volcano.uasset'
+[2024.03.06-03.30.03:963][508]LogFileHelpers: InternalPromptForCheckoutAndSave took 326 ms (total: 1.61 sec)
+[2024.03.06-03.30.03:966][508]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.06-03.30.03:966][508]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.03.06-03.30.03:966][508]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano
+[2024.03.06-03.30.24:625][265]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.06-03.30.24:638][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.06-03.30.24:638][265]PIE: New page: PIE session: L_Pluto (7 Mar 2024, 1:30:24 am)
+[2024.03.06-03.30.24:638][265]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-03.30.24:641][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002301s)
+[2024.03.06-03.30.24:641][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.002336s)
+[2024.03.06-03.30.24:656][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.06-03.30.24:657][265]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.30.24:657][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.30.24:658][265]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.06-03.30.24:658][265]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2024.03.06-03.30.24:658][265]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.03.06-03.30.24:658][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.06-03.30.24:658][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.06-03.30.24:658][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.06-03.30.24:658][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.06-03.30.24:658][265]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.06-03.30.24:658][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.06-03.30.24:658][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.06-03.30.24:658][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.06-03.30.24:658][265]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.06-03.30.24:658][265]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.06-03.30.24:658][265]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.06-03.30.24:660][265]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.06-03.30.24:704][265]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.06-03.30.24:704][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.06-03.30.24:704][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.06-03.30.24:704][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.06-03.30.24:705][265]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.03.06-03.30.24:705][265]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.03.06-03.30.24:707][265]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.03.06-03.30.24:707][265]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.03.06-03.30.24:707][265]LogInit: FAudioDevice initialized with ID 6.
+[2024.03.06-03.30.24:707][265]LogAudio: Display: Audio Device (ID: 6) registered with world 'L_Pluto'.
+[2024.03.06-03.30.24:707][265]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.03.06-03.30.24:710][265]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.03.06-03.30.24:711][265]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.06-14.30.24
+[2024.03.06-03.30.24:711][265]LogWorld: Bringing up level for play took: 0.001251
+[2024.03.06-03.30.24:714][265]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.03.06-03.30.24:717][265]PIE: Server logged in
+[2024.03.06-03.30.24:718][265]PIE: Play in editor total start time 0.079 seconds.
+[2024.03.06-03.30.40:925][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-03.30.40:926][925]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-03.30.40:926][925]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.30.40:926][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.30.40:950][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.06-03.30.40:954][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.30.40:968][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-03.30.40:968][925]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.03.06-03.30.40:968][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.03.06-03.30.40:969][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.03.06-03.30.40:976][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.06-03.30.41:067][926]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.03.06-03.30.45:737][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.06-03.30.45:741][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.06-03.30.45:851][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/L_Pluto" FILE="../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.06-03.30.45:913][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.03.06-03.30.45:933][ 75]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/L_Pluto
+[2024.03.06-03.30.45:934][ 75]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Saved/L_Pluto8B0354004725C247301925BB7F0DB149.tmp' to '../../../../../Users/1028560/Desktop/SpaceTripp/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap'
+[2024.03.06-03.30.45:947][ 75]LogFileHelpers: Saving map 'L_Pluto' took 0.097
+[2024.03.06-03.30.45:970][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave took 229 ms (total: 1.83 sec)
+[2024.03.06-03.30.45:973][ 75]AssetCheck: New page: Asset Save: L_Pluto
+[2024.03.06-03.30.45:973][ 75]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.03.06-03.31.22:920][163]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.31.34:246][474]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.31.48:643][874]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.32.12:280][562]98781_NS_Volcano_MessageLog: System successfully compiled.
+[2024.03.06-03.32.19:855][761]LogSlate: Window 'NS_Volcano' being destroyed
+[2024.03.06-03.32.19:884][761]LogSlate: Window 'NS_Volcano' being destroyed
+[2024.03.06-03.32.20:032][761]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.32.20:033][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.32.20:061][761]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.32.20:061][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.32.20:097][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.06-03.32.21:213][799]LogNiagara: Compiling System NiagaraSystem /Game/Levels/Pluto/NS_Volcano.NS_Volcano took 1.328736 sec (time since issued), 1.313240 sec (combined shader worker time).
+[2024.03.06-03.32.21:990][826]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.06-03.32.22:004][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.06-03.32.22:004][826]PIE: New page: PIE session: L_Pluto (7 Mar 2024, 1:32:22 am)
+[2024.03.06-03.32.22:004][826]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-03.32.22:006][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002224s)
+[2024.03.06-03.32.22:006][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.002252s)
+[2024.03.06-03.32.22:024][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.06-03.32.22:025][826]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.06-03.32.22:025][826]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.06-03.32.22:025][826]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.06-03.32.22:026][826]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2024.03.06-03.32.22:026][826]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.03.06-03.32.22:026][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.06-03.32.22:026][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.06-03.32.22:026][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.06-03.32.22:026][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.06-03.32.22:026][826]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.06-03.32.22:026][826]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.06-03.32.22:026][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.06-03.32.22:026][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.06-03.32.22:026][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.06-03.32.22:026][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.06-03.32.22:026][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.06-03.32.22:028][826]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.06-03.32.22:072][826]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.06-03.32.22:073][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.06-03.32.22:073][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.06-03.32.22:073][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.06-03.32.22:073][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.03.06-03.32.22:073][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.03.06-03.32.22:075][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.03.06-03.32.22:075][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.03.06-03.32.22:075][826]LogInit: FAudioDevice initialized with ID 7.
+[2024.03.06-03.32.22:075][826]LogAudio: Display: Audio Device (ID: 7) registered with world 'L_Pluto'.
+[2024.03.06-03.32.22:075][826]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.06-03.32.22:078][826]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.03.06-03.32.22:079][826]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.06-14.32.22
+[2024.03.06-03.32.22:080][826]LogWorld: Bringing up level for play took: 0.001184
+[2024.03.06-03.32.22:082][826]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.03.06-03.32.22:085][826]PIE: Server logged in
+[2024.03.06-03.32.22:086][826]PIE: Play in editor total start time 0.082 seconds.
+[2024.03.06-03.32.44:033][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-03.32.44:033][735]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.06-03.32.44:033][735]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.06-03.32.44:034][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.32.44:037][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.06-03.32.44:042][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.06-03.32.44:055][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.06-03.32.44:055][735]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.06-03.32.44:055][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.03.06-03.32.44:057][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.03.06-03.32.44:063][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.06-03.32.44:138][736]LogPlayLevel: Display: Destroying online subsystem :Context_17
