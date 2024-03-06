@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/MenuWidgets/WBP_PlanetLIstButtons.uasset",
+				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/MenuWidgets/WBP_PlantFactsGrid.uasset",
+				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/MenuWidgets/WBP_PlanetFactDisplayslot.uasset",
+				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/MenuWidgets/WBP_FactList.uasset",
+				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/MenuWidgets/WBP_PlanetButtons.uasset",
+				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/MenusandUI/Menus/PauseMenu/WBP_PauseMenu.uasset",
+				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/PlanetDataTables/DT_NeptuneFactData.uasset",
+				"C:/Users/Roxee/OneDrive/Documents/SpaceTrip/Content/LogCollection/FactCollectData/Assets/Items/TestItem2.uasset"
+			]
+		}
+	]
+=======
 {
 	"version": 1,
 	"changelists": [
@@ -107,4 +127,5 @@
 			]
 		}
 	]
+>>>>>>> f9b605865086296e1cf8c3987b91c457d1b8eaca
 }
