@@ -10367,3 +10367,268 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.08-05.43.43:022][189]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
 [2024.03.08-05.43.43:130][193]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
 [2024.03.08-05.43.45:029][259]LogViewport: Scene viewport resized to 1141x642, mode Windowed.
+[2024.03.08-05.46.06:669][778]LogViewport: Scene viewport resized to 1141x642, mode Windowed.
+[2024.03.08-05.48.01:560][784]LogDerivedDataCache: C:/Users/1028560/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.253 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5428 files in 6728 folders with total size 400 MiB.
+[2024.03.08-05.48.18:180][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.08-05.48.18:184][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-05.48.18:232][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/L_Pluto" FILE="../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.08-05.48.18:317][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.03.08-05.48.18:342][187]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/L_Pluto
+[2024.03.08-05.48.18:343][187]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Saved/L_PlutoE21A8CE542EACDEF4FE109BE5DBC94CB.tmp' to '../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap'
+[2024.03.08-05.48.18:361][187]LogFileHelpers: Saving map 'L_Pluto' took 0.130
+[2024.03.08-05.48.18:375][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 2.81 sec)
+[2024.03.08-05.48.18:378][187]AssetCheck: New page: Asset Save: L_Pluto
+[2024.03.08-05.48.18:378][187]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.03.08-05.48.38:834][438]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.03.08-05.48.40:822][499]LogContentBrowser: Deferred new asset file creation: NewLevelSequence
+[2024.03.08-05.48.40:879][499]LogContentBrowser: Creating deferred item: NewLevelSequence
+[2024.03.08-05.48.40:917][500]LogContentBrowser: Renaming the item being created (Deferred Item: NewLevelSequence).
+[2024.03.08-05.48.45:304][657]LogContentBrowser: Attempting asset rename: NewLevelSequence -> Sequence2
+[2024.03.08-05.48.45:305][657]LogContentBrowser: End creating deferred item NewLevelSequence
+[2024.03.08-05.48.47:703][741]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2
+[2024.03.08-05.48.47:891][741]LogViewport: Scene viewport resized to 3458x529, mode Windowed.
+[2024.03.08-05.48.47:901][741]LogViewport: Scene viewport resized to 1141x419, mode Windowed.
+[2024.03.08-05.48.47:968][742]LogViewport: Scene viewport resized to 445x250, mode Windowed.
+[2024.03.08-05.48.52:894][917]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.03.08-05.48.56:626][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.08-05.48.56:629][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-05.48.56:668][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/Sequence2" FILE="../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Content/Levels/Pluto/Sequence2.uasset" SILENT=true
+[2024.03.08-05.48.56:674][ 45]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/Sequence2
+[2024.03.08-05.48.56:674][ 45]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Saved/Sequence2FFF9E53C4DBF85B75705A8928B25C975.tmp' to '../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Content/Levels/Pluto/Sequence2.uasset'
+[2024.03.08-05.48.56:679][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 2.86 sec)
+[2024.03.08-05.48.56:680][ 45]AssetCheck: New page: Asset Save: Sequence2
+[2024.03.08-05.48.56:680][ 45]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2
+[2024.03.08-05.49.09:629][497]LogViewport: Scene viewport resized to 445x250, mode Windowed.
+[2024.03.08-05.49.13:813][632]LogViewport: Scene viewport resized to 3458x1890, mode Windowed.
+[2024.03.08-05.49.13:823][632]LogViewport: Scene viewport resized to 445x251, mode Windowed.
+[2024.03.08-05.49.13:824][632]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.13:900][633]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.13:932][633]LogViewport: Scene viewport resized to 1141x642, mode Windowed.
+[2024.03.08-05.49.13:969][634]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.14:435][652]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.15:276][681]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.16:135][710]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.16:495][723]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.L_Pluto
+[2024.03.08-05.49.16:495][723]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-05.49.16:495][723]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-05.49.16:501][723]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.03.08-05.49.17:669][740]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.18:584][769]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.19:472][798]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.20:341][827]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.21:211][856]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.22:090][885]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.22:933][914]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.23:780][943]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.24:967][973]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.25:817][  2]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.27:146][ 32]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.28:049][ 61]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.28:876][ 90]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.29:734][119]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.30:986][149]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.31:821][178]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.32:701][207]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.33:556][236]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.34:398][265]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.35:238][294]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.36:088][323]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.36:961][352]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.37:828][381]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.38:679][410]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.39:541][439]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.40:384][468]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.41:226][497]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.42:060][526]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.42:928][555]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.43:748][584]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.44:666][613]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.45:707][642]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.46:642][671]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.47:573][700]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.48:428][729]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.49:304][758]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.50:174][787]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.51:057][816]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.51:899][845]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.52:757][874]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.53:612][903]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.54:455][932]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.54:959][950]LogEditorTransaction: Undo Move Node
+[2024.03.08-05.49.55:667][961]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.56:538][990]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.56:839][  1]LogEditorTransaction: Undo Add Node
+[2024.03.08-05.49.57:474][ 19]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.58:326][ 48]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.49.59:202][ 77]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.00:044][106]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.00:877][135]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.01:710][164]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.02:555][193]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.03:401][222]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.04:258][251]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.05:092][280]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.05:919][309]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.06:750][338]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.07:569][367]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.08:437][396]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.09:306][425]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.10:194][454]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.10:202][454]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.10:248][455]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.11:071][483]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.11:912][512]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.12:751][541]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.13:626][570]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.14:455][599]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.15:310][628]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.16:141][657]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.16:952][686]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.17:720][715]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.18:570][744]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.19:524][773]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.19:534][773]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2
+[2024.03.08-05.50.19:534][773]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2
+[2024.03.08-05.50.19:535][773]LogActorFactory: Actor Factory spawned LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2 as actor: LevelSequenceActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.LevelSequenceActor_0
+[2024.03.08-05.50.19:535][773]LogActorFactory: Actor Factory spawned LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2 as actor: LevelSequenceActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.LevelSequenceActor_0
+[2024.03.08-05.50.19:556][773]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.20:150][793]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.20:170][793]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.20:180][793]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2
+[2024.03.08-05.50.20:180][793]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2
+[2024.03.08-05.50.20:181][793]LogActorFactory: Actor Factory spawned LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2 as actor: LevelSequenceActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.LevelSequenceActor_2
+[2024.03.08-05.50.20:181][793]LogActorFactory: Actor Factory spawned LevelSequence /Game/Levels/Pluto/Sequence2.Sequence2 as actor: LevelSequenceActor /Game/Levels/Pluto/L_Pluto.L_Pluto:PersistentLevel.LevelSequenceActor_2
+[2024.03.08-05.50.20:227][793]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.20:235][793]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.20:286][794]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.20:290][794]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.20:332][795]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.20:516][802]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.21:273][831]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.22:048][860]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.22:948][889]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.23:726][918]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.24:552][947]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.25:392][976]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.26:483][  6]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.27:306][ 35]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.28:166][ 64]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.29:002][ 93]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.29:831][122]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.30:639][151]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.31:456][180]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.33:101][211]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.33:919][240]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.34:877][269]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.35:721][298]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.36:678][327]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.37:641][356]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.38:506][385]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.39:345][414]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.40:327][443]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.41:150][472]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.42:013][501]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.42:852][530]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.43:749][559]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.44:615][588]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.45:436][617]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.46:341][646]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.47:525][675]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.48:353][704]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.49:361][733]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.50:189][762]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.51:076][791]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.51:950][820]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.52:780][849]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.53:636][878]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.54:459][907]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.55:314][936]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.56:180][965]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.57:027][994]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.57:873][ 23]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.58:724][ 52]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.50.59:553][ 81]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.00:321][108]BlueprintLog: New page: Compile L_Pluto
+[2024.03.08-05.51.00:345][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.08-05.51.00:444][110]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.01:293][139]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.01:913][161]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-05.51.01:957][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/L_Pluto" FILE="../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.08-05.51.02:052][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.08-05.51.02:080][161]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/L_Pluto
+[2024.03.08-05.51.02:080][161]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Saved/L_PlutoFB2A4B5F4FA0CC50217DE8AF06920312.tmp' to '../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap'
+[2024.03.08-05.51.02:099][161]LogFileHelpers: Saving map 'L_Pluto' took 0.142
+[2024.03.08-05.51.02:103][161]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 3.05 sec)
+[2024.03.08-05.51.02:105][161]AssetCheck: New page: Asset Save: L_Pluto
+[2024.03.08-05.51.02:105][161]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Pluto/L_Pluto.L_Pluto
+[2024.03.08-05.51.02:336][168]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.03:190][197]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.04:033][226]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.04:056][227]LogSlate: Window 'L_Pluto' being destroyed
+[2024.03.08-05.51.04:059][227]LogSlate: Window 'L_Pluto' being destroyed
+[2024.03.08-05.51.04:115][227]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-05.51.04:115][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-05.51.04:176][227]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-05.51.04:176][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-05.51.04:202][227]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-05.51.04:202][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-05.51.04:290][227]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.04:336][228]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.05:046][255]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.05:330][265]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.08-05.51.05:372][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.08-05.51.05:372][265]PIE: New page: PIE session: L_Pluto (9 Mar 2024, 3:51:05 am)
+[2024.03.08-05.51.05:372][265]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.08-05.51.05:376][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003764s)
+[2024.03.08-05.51.05:376][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.003789s)
+[2024.03.08-05.51.05:389][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.08-05.51.05:397][265]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-05.51.05:397][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-05.51.05:397][265]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.08-05.51.05:397][265]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2024.03.08-05.51.05:397][265]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.03.08-05.51.05:397][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.08-05.51.05:397][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.08-05.51.05:397][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.08-05.51.05:397][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.08-05.51.05:397][265]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.08-05.51.05:397][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.08-05.51.05:397][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.08-05.51.05:397][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.08-05.51.05:398][265]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.08-05.51.05:398][265]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.08-05.51.05:398][265]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.08-05.51.05:399][265]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.08-05.51.05:427][265]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.08-05.51.05:427][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.08-05.51.05:427][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.08-05.51.05:427][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.08-05.51.05:427][265]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.03.08-05.51.05:427][265]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.03.08-05.51.05:429][265]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.03.08-05.51.05:429][265]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.03.08-05.51.05:429][265]LogInit: FAudioDevice initialized with ID 21.
+[2024.03.08-05.51.05:429][265]LogAudio: Display: Audio Device (ID: 21) registered with world 'L_Pluto'.
+[2024.03.08-05.51.05:429][265]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.03.08-05.51.05:432][265]LogLoad: Game class is 'BP_PlutoGameMode_C'
+[2024.03.08-05.51.05:433][265]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.08-16.51.05
+[2024.03.08-05.51.05:434][265]LogWorld: Bringing up level for play took: 0.001770
+[2024.03.08-05.51.05:436][265]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.03.08-05.51.05:439][265]LogLevelSequence: Starting new camera cut: 'CineCameraActor_2'
+[2024.03.08-05.51.05:439][265]PIE: Server logged in
+[2024.03.08-05.51.05:440][265]PIE: Play in editor total start time 0.069 seconds.
+[2024.03.08-05.51.10:309][469]LogLevelSequence: Starting new camera cut: 'BP_Isometric_Character_C_0'
+[2024.03.08-05.51.10:327][469]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.51.10:368][471]LogActor: Warning: SkeletalMeshActor_1 is outside the world bounds!
+[2024.03.08-05.51.12:558][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.08-05.51.12:558][556]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.08-05.51.12:558][556]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-05.51.12:559][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-05.51.12:561][556]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.08-05.51.12:565][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-05.51.12:575][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.08-05.51.12:575][556]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.03.08-05.51.12:575][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.03.08-05.51.12:577][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.03.08-05.51.12:590][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.03.08-05.51.12:643][557]LogPlayLevel: Display: Destroying online subsystem :Context_33
