@@ -10632,3 +10632,79 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.08-05.51.12:577][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
 [2024.03.08-05.51.12:590][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
 [2024.03.08-05.51.12:643][557]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.03.08-05.51.40:708][162]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/Pluto/BP_Isometric_Character.BP_Isometric_Character
+[2024.03.08-05.51.40:708][162]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-05.51.40:708][162]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-05.51.41:093][164]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-05.52.08:564][926]BlueprintLog: New page: Compile BP_Isometric_Character
+[2024.03.08-05.52.08:603][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.08-05.52.09:912][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-05.52.09:960][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-05.52.10:021][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/BP_Isometric_Character" FILE="../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Content/Levels/Pluto/BP_Isometric_Character.uasset" SILENT=true
+[2024.03.08-05.52.10:042][ 22]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/BP_Isometric_Character
+[2024.03.08-05.52.10:043][ 22]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Saved/BP_Isometric_Character2E7B196B4EF89293A12FEA8D2E489FFF.tmp' to '../../../../../Users/1028560/Desktop/Trip/SpaceTrip/Content/Levels/Pluto/BP_Isometric_Character.uasset'
+[2024.03.08-05.52.10:048][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 3.18 sec)
+[2024.03.08-05.52.10:050][ 22]AssetCheck: New page: Asset Save: BP_Isometric_Character
+[2024.03.08-05.52.10:050][ 22]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/Pluto/BP_Isometric_Character.BP_Isometric_Character
+[2024.03.08-05.52.11:137][ 59]LogSlate: Window 'BP_Isometric_Character' being destroyed
+[2024.03.08-05.52.11:140][ 59]LogSlate: Window 'BP_Isometric_Character' being destroyed
+[2024.03.08-05.52.11:158][ 59]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-05.52.11:158][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-05.52.12:330][107]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.08-05.52.12:372][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.08-05.52.12:372][107]PIE: New page: PIE session: L_Pluto (9 Mar 2024, 3:52:12 am)
+[2024.03.08-05.52.12:372][107]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.08-05.52.12:376][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003686s)
+[2024.03.08-05.52.12:376][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.003711s)
+[2024.03.08-05.52.12:389][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.08-05.52.12:396][107]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-05.52.12:396][107]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-05.52.12:396][107]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.08-05.52.12:396][107]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2024.03.08-05.52.12:397][107]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.03.08-05.52.12:397][107]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.08-05.52.12:397][107]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.08-05.52.12:397][107]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.08-05.52.12:397][107]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.08-05.52.12:397][107]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.08-05.52.12:397][107]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.08-05.52.12:397][107]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.08-05.52.12:397][107]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.08-05.52.12:397][107]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.08-05.52.12:397][107]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.08-05.52.12:397][107]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.08-05.52.12:399][107]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.08-05.52.12:426][107]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.08-05.52.12:426][107]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.08-05.52.12:426][107]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.08-05.52.12:426][107]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.08-05.52.12:427][107]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.03.08-05.52.12:427][107]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.03.08-05.52.12:428][107]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.03.08-05.52.12:428][107]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.03.08-05.52.12:428][107]LogInit: FAudioDevice initialized with ID 22.
+[2024.03.08-05.52.12:428][107]LogAudio: Display: Audio Device (ID: 22) registered with world 'L_Pluto'.
+[2024.03.08-05.52.12:428][107]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.03.08-05.52.12:431][107]LogLoad: Game class is 'BP_PlutoGameMode_C'
+[2024.03.08-05.52.12:433][107]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.08-16.52.12
+[2024.03.08-05.52.12:433][107]LogWorld: Bringing up level for play took: 0.001767
+[2024.03.08-05.52.12:435][107]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.03.08-05.52.12:438][107]LogLevelSequence: Starting new camera cut: 'CineCameraActor_2'
+[2024.03.08-05.52.12:438][107]PIE: Server logged in
+[2024.03.08-05.52.12:439][107]PIE: Play in editor total start time 0.068 seconds.
+[2024.03.08-05.52.17:324][310]LogLevelSequence: Starting new camera cut: 'BP_Isometric_Character_C_0'
+[2024.03.08-05.52.17:344][310]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.08-05.52.17:387][312]LogActor: Warning: SkeletalMeshActor_1 is outside the world bounds!
+[2024.03.08-05.52.20:877][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.08-05.52.20:877][448]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.08-05.52.20:878][448]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-05.52.20:879][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-05.52.20:881][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.08-05.52.20:885][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-05.52.20:896][448]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.08-05.52.20:896][448]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.03.08-05.52.20:896][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.03.08-05.52.20:898][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.03.08-05.52.20:902][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.08-05.52.20:911][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.03.08-05.52.20:963][449]LogPlayLevel: Display: Destroying online subsystem :Context_37
