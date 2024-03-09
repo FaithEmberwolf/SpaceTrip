@@ -2734,3 +2734,372 @@ Are you sure you want to proceed?
 [2024.03.09-04.45.26:006][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 343 ms (total: 9.32 sec)
 [2024.03.09-04.45.26:011][870]AssetCheck: New page: Asset Save: L_Spaceship
 [2024.03.09-04.45.26:011][870]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship
+[2024.03.09-04.47.04:670][758]LogContentBrowser: Deferred new asset file creation: TEst1
+[2024.03.09-04.47.04:690][758]LogContentBrowser: Creating deferred item: TEst1
+[2024.03.09-04.47.04:718][759]LogContentBrowser: Renaming the item being created (Deferred Item: TEst1).
+[2024.03.09-04.47.07:256][912]LogContentBrowser: Attempting asset rename: TEst1 -> Saturn
+[2024.03.09-04.47.07:284][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.03.09-04.47.07:299][912]LogContentBrowser: End creating deferred item TEst1
+[2024.03.09-04.47.10:312][ 32]LogContentBrowser: Deferred new asset file creation: Saturn1
+[2024.03.09-04.47.10:344][ 32]LogContentBrowser: Creating deferred item: Saturn1
+[2024.03.09-04.47.10:390][ 33]LogContentBrowser: Renaming the item being created (Deferred Item: Saturn1).
+[2024.03.09-04.47.22:749][749]LogContentBrowser: Attempting asset rename: Saturn1 -> BP_SaturnInfo
+[2024.03.09-04.47.22:772][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.03.09-04.47.22:784][749]LogContentBrowser: End creating deferred item Saturn1
+[2024.03.09-04.47.28:882][ 74]LogContentBrowser: Attempting asset rename: Saturn -> BP_MarsInfo
+[2024.03.09-04.47.28:924][ 74]LogMetaData: Removing '/Game/Levels/BP_MarsInfo.SKEL_BP_MarsInfo_C' ref from Metadata '/Game/Levels/Saturn.PackageMetaData'
+[2024.03.09-04.47.28:924][ 74]LogMetaData: Removing '/Game/Levels/BP_MarsInfo.BP_MarsInfo_C' ref from Metadata '/Game/Levels/Saturn.PackageMetaData'
+[2024.03.09-04.47.28:924][ 74]LogMetaData: Removing '/Game/Levels/BP_MarsInfo.SKEL_BP_MarsInfo_C:PreConstruct' ref from Metadata '/Game/Levels/Saturn.PackageMetaData'
+[2024.03.09-04.47.28:924][ 74]LogMetaData: Removing '/Game/Levels/BP_MarsInfo.SKEL_BP_MarsInfo_C:Construct' ref from Metadata '/Game/Levels/Saturn.PackageMetaData'
+[2024.03.09-04.47.28:924][ 74]LogMetaData: Removing '/Game/Levels/BP_MarsInfo.SKEL_BP_MarsInfo_C:Tick' ref from Metadata '/Game/Levels/Saturn.PackageMetaData'
+[2024.03.09-04.47.28:926][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-04.47.28:971][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_MarsInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_MarsInfo.uasset" SILENT=true
+[2024.03.09-04.47.28:978][ 74]LogSavePackage: Moving output files for package: /Game/Levels/BP_MarsInfo
+[2024.03.09-04.47.28:978][ 74]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_MarsInfo7489CB3C4F0964301398BE8210BD6D1B.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_MarsInfo.uasset'
+[2024.03.09-04.47.29:003][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 9.39 sec)
+[2024.03.09-04.47.29:036][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.03.09-04.47.29:058][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.03.09-04.47.29:077][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.09-04.47.29:079][ 74]AssetCheck: New page: Asset Save: BP_MarsInfo
+[2024.03.09-04.47.29:079][ 74]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_MarsInfo.BP_MarsInfo
+[2024.03.09-04.47.41:699][779]LogContentBrowser: Attempting asset rename: TEst -> BP_JupiterInfo
+[2024.03.09-04.47.41:741][779]LogMetaData: Removing '/Game/Levels/BP_JupiterInfo.SKEL_BP_JupiterInfo_C' ref from Metadata '/Game/Levels/TEst.PackageMetaData'
+[2024.03.09-04.47.41:741][779]LogMetaData: Removing '/Game/Levels/BP_JupiterInfo.BP_JupiterInfo_C' ref from Metadata '/Game/Levels/TEst.PackageMetaData'
+[2024.03.09-04.47.41:741][779]LogMetaData: Removing '/Game/Levels/BP_JupiterInfo.BP_JupiterInfo:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Levels/TEst.PackageMetaData'
+[2024.03.09-04.47.41:741][779]LogMetaData: Removing '/Game/Levels/BP_JupiterInfo.BP_JupiterInfo:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Levels/TEst.PackageMetaData'
+[2024.03.09-04.47.41:741][779]LogMetaData: Removing '/Game/Levels/BP_JupiterInfo.BP_JupiterInfo:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Levels/TEst.PackageMetaData'
+[2024.03.09-04.47.41:741][779]LogMetaData: Removing '/Game/Levels/BP_JupiterInfo.SKEL_BP_JupiterInfo_C:PreConstruct' ref from Metadata '/Game/Levels/TEst.PackageMetaData'
+[2024.03.09-04.47.41:741][779]LogMetaData: Removing '/Game/Levels/BP_JupiterInfo.SKEL_BP_JupiterInfo_C:Construct' ref from Metadata '/Game/Levels/TEst.PackageMetaData'
+[2024.03.09-04.47.41:741][779]LogMetaData: Removing '/Game/Levels/BP_JupiterInfo.SKEL_BP_JupiterInfo_C:Tick' ref from Metadata '/Game/Levels/TEst.PackageMetaData'
+[2024.03.09-04.47.41:809][779]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-04.47.41:852][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SpaceLevel/BP_PlanetInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/SpaceLevel/BP_PlanetInfo.uasset" SILENT=true
+[2024.03.09-04.47.41:858][779]LogSavePackage: Moving output files for package: /Game/Levels/SpaceLevel/BP_PlanetInfo
+[2024.03.09-04.47.41:859][779]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_PlanetInfoC65F159C4C5FF8A53CE8B290F381B87A.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/SpaceLevel/BP_PlanetInfo.uasset'
+[2024.03.09-04.47.41:860][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_JupiterInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_JupiterInfo.uasset" SILENT=true
+[2024.03.09-04.47.41:867][779]LogSavePackage: Moving output files for package: /Game/Levels/BP_JupiterInfo
+[2024.03.09-04.47.41:867][779]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_JupiterInfoE67269C54CE36A1045A0E3AAF96A5E1E.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_JupiterInfo.uasset'
+[2024.03.09-04.47.41:891][779]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 9.48 sec)
+[2024.03.09-04.47.41:924][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.03.09-04.47.41:946][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.03.09-04.47.41:967][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.03.09-04.47.41:971][779]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.09-04.47.41:971][779]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/SpaceLevel/BP_PlanetInfo.BP_PlanetInfo
+[2024.03.09-04.47.41:971][779]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_JupiterInfo.BP_JupiterInfo
+[2024.03.09-04.48.02:383][803]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-04.48.02:838][803]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-04.48.02:838][803]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.09-04.48.02:839][803]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.09-04.48.02:839][803]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.09-04.48.02:899][803]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.03.09-04.48.02:899][803]LogWorldPartition: Display: WorldPartition initialize took 60 ms (total: 170 ms)
+[2024.03.09-04.48.02:978][803]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Levels/Pluto/plutotest) ...
+[2024.03.09-04.48.02:992][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-04.48.02:996][803]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/RW/K3OC1GN4KSRIIM25NUXCD9
+[2024.03.09-04.48.02:997][803]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/K3OC1GN4KSRIIM25NUXCD910CDEEDD4D2B715B8A418D9FCAFABD6B.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/RW/K3OC1GN4KSRIIM25NUXCD9.uasset'
+[2024.03.09-04.48.03:003][803]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/PW/ZXTEW9GVVL6CDYN7Q9SC48
+[2024.03.09-04.48.03:004][803]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/ZXTEW9GVVL6CDYN7Q9SC4888661B2847B20E8211E821BC88B54F1E.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/PW/ZXTEW9GVVL6CDYN7Q9SC48.uasset'
+[2024.03.09-04.48.03:081][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/plutotest" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/Pluto/plutotest.uasset" SILENT=true
+[2024.03.09-04.48.03:099][803]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/plutotest
+[2024.03.09-04.48.03:100][803]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/plutotest7146A84D4553D5188F274F98DCF318F8.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/Pluto/plutotest.uasset'
+[2024.03.09-04.48.03:116][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/rock" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/Pluto/rock.uasset" SILENT=true
+[2024.03.09-04.48.03:126][803]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/rock
+[2024.03.09-04.48.03:127][803]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/rock4E8782F143299492111A3CB49F809672.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/Pluto/rock.uasset'
+[2024.03.09-04.48.03:130][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/Snow" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/Pluto/Snow.uasset" SILENT=true
+[2024.03.09-04.48.03:131][803]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/Snow
+[2024.03.09-04.48.03:133][803]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/Snow3D67D6FF4B73ABCC036C2C87CC606606.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/Pluto/Snow.uasset'
+[2024.03.09-04.48.03:135][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pluto/floor" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/Pluto/floor.uasset" SILENT=true
+[2024.03.09-04.48.03:137][803]LogSavePackage: Moving output files for package: /Game/Levels/Pluto/floor
+[2024.03.09-04.48.03:138][803]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/floor1C9F592F4CFE225A20430CBD0712772A.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/Pluto/floor.uasset'
+[2024.03.09-04.48.03:142][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 9.62 sec)
+[2024.03.09-04.48.03:228][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2024.03.09-04.48.03:835][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.03.09-04.48.03:858][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2024.03.09-04.48.03:880][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.03.09-04.48.03:911][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.03.09-04.48.03:929][803]LogAssetRegistry: Warning: C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels\Pluto\Snow.uasset: package was marked as deleted in editor, but has been modified on disk. It will once again be returned from AssetRegistry queries.
+[2024.03.09-04.48.03:930][803]LogAssetRegistry: Warning: C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels\Pluto\floor.uasset: package was marked as deleted in editor, but has been modified on disk. It will once again be returned from AssetRegistry queries.
+[2024.03.09-04.48.03:931][803]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.09-04.48.03:931][803]LogContentValidation: Display: Validating /Game/LogCollection/FactCollectData/Assets/Items/TestItem1.TestItem1_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.TestItem1_C_UAID_C87F5455CF0D35DF01_1393652975
+[2024.03.09-04.48.03:931][803]LogContentValidation: Display: Validating /Game/LogCollection/FactCollectData/Assets/Items/TestItem.TestItem_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.TestItem_C_UAID_C87F5455CF0DD5DE01_1792928079
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: ================================================
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: Total job queries 455, among them cache hits 322 (70.77%)
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: Tracking 133 distinct input hashes that result in 62 distinct outputs (46.62%)
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: RAM used: 294.62 KiB of 1.60 GiB budget. Usage: 0.02%
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: Shaders Compiled: 115
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: Jobs assigned 115, completed 115 (100%)
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: Average time worker was idle: 42.65 s
+[2024.03.09-04.48.03:983][803]LogShaderCompilers: Display: Time job spent in pending queue: average 0.47 s, longest 2.17 s
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Job execution time: average 1.06 s, max 3.18 s
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Job life time (pending + execution): average 1.54 s, max 3.18
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Shader code size: average 4.33 KiB, min 524 B, max 10.227 KiB
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 21.21 s
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Jobs were issued in 115 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Average processing rate: 5.42 jobs/sec
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Total thread time: 85.08 s
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Total thread preprocess time: 9.092 s
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Percentage time preprocessing: 10.69%
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Effective parallelization: 4.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.99 sec, max 1.14 sec, min 0.91 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    5 times, average 0.94 sec, max 1.12 sec, min 0.78 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 0.93 sec, max 0.99 sec, min 0.87 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.93 sec, max 1.05 sec, min 0.86 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.91 sec, max 1.04 sec, min 0.83 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.17% of total time (compiled    6 times, average 0.88 sec, max 1.15 sec, min 0.42 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.02% of total time (compiled    6 times, average 0.85 sec, max 1.11 sec, min 0.57 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 5.52% of total time (compiled    5 times, average 0.94 sec, max 1.12 sec, min 0.78 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 5.36% of total time (compiled    8 times, average 0.57 sec, max 0.64 sec, min 0.50 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.29% of total time (compiled    5 times, average 0.90 sec, max 1.07 sec, min 0.73 sec)
+[2024.03.09-04.48.03:984][803]LogShaderCompilers: Display: ================================================
+[2024.03.09-04.48.06:378][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.03.09-04.48.06:386][846]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-04.48.06:429][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_SaturnInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_SaturnInfo.uasset" SILENT=true
+[2024.03.09-04.48.06:435][846]LogSavePackage: Moving output files for package: /Game/Levels/BP_SaturnInfo
+[2024.03.09-04.48.06:435][846]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_SaturnInfo5AE674B24F0CAAC8ABE0DDAA047815D4.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_SaturnInfo.uasset'
+[2024.03.09-04.48.06:451][846]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 9.69 sec)
+[2024.03.09-04.48.06:454][846]AssetCheck: New page: Asset Save: BP_SaturnInfo
+[2024.03.09-04.48.06:454][846]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_SaturnInfo.BP_SaturnInfo
+[2024.03.09-04.48.17:256][350]LogContentBrowser: Deferred new asset file creation: BP_SaturnInfo1
+[2024.03.09-04.48.17:290][350]LogContentBrowser: Creating deferred item: BP_SaturnInfo1
+[2024.03.09-04.48.17:330][351]LogContentBrowser: Renaming the item being created (Deferred Item: BP_SaturnInfo1).
+[2024.03.09-04.48.22:324][651]LogContentBrowser: Attempting asset rename: BP_SaturnInfo1 -> BP_EarthInfo
+[2024.03.09-04.48.22:352][651]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.03.09-04.48.22:364][651]LogContentBrowser: End creating deferred item BP_SaturnInfo1
+[2024.03.09-04.48.25:217][782]LogContentBrowser: Deferred new asset file creation: BP_EarthInfo1
+[2024.03.09-04.48.25:248][782]LogContentBrowser: Creating deferred item: BP_EarthInfo1
+[2024.03.09-04.48.25:295][783]LogContentBrowser: Renaming the item being created (Deferred Item: BP_EarthInfo1).
+[2024.03.09-04.48.30:856][117]LogContentBrowser: Attempting asset rename: BP_EarthInfo1 -> BP_UranusInfo
+[2024.03.09-04.48.30:884][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.03.09-04.48.30:896][117]LogContentBrowser: End creating deferred item BP_EarthInfo1
+[2024.03.09-04.48.33:347][212]LogContentBrowser: Deferred new asset file creation: BP_UranusInfo1
+[2024.03.09-04.48.33:368][212]LogContentBrowser: Creating deferred item: BP_UranusInfo1
+[2024.03.09-04.48.33:388][213]LogContentBrowser: Renaming the item being created (Deferred Item: BP_UranusInfo1).
+[2024.03.09-04.48.39:617][572]LogContentBrowser: Attempting asset rename: BP_UranusInfo1 -> BP_PlutoInfo
+[2024.03.09-04.48.39:644][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.03.09-04.48.39:655][572]LogContentBrowser: End creating deferred item BP_UranusInfo1
+[2024.03.09-04.48.54:877][249]LogContentBrowser: Deferred new asset file creation: BP_PlutoInfo1
+[2024.03.09-04.48.54:908][249]LogContentBrowser: Creating deferred item: BP_PlutoInfo1
+[2024.03.09-04.48.54:948][250]LogContentBrowser: Renaming the item being created (Deferred Item: BP_PlutoInfo1).
+[2024.03.09-04.48.59:841][543]LogContentBrowser: Attempting asset rename: BP_PlutoInfo1 -> BP_MercuryInfo
+[2024.03.09-04.48.59:870][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.03.09-04.48.59:882][543]LogContentBrowser: End creating deferred item BP_PlutoInfo1
+[2024.03.09-04.49.03:892][704]LogContentBrowser: Deferred new asset file creation: BP_MarsInfo1
+[2024.03.09-04.49.03:927][704]LogContentBrowser: Creating deferred item: BP_MarsInfo1
+[2024.03.09-04.49.03:961][705]LogContentBrowser: Renaming the item being created (Deferred Item: BP_MarsInfo1).
+[2024.03.09-04.49.08:793][983]LogContentBrowser: Attempting asset rename: BP_MarsInfo1 -> BP_VenusInfo
+[2024.03.09-04.49.08:820][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.03.09-04.49.08:832][983]LogContentBrowser: End creating deferred item BP_MarsInfo1
+[2024.03.09-04.49.57:561][511]LogContentBrowser: Deferred new asset file creation: BP_JupiterInfo1
+[2024.03.09-04.49.57:593][511]LogContentBrowser: Creating deferred item: BP_JupiterInfo1
+[2024.03.09-04.49.57:625][512]LogContentBrowser: Renaming the item being created (Deferred Item: BP_JupiterInfo1).
+[2024.03.09-04.50.01:329][734]LogContentBrowser: Attempting asset rename: BP_JupiterInfo1 -> BP_NeptuneInfo
+[2024.03.09-04.50.01:357][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.03.09-04.50.01:372][734]LogContentBrowser: End creating deferred item BP_JupiterInfo1
+[2024.03.09-04.50.03:679][861]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Levels/BP_EarthInfo.BP_EarthInfo
+[2024.03.09-04.50.03:679][861]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-04.50.03:679][861]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-04.50.03:695][861]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-04.50.03:695][861]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-04.52.10:519][640]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.09-04.55.32:516][414]BlueprintLog: New page: Compile BP_EarthInfo
+[2024.03.09-04.55.32:554][414]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2024.03.09-04.55.34:537][486]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-04.55.34:589][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_EarthInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_EarthInfo.uasset" SILENT=true
+[2024.03.09-04.55.34:596][486]LogSavePackage: Moving output files for package: /Game/Levels/BP_EarthInfo
+[2024.03.09-04.55.34:597][486]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_EarthInfoF4342EF44A79915B78B05DB2A7BD5949.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_EarthInfo.uasset'
+[2024.03.09-04.55.34:613][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 9.77 sec)
+[2024.03.09-04.55.34:616][486]AssetCheck: New page: Asset Save: BP_EarthInfo
+[2024.03.09-04.55.34:616][486]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_EarthInfo.BP_EarthInfo
+[2024.03.09-04.55.37:274][593]LogSlate: Window 'BP_EarthInfo' being destroyed
+[2024.03.09-04.55.37:290][593]LogSlate: Window 'BP_EarthInfo' being destroyed
+[2024.03.09-04.55.37:303][593]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-04.55.37:303][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-04.55.37:345][593]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-04.55.37:345][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-04.55.52:369][343]LogContentBrowser: Deferred new asset file creation: BP_PlanetInfo1
+[2024.03.09-04.55.52:402][343]LogContentBrowser: Creating deferred item: BP_PlanetInfo1
+[2024.03.09-04.55.52:448][344]LogContentBrowser: Renaming the item being created (Deferred Item: BP_PlanetInfo1).
+[2024.03.09-04.55.53:563][415]LogContentBrowser: Attempting asset rename: BP_PlanetInfo1 -> BP_PlanetInfo1
+[2024.03.09-04.55.53:594][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2024.03.09-04.55.53:610][415]LogContentBrowser: End creating deferred item BP_PlanetInfo1
+[2024.03.09-04.55.58:542][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.03.09-04.56.00:311][654]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.09-04.56.00:353][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2024.03.09-04.56.00:377][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.03.09-04.56.00:398][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.03.09-04.56.02:211][752]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1
+[2024.03.09-04.56.02:211][752]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-04.56.02:211][752]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-04.56.13:510][166]BlueprintLog: New page: Compile BP_PlanetInfo1
+[2024.03.09-04.56.13:549][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.03.09-04.56.15:613][236]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-04.56.15:652][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SpaceLevel/BP_PlanetInfo1" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/SpaceLevel/BP_PlanetInfo1.uasset" SILENT=true
+[2024.03.09-04.56.15:657][236]LogSavePackage: Moving output files for package: /Game/Levels/SpaceLevel/BP_PlanetInfo1
+[2024.03.09-04.56.15:657][236]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_PlanetInfo1C4AAA6F24AC045EA8CAC00B9AAEF62EC.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/SpaceLevel/BP_PlanetInfo1.uasset'
+[2024.03.09-04.56.15:678][236]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 9.83 sec)
+[2024.03.09-04.56.15:681][236]AssetCheck: New page: Asset Save: BP_PlanetInfo1
+[2024.03.09-04.56.15:681][236]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1
+[2024.03.09-04.56.17:534][306]LogViewport: Scene viewport resized to 1440x876, mode Windowed.
+[2024.03.09-04.56.24:684][554]LogSlate: Window 'BP_PlanetInfo1' being destroyed
+[2024.03.09-04.56.24:704][554]LogSlate: Window 'BP_PlanetInfo1' being destroyed
+[2024.03.09-04.56.24:746][554]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-04.56.24:746][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-04.56.59:741][458]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1_C
+[2024.03.09-04.56.59:741][458]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1_C
+[2024.03.09-04.56.59:743][458]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1 as actor: BP_PlanetInfo1_C /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_PlanetInfo1_C_0
+[2024.03.09-04.56.59:745][458]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1 as actor: BP_PlanetInfo1_C /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_PlanetInfo1_C_0
+[2024.03.09-04.57.02:061][544]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1_C
+[2024.03.09-04.57.02:061][544]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1_C
+[2024.03.09-04.57.02:067][544]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1 as actor: BP_PlanetInfo1_C /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_PlanetInfo1_C_1
+[2024.03.09-04.57.02:069][544]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/SpaceLevel/BP_PlanetInfo1.BP_PlanetInfo1 as actor: BP_PlanetInfo1_C /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship:PersistentLevel.BP_PlanetInfo1_C_1
+[2024.03.09-04.57.42:405][643]LogEditorViewport: Clicking Background
+[2024.03.09-04.58.13:276][719]LogEditorViewport: Clicking Background
+[2024.03.09-04.58.15:601][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-04.58.15:648][902]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.03.09-04.58.15:653][902]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 4 ms
+[2024.03.09-04.58.15:653][902]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.09-04.58.15:654][902]LogPlayLevel: [PlayLevel] Compiling BP_PlanetInfo before play...
+[2024.03.09-04.58.15:672][902]LogPlayLevel: [PlayLevel] Compiling BP_SaturnInfo before play...
+[2024.03.09-04.58.15:722][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2024.03.09-04.58.15:731][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 77 ms (2 blueprints)
+[2024.03.09-04.58.15:731][902]PIE: New page: PIE session: L_Spaceship (10 Mar 2024, 2:58:15 am)
+[2024.03.09-04.58.15:731][902]LogPlayLevel: Creating play world package: /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.03.09-04.58.15:747][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015565s)
+[2024.03.09-04.58.15:747][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship to /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship (0.015619s)
+[2024.03.09-04.58.15:767][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2024.03.09-04.58.15:769][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-04.58.15:769][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-04.58.15:769][902]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.03.09-04.58.15:770][902]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2024.03.09-04.58.15:770][902]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.03.09-04.58.15:770][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-04.58.15:770][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-04.58.15:770][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-04.58.15:770][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-04.58.15:770][902]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.09-04.58.15:770][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-04.58.15:770][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.09-04.58.15:770][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-04.58.15:771][902]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-04.58.15:771][902]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-04.58.15:771][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-04.58.15:774][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-04.58.15:804][902]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-04.58.15:804][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-04.58.15:804][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-04.58.15:804][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-04.58.15:806][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.03.09-04.58.15:806][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.03.09-04.58.15:809][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.03.09-04.58.15:809][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.03.09-04.58.15:809][902]LogInit: FAudioDevice initialized with ID 4.
+[2024.03.09-04.58.15:809][902]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_Spaceship'.
+[2024.03.09-04.58.15:809][902]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.09-04.58.15:811][902]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.03.09-04.58.15:821][902]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.03.09-15.58.15
+[2024.03.09-04.58.15:822][902]LogWorld: Bringing up level for play took: 0.010497
+[2024.03.09-04.58.15:826][902]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.03.09-04.58.15:826][902]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2024.03.09-04.58.15:830][902]PIE: Server logged in
+[2024.03.09-04.58.15:831][902]PIE: Play in editor total start time 0.185 seconds.
+[2024.03.09-04.59.16:563][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-04.59.16:563][146]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.03.09-04.59.16:563][146]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-04.59.16:565][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-04.59.16:569][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-04.59.16:576][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-04.59.16:593][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-04.59.16:595][146]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.09-04.59.16:595][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.09-04.59.16:598][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.09-04.59.16:611][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2024.03.09-04.59.16:687][147]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.03.09-04.59.19:521][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.03.09-04.59.19:529][296]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-04.59.19:764][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.09-04.59.19:832][296]LogSavePackage: Moving output files for package: /Game/Levels/SpaceLevel/L_Spaceship
+[2024.03.09-04.59.19:833][296]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/L_Spaceship3578A9344C2454A7BE1DA1B4447F46BD.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/SpaceLevel/L_Spaceship.umap'
+[2024.03.09-04.59.19:871][296]LogFileHelpers: Saving map 'L_Spaceship' took 0.299
+[2024.03.09-04.59.19:874][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_UranusInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_UranusInfo.uasset" SILENT=true
+[2024.03.09-04.59.19:881][296]LogSavePackage: Moving output files for package: /Game/Levels/BP_UranusInfo
+[2024.03.09-04.59.19:881][296]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_UranusInfo9D0C38984F7D0BD9D16CA5BDC449434F.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_UranusInfo.uasset'
+[2024.03.09-04.59.19:889][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_PlutoInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_PlutoInfo.uasset" SILENT=true
+[2024.03.09-04.59.19:897][296]LogSavePackage: Moving output files for package: /Game/Levels/BP_PlutoInfo
+[2024.03.09-04.59.19:897][296]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_PlutoInfo0FEB92B149D221CE33F0D98CE9E12B00.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_PlutoInfo.uasset'
+[2024.03.09-04.59.19:904][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_MercuryInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_MercuryInfo.uasset" SILENT=true
+[2024.03.09-04.59.19:914][296]LogSavePackage: Moving output files for package: /Game/Levels/BP_MercuryInfo
+[2024.03.09-04.59.19:914][296]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_MercuryInfo59466A05476F06CEFC1514BFA5797D4B.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_MercuryInfo.uasset'
+[2024.03.09-04.59.19:925][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_VenusInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_VenusInfo.uasset" SILENT=true
+[2024.03.09-04.59.19:932][296]LogSavePackage: Moving output files for package: /Game/Levels/BP_VenusInfo
+[2024.03.09-04.59.19:932][296]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_VenusInfo18DCBA874283EE59B5BEF4BE755C69EA.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_VenusInfo.uasset'
+[2024.03.09-04.59.19:939][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BP_NeptuneInfo" FILE="C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_NeptuneInfo.uasset" SILENT=true
+[2024.03.09-04.59.19:946][296]LogSavePackage: Moving output files for package: /Game/Levels/BP_NeptuneInfo
+[2024.03.09-04.59.19:946][296]LogSavePackage: Moving 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Saved/BP_NeptuneInfo40EBD5BA47AE95D1466A8DAA6CAF6D34.tmp' to 'C:/Users/sneep/OneDrive/Desktop/Spacetrip/SpaceTrip/Content/Levels/BP_NeptuneInfo.uasset'
+[2024.03.09-04.59.19:967][296]LogFileHelpers: InternalPromptForCheckoutAndSave took 437 ms (total: 10.2 sec)
+[2024.03.09-04.59.19:977][296]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.09-04.59.19:977][296]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship
+[2024.03.09-04.59.19:977][296]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_UranusInfo.BP_UranusInfo
+[2024.03.09-04.59.19:978][296]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_PlutoInfo.BP_PlutoInfo
+[2024.03.09-04.59.19:978][296]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_MercuryInfo.BP_MercuryInfo
+[2024.03.09-04.59.19:979][296]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_VenusInfo.BP_VenusInfo
+[2024.03.09-04.59.19:979][296]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Levels/BP_NeptuneInfo.BP_NeptuneInfo
+[2024.03.09-04.59.44:705][163]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-04.59.44:743][163]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.03.09-04.59.44:746][163]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 6 ms)
+[2024.03.09-04.59.44:746][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-04.59.44:746][163]PIE: New page: PIE session: L_Spaceship (10 Mar 2024, 2:59:44 am)
+[2024.03.09-04.59.44:746][163]LogPlayLevel: Creating play world package: /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.03.09-04.59.44:762][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015971s)
+[2024.03.09-04.59.44:762][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/SpaceLevel/L_Spaceship.L_Spaceship to /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship (0.016033s)
+[2024.03.09-04.59.44:778][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.03.09-04.59.44:780][163]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-04.59.44:780][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-04.59.44:782][163]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.03.09-04.59.44:782][163]LogPlayLevel: PIE: World Init took: (0.001431s)
+[2024.03.09-04.59.44:782][163]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.03.09-04.59.44:782][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-04.59.44:782][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-04.59.44:782][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-04.59.44:782][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-04.59.44:782][163]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.09-04.59.44:782][163]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-04.59.44:782][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.09-04.59.44:782][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-04.59.44:783][163]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-04.59.44:783][163]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-04.59.44:783][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-04.59.44:786][163]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-04.59.44:815][163]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-04.59.44:816][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-04.59.44:816][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-04.59.44:816][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-04.59.44:817][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.03.09-04.59.44:817][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.03.09-04.59.44:820][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.03.09-04.59.44:820][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.03.09-04.59.44:820][163]LogInit: FAudioDevice initialized with ID 5.
+[2024.03.09-04.59.44:820][163]LogAudio: Display: Audio Device (ID: 5) registered with world 'L_Spaceship'.
+[2024.03.09-04.59.44:820][163]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.09-04.59.44:822][163]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.03.09-04.59.44:833][163]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.03.09-15.59.44
+[2024.03.09-04.59.44:833][163]LogWorld: Bringing up level for play took: 0.010812
+[2024.03.09-04.59.44:837][163]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.03.09-04.59.44:838][163]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2024.03.09-04.59.44:841][163]PIE: Server logged in
+[2024.03.09-04.59.44:842][163]PIE: Play in editor total start time 0.099 seconds.
+[2024.03.09-05.00.41:950][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-05.00.41:950][116]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.03.09-05.00.41:950][116]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-05.00.41:951][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-05.00.41:956][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-05.00.41:963][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-05.00.41:985][116]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.09-05.00.41:985][116]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.09-05.00.41:986][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.09-05.00.41:990][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.09-05.00.41:996][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-05.00.42:002][116]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.03.09-05.00.42:076][117]LogPlayLevel: Display: Destroying online subsystem :Context_20
