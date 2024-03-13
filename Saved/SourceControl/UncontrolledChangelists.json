@@ -1,3 +1,76 @@
+<<<<<<< HEAD
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2_Skeleton.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2_PhysicsAsset.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Mercury/L_Mercury.umap",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/BP_CharacterKitty.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Mercury/BLueprints/Answer.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Mercury/Meshs/Textures/up-arrow.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Mercury/Meshs/Textures/down-arrow.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Sun/Materials/Rock_Pack/Moving_Plat_M.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Earth/Materials/Fence/Material.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/StarterContent/Materials/M_Wood_Oak.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Mercury/Meshs/Textures/up-arrow__1_.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Mercury/Meshs/Textures/arrow.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Venus/L_Venus.umap",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Venus/SunDeath.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Venus/SunDuration.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/CatonautV2_Idle.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/CatonautV2_Walk.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/WalkBlend.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/BP_CharacterKitty.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/AB_Kitty.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/Idle_Anim02Idle_Anim.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Levels/Mercury/L_Mercury.umap",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Levels/Mercury/BLueprints/Answer.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Levels/Mercury/BLueprints/CubeCourseSetup.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/StarterContent/Materials/M_Concrete_Tiles.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/StarterContent/Props/Materials/M_StatueGlass.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/StarterContent/Materials/M_Water_Ocean.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/run_cycle01run_cycle.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/walk_cycle_30fwalk_cycle02.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/WalkBlend.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2_Idle.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2_Walk.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/AB_Kitty.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/Idle_Anim02Idle_Anim_PhysicsAsset.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/Idle_Anim02Idle_Anim_Skeleton.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/standardSurface1.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/Animations/Idle_Anim02Idle_Anim_Anim.uasset",
+				"C:/3D Project Work/Unity Projects/SpaceTrip/Content/Characters/SpaceKitty/standardSurface1.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/standardSurface1.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKay/CatonautV2.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKay/CatonautV2_PhysicsAsset.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKay/CatonautV2_Skeleton.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKay/standardSurface1.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/TestWalk.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2_Walk.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/Walk.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2_Skeleton_Sequence.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2_Idle.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/NewBlendSpace1D.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/TestWalk/Driving_TestWalk.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/CatonautV2_Skeleton_Sequence/Driving_CatonautV2_Skeleton_Sequence.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/WalkBlend.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/BP_CharacterKitty.uasset",
+				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/AB_Kitty.uasset"
+			]
+		}
+	]
+=======
 {
 	"version": 1,
 	"changelists": [
@@ -135,4 +208,5 @@
 			]
 		}
 	]
+>>>>>>> Main
 }
