@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/1028560/Desktop/Space Game/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Uranus.uasset",
+				"C:/Users/1028560/Desktop/Space Game/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mercury.uasset",
+				"C:/Users/1028560/Desktop/Space Game/SpaceTrip/Content/Levels/SpaceLevel/Blueprints/BP_TeleportLevel_Mars.uasset",
+				"C:/Users/1028560/Desktop/Space Game/SpaceTrip/Content/Levels/Pluto/L_Pluto.umap",
+				"C:/Users/1028560/Desktop/Space Game/SpaceTrip/Content/Levels/SpaceLevel/NS_Thruster1.uasset",
 				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Characters/SpaceKitty/BP_CharacterKitty.uasset",
 				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/Levels/Jupiter/BP_JupiterCharacter1.uasset",
 				"C:/Users/1030655/Documents/GitHub/SpaceTrip/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
