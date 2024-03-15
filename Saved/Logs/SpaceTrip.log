@@ -2343,3 +2343,231 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.15-00.36.28:744][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 545 ms (total: 1.21 sec)
 [2024.03.15-00.36.28:749][884]AssetCheck: New page: Asset Save: L_Jupiter
 [2024.03.15-00.36.28:749][884]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 0 (Found bundle for host: 0x465e5160150 [serially])
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 6 (Closing connection)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 9 (  Trying 54.146.55.238:443...)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.146.55.238) port 443)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 34 (Closing connection)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: 00000466790C6400: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.37.02:143][ 18]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-00.38.10:332][807]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-00.38.10:386][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-00.38.10:386][807]PIE: New page: PIE session: L_Jupiter (15 Mar 2024, 10:38:10 pm)
+[2024.03.15-00.38.10:413][807]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.03.15-00.38.10:457][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044359s)
+[2024.03.15-00.38.10:457][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.044392s)
+[2024.03.15-00.38.10:470][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.03.15-00.38.10:472][807]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.38.10:472][807]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.38.10:472][807]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.03.15-00.38.10:472][807]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2024.03.15-00.38.10:473][807]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.03.15-00.38.10:473][807]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-00.38.10:473][807]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-00.38.10:473][807]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-00.38.10:473][807]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-00.38.10:473][807]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.15-00.38.10:473][807]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-00.38.10:473][807]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.15-00.38.10:473][807]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-00.38.10:473][807]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-00.38.10:473][807]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-00.38.10:473][807]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-00.38.10:475][807]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-00.38.10:502][807]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.15-00.38.10:502][807]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-00.38.10:502][807]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-00.38.10:502][807]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-00.38.10:502][807]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.03.15-00.38.10:502][807]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.03.15-00.38.10:504][807]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.03.15-00.38.10:504][807]LogInit: FAudioDevice initialized with ID 12.
+[2024.03.15-00.38.10:504][807]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.03.15-00.38.10:504][807]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_Jupiter'.
+[2024.03.15-00.38.10:504][807]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.15-00.38.10:505][807]LogLoad: Game class is 'BP_Jupiter_GameMode_C'
+[2024.03.15-00.38.10:511][807]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.03.15-11.38.10
+[2024.03.15-00.38.10:707][807]LogWorld: Bringing up level for play took: 0.201428
+[2024.03.15-00.38.10:708][807]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.03.15-00.38.10:711][807]PIE: Server logged in
+[2024.03.15-00.38.10:712][807]PIE: Play in editor total start time 0.326 seconds.
+[2024.03.15-00.38.44:559][815]LogNet: Browse: /Game/Levels/SpaceLevel/L_Spaceship
+[2024.03.15-00.38.44:559][815]LogLoad: LoadMap: /Game/Levels/SpaceLevel/L_Spaceship
+[2024.03.15-00.38.44:559][815]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.03.15-00.38.44:560][815]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.38.44:563][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.38.44:618][815]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.15-00.38.44:623][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.15-00.38.44:637][815]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_Spaceship'.
+[2024.03.15-00.38.44:637][815]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.38.44:637][815]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.38.44:637][815]LogAIModule: Creating AISystem for world L_Spaceship
+[2024.03.15-00.38.44:638][815]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2024.03.15-00.38.44:638][815]LogLoad: Game class is 'GM_Spaceship_C'
+[2024.03.15-00.38.44:646][815]LogWorld: Bringing World /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship.L_Spaceship up for play (max tick rate 0) at 2024.03.15-11.38.44
+[2024.03.15-00.38.44:646][815]LogWorld: Bringing up level for play took: 0.008279
+[2024.03.15-00.38.44:646][815]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2024.03.15-00.38.44:648][815]LogLoad: Took 0.089086 seconds to LoadMap(/Game/Levels/SpaceLevel/L_Spaceship)
+[2024.03.15-00.38.58:799][508]LogNet: Browse: /Game/Levels/Uranus/Uranus
+[2024.03.15-00.38.58:799][508]LogLoad: LoadMap: /Game/Levels/Uranus/Uranus
+[2024.03.15-00.38.58:799][508]LogWorld: BeginTearingDown for /Game/Levels/SpaceLevel/UEDPIE_0_L_Spaceship
+[2024.03.15-00.38.58:809][508]LogWorld: UWorld::CleanupWorld for L_Spaceship, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.38.58:809][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.38.58:864][508]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.15-00.38.58:868][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.03.15-00.38.58:928][508]LogAudio: Display: Audio Device (ID: 12) registered with world 'Uranus'.
+[2024.03.15-00.38.58:928][508]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.38.58:928][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.38.58:928][508]LogAIModule: Creating AISystem for world Uranus
+[2024.03.15-00.38.58:929][508]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2024.03.15-00.38.58:931][508]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_B7583279.Extrude_B7583279 being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_9CB1AA5D.Extrude_9CB1AA5D being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_9B4F5C29.Extrude_9B4F5C29 being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_6F9F103B.Extrude_6F9F103B being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_6202A86E.Extrude_6202A86E being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_553E8BDA.Extrude_553E8BDA being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_35544F06.Extrude_35544F06 being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_245FEA4C.Extrude_245FEA4C being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_1B9397AC.Extrude_1B9397AC being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_0EB166A2.Extrude_0EB166A2 being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_0E0BC661.Extrude_0E0BC661 being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Levels/Uranus/_GENERATED/Roxee/Extrude_0DD7BF7C.Extrude_0DD7BF7C being ready before playing
+[2024.03.15-00.38.58:932][508]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/MapTemplates/Sky/SM_SkySphere.SM_SkySphere being ready before playing
+[2024.03.15-00.38.58:947][508]LogWorld: Bringing World /Game/Levels/Uranus/UEDPIE_0_Uranus.Uranus up for play (max tick rate 0) at 2024.03.15-11.38.58
+[2024.03.15-00.38.58:947][508]LogWorld: Bringing up level for play took: 0.014320
+[2024.03.15-00.38.58:949][508]LogLoad: Took 0.149754 seconds to LoadMap(/Game/Levels/Uranus/Uranus)
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: ================================================
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Total job queries 257, among them cache hits 123 (47.86%)
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Tracking 70 distinct input hashes that result in 43 distinct outputs (61.43%)
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: RAM used: 202.19 KiB of 1.60 GiB budget. Usage: 0.01%
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Shaders Compiled: 70
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Jobs assigned 70, completed 70 (100%)
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Average time worker was idle: 145.91 s
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Time job spent in pending queue: average 0.21 s, longest 0.94 s
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Job execution time: average 0.50 s, max 1.81 s
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Job life time (pending + execution): average 0.71 s, max 2.13
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Shader code size: average 5.239 KiB, min 544 B, max 28.898 KiB
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.23 s
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Jobs were issued in 70 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Average processing rate: 8.51 jobs/sec
+[2024.03.15-00.38.59:535][542]LogShaderCompilers: Display: Total thread time: 20.92 s
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display: Total thread preprocess time: 2.352 s
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display: Percentage time preprocessing: 11.24%
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display: Effective parallelization: 2.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    7 times, average 0.54 sec, max 1.47 sec, min 0.33 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                                                FMeshDecalsVS (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   16 times, average 0.36 sec, max 0.54 sec, min 0.23 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 0.34 sec, max 0.52 sec, min 0.20 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   12 times, average 0.32 sec, max 0.42 sec, min 0.24 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.82% of total time (compiled   16 times, average 0.36 sec, max 0.54 sec, min 0.23 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.46% of total time (compiled   15 times, average 0.34 sec, max 0.52 sec, min 0.20 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.12% of total time (compiled   12 times, average 0.32 sec, max 0.42 sec, min 0.24 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 17.99% of total time (compiled    7 times, average 0.54 sec, max 1.47 sec, min 0.33 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.88% of total time (compiled   12 times, average 0.12 sec, max 0.16 sec, min 0.09 sec)
+[2024.03.15-00.38.59:536][542]LogShaderCompilers: Display: ================================================
+[2024.03.15-00.40.52:980][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.40.52:980][428]LogWorld: BeginTearingDown for /Game/Levels/Uranus/UEDPIE_0_Uranus
+[2024.03.15-00.40.52:980][428]LogWorld: UWorld::CleanupWorld for Uranus, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.40.52:981][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.40.52:983][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-00.40.52:987][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.40.52:998][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.40.52:998][428]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.15-00.40.52:999][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.15-00.40.53:000][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.15-00.40.53:007][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.15-00.40.53:113][429]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 0 (Found bundle for host: 0x465e5160e70 [serially])
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 6 (Closing connection)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 9 (  Trying 3.221.151.99:443...)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.221.151.99) port 443)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 34 (Closing connection)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: 000004667F4FE600: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.41.02:030][860]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-00.41.13:694][382]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:699][382]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:727][383]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:733][383]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:761][384]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:767][384]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:793][385]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:799][385]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:828][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.13:834][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.41.20:601][668]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.15-00.41.29:093][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.03.15-00.41.29:098][947]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-00.41.29:344][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.15-00.41.29:585][947]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/L_Jupiter
+[2024.03.15-00.41.29:586][947]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/Space Game/SpaceTrip/Saved/L_JupiterA4780C6441BCD7F206B6BC9A2B744990.tmp' to '../../../../../Users/1028560/Desktop/Space Game/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap'
+[2024.03.15-00.41.29:628][947]LogFileHelpers: Saving map 'L_Jupiter' took 0.479
+[2024.03.15-00.41.29:641][947]LogFileHelpers: InternalPromptForCheckoutAndSave took 543 ms (total: 1.75 sec)
+[2024.03.15-00.41.29:646][947]AssetCheck: New page: Asset Save: L_Jupiter
+[2024.03.15-00.41.29:646][947]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
