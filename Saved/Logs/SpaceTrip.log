@@ -1600,3 +1600,602 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.15-00.22.20:457][745]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
 [2024.03.15-00.22.20:478][746]LogPlayLevel: Display: Destroying online subsystem :Context_8
 [2024.03.15-00.22.25:251][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 0 (Found bundle for host: 0x465e5160ab0 [serially])
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 6 (Closing connection)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 9 (  Trying 3.216.244.230:443...)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.216.244.230) port 443)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 34 (Closing connection)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: 000004667A1C4B00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.24.02:481][193]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-00.24.19:382][272]LogEditorViewport: Clicking Background
+[2024.03.15-00.24.21:408][352]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.24.22:936][416]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.24.22:968][416]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.24.22:976][416]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.24.23:012][417]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.24.24:305][472]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-00.24.24:364][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-00.24.24:364][472]PIE: New page: PIE session: L_Pluto (15 Mar 2024, 10:24:24 pm)
+[2024.03.15-00.24.24:364][472]LogPlayLevel: Creating play world package: /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.15-00.24.24:368][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003976s)
+[2024.03.15-00.24.24:368][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pluto/L_Pluto.L_Pluto to /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto (0.004004s)
+[2024.03.15-00.24.24:372][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.15-00.24.24:376][472]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.24.24:376][472]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.24.24:377][472]LogAIModule: Creating AISystem for world L_Pluto
+[2024.03.15-00.24.24:377][472]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2024.03.15-00.24.24:377][472]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.03.15-00.24.24:377][472]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-00.24.24:377][472]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-00.24.24:377][472]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-00.24.24:377][472]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-00.24.24:377][472]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.15-00.24.24:377][472]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-00.24.24:377][472]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.15-00.24.24:377][472]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-00.24.24:377][472]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-00.24.24:377][472]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-00.24.24:377][472]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-00.24.24:379][472]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-00.24.24:405][472]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.15-00.24.24:406][472]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-00.24.24:406][472]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-00.24.24:406][472]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-00.24.24:406][472]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.03.15-00.24.24:406][472]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.03.15-00.24.24:407][472]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.03.15-00.24.24:407][472]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.03.15-00.24.24:407][472]LogInit: FAudioDevice initialized with ID 7.
+[2024.03.15-00.24.24:407][472]LogAudio: Display: Audio Device (ID: 7) registered with world 'L_Pluto'.
+[2024.03.15-00.24.24:407][472]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.15-00.24.24:408][472]LogLoad: Game class is 'BP_PlutoGameMode_C'
+[2024.03.15-00.24.24:410][472]LogWorld: Bringing World /Game/Levels/Pluto/UEDPIE_0_L_Pluto.L_Pluto up for play (max tick rate 0) at 2024.03.15-11.24.24
+[2024.03.15-00.24.24:410][472]LogWorld: Bringing up level for play took: 0.001834
+[2024.03.15-00.24.24:412][472]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.03.15-00.24.24:414][472]LogLevelSequence: Starting new camera cut: 'CineCameraActor_2'
+[2024.03.15-00.24.24:414][472]PIE: Server logged in
+[2024.03.15-00.24.24:415][472]PIE: Play in editor total start time 0.051 seconds.
+[2024.03.15-00.24.24:431][473]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.24.24:452][474]LogActor: Warning: SkeletalMeshActor_1 is outside the world bounds!
+[2024.03.15-00.24.29:287][721]LogLevelSequence: Starting new camera cut: 'BP_CharacterKitty_C_0'
+[2024.03.15-00.25.01:250][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.25.01:250][161]LogWorld: BeginTearingDown for /Game/Levels/Pluto/UEDPIE_0_L_Pluto
+[2024.03.15-00.25.01:250][161]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.25.01:251][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.25.01:254][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-00.25.01:256][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.25.01:259][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.25.01:259][161]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.15-00.25.01:259][161]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.03.15-00.25.01:261][161]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.03.15-00.25.01:274][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.15-00.25.01:367][162]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.03.15-00.25.01:389][162]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.01:412][162]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.01:483][163]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.02:642][211]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.03:356][241]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.03:402][243]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.03:448][245]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.03:474][246]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.03:527][248]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.03:718][256]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.03:788][259]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:025][269]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:097][272]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:240][278]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:264][279]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:335][282]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:385][284]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:479][288]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:549][291]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:620][294]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:643][295]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:763][300]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.04:832][303]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:029][312]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:064][312]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:071][312]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:109][313]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:116][313]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:153][314]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:179][315]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:275][319]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:320][321]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:366][323]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:373][323]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:410][324]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:417][324]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:456][325]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:505][327]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:624][332]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:669][334]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:812][340]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.05:909][344]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:000][348]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:051][350]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:098][352]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:190][356]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:305][361]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:354][363]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:503][369]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:603][373]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:697][377]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:744][379]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:791][381]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:798][381]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:837][382]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.06:916][385]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:038][390]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:090][392]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:238][398]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:335][402]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:429][406]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:479][408]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:527][410]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:625][414]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:748][419]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:794][421]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.07:946][427]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.11:466][564]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.11:780][577]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.11:804][578]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.11:826][579]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.14:542][692]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.14:665][697]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.14:839][704]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.14:909][707]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.15:097][715]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.15:433][729]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.15:456][730]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.15:578][735]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.15:895][748]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.15:992][752]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:327][766]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:373][768]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:517][774]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:587][777]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:662][780]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:708][782]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:731][783]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:754][784]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:777][785]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:822][787]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.16:898][790]LogUnrealMath: Error: TMatrix<T>::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
+[2024.03.15-00.25.36:286][533]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.25.55:776][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.15-00.25.55:897][275]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave 399782__levelclearer__dawn90000222...
+[2024.03.15-00.25.55:897][275]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave 135035__mrlindstrom__oncomingstorm...
+[2024.03.15-00.25.55:911][275]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.25.55:944][275]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
+[2024.03.15-00.25.55:944][275]Cmd: MAP LOAD FILE="../../../../../Users/1028560/Desktop/Space Game/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.15-00.25.55:945][275]LightingResults: New page: Lighting Build
+[2024.03.15-00.25.55:945][275]LoadErrors: New page: Loading map: L_Jupiter.umap
+[2024.03.15-00.25.55:945][275]LogAudio: Display: Chunk sizes for SoundWave /Game/Levels/Pluto/_GENERATED/399782__levelclearer__dawn90000222.399782__levelclearer__dawn90000222: Chunk0=28 bytes, Chunk1-N=256k
+[2024.03.15-00.25.55:996][275]LogAudio: Display: Chunk sizes for SoundWave /Game/Levels/Pluto/_GENERATED/135035__mrlindstrom__oncomingstorm.135035__mrlindstrom__oncomingstorm: Chunk0=28 bytes, Chunk1-N=256k
+[2024.03.15-00.25.56:172][275]LogWorld: UWorld::CleanupWorld for L_Pluto, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.25.56:172][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.25.56:172][275]MapCheck: New page: Map Check
+[2024.03.15-00.25.56:172][275]LightingResults: New page: Lighting Build
+[2024.03.15-00.25.56:176][275]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.15-00.25.56:186][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.15-00.25.56:195][275]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.25.56:199][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.25.56:208][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.15-00.25.56:212][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.15-00.25.56:250][275]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_Jupiter'.
+[2024.03.15-00.25.56:250][275]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.25.56:250][275]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.25.56:250][275]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.03.15-00.25.56:567][275]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.15-00.25.56:602][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.15-00.25.56:640][275]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.15-00.25.56:640][275]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.166ms to complete.
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: ================================================
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Total job queries 116, among them cache hits 25 (21.55%)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Tracking 25 distinct input hashes that result in 19 distinct outputs (76.00%)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: RAM used: 79.55 KiB of 1.60 GiB budget. Usage: 0.00%
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Shaders Compiled: 25
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Jobs assigned 29, completed 25 (86.21%)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Average time worker was idle: 90.58 s
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.54 s
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Job execution time: average 0.47 s, max 0.85 s
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Job life time (pending + execution): average 0.56 s, max 0.96
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Shader code size: average 5.372 KiB, min 544 B, max 17.814 KiB
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.94 s
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Jobs were issued in 29 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Average processing rate: 8.50 jobs/sec
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Total thread time: 7.742 s
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Total thread preprocess time: 0.839 s
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Percentage time preprocessing: 10.84%
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Effective parallelization: 2.63 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.39 sec, max 0.54 sec, min 0.23 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                                                FMeshDecalsVS (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.37 sec, max 0.52 sec, min 0.20 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.31 sec, max 0.42 sec, min 0.24 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 34.94% of total time (compiled    7 times, average 0.39 sec, max 0.54 sec, min 0.23 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 33.10% of total time (compiled    7 times, average 0.37 sec, max 0.52 sec, min 0.20 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.10% of total time (compiled    3 times, average 0.31 sec, max 0.42 sec, min 0.24 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.48% of total time (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display:                                                FMeshDecalsVS - 4.99% of total time (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2024.03.15-00.25.56:753][275]LogShaderCompilers: Display: ================================================
+[2024.03.15-00.25.56:900][277]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.03.15-00.26.05:552][ 81]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.26.05:621][ 82]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne_C
+[2024.03.15-00.26.05:621][ 82]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne_C
+[2024.03.15-00.26.05:622][ 82]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne as actor: JupiterFactOne_C /Game/Levels/Jupiter/L_Jupiter.L_Jupiter:PersistentLevel.JupiterFactOne_C_0
+[2024.03.15-00.26.05:623][ 82]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne as actor: JupiterFactOne_C /Game/Levels/Jupiter/L_Jupiter.L_Jupiter:PersistentLevel.JupiterFactOne_C_0
+[2024.03.15-00.26.05:626][ 82]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.15-00.26.06:642][158]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne_C
+[2024.03.15-00.26.06:642][158]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne_C
+[2024.03.15-00.26.06:645][158]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne as actor: JupiterFactOne_C /Game/Levels/Jupiter/L_Jupiter.L_Jupiter:PersistentLevel.JupiterFactOne_C_1
+[2024.03.15-00.26.06:646][158]LogActorFactory: Actor Factory spawned Blueprint /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne as actor: JupiterFactOne_C /Game/Levels/Jupiter/L_Jupiter.L_Jupiter:PersistentLevel.JupiterFactOne_C_1
+[2024.03.15-00.26.35:230][ 75]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/Jupiter/FactItems/JupiterFactOne.JupiterFactOne
+[2024.03.15-00.26.35:230][ 75]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.26.35:230][ 75]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.26.35:235][ 75]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.03.15-00.26.35:969][ 75]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.15-00.26.45:575][817]LogViewport: Scene viewport resized to 1551x974, mode Windowed.
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 0 (Found bundle for host: 0x465e51608a0 [serially])
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 6 (Closing connection)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 9 (  Trying 50.16.173.120:443...)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (50.16.173.120) port 443)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 34 (Closing connection)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: 00000466376FFA00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.27.02:110][ 24]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-00.27.04:780][197]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/InventorySystem/DataTables/DT_JupiterFactData.DT_JupiterFactData
+[2024.03.15-00.27.17:205][303]LogSlate: Window 'DT_JupiterFactData' being destroyed
+[2024.03.15-00.27.17:209][303]LogSlate: Window 'DT_JupiterFactData' being destroyed
+[2024.03.15-00.27.17:247][303]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.27.17:247][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.27.18:581][409]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-00.27.18:625][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-00.27.18:625][409]PIE: New page: PIE session: L_Jupiter (15 Mar 2024, 10:27:18 pm)
+[2024.03.15-00.27.18:669][409]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.03.15-00.27.18:713][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044397s)
+[2024.03.15-00.27.18:713][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.044429s)
+[2024.03.15-00.27.18:729][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.03.15-00.27.18:731][409]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.27.18:731][409]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.27.18:731][409]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.03.15-00.27.18:732][409]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2024.03.15-00.27.18:732][409]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.03.15-00.27.18:732][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-00.27.18:732][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-00.27.18:732][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-00.27.18:732][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-00.27.18:732][409]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.15-00.27.18:732][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-00.27.18:732][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.15-00.27.18:732][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-00.27.18:732][409]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-00.27.18:732][409]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-00.27.18:732][409]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-00.27.18:734][409]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-00.27.18:760][409]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.15-00.27.18:760][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-00.27.18:760][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-00.27.18:760][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-00.27.18:761][409]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.03.15-00.27.18:761][409]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.03.15-00.27.18:762][409]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.03.15-00.27.18:762][409]LogInit: FAudioDevice initialized with ID 8.
+[2024.03.15-00.27.18:762][409]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.03.15-00.27.18:762][409]LogAudio: Display: Audio Device (ID: 8) registered with world 'L_Jupiter'.
+[2024.03.15-00.27.18:762][409]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.15-00.27.18:763][409]LogLoad: Game class is 'BP_Jupiter_GameMode_C'
+[2024.03.15-00.27.18:769][409]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.03.15-11.27.18
+[2024.03.15-00.27.18:965][409]LogWorld: Bringing up level for play took: 0.200701
+[2024.03.15-00.27.18:967][409]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.03.15-00.27.18:970][409]PIE: Server logged in
+[2024.03.15-00.27.18:971][409]PIE: Play in editor total start time 0.344 seconds.
+[2024.03.15-00.27.25:153][ 96]LogBlueprintUserMessages: [AC_InventorySystem] Pickup Jupiter Fact One
+[2024.03.15-00.27.29:369][578]LogBlueprintUserMessages: [AC_InventorySystem] Pickup Jupiter Fact One
+[2024.03.15-00.27.31:021][768]LogBlueprintUserMessages: [AC_InventorySystem] Pickup Jupiter Fact One
+[2024.03.15-00.27.33:787][ 87]LogBlueprintUserMessages: [AC_InventorySystem] Pickup Jupiter Fact One
+[2024.03.15-00.27.47:477][702]LogBlueprintUserMessages: [AC_InventorySystem] Pickup Jupiter Fact One
+[2024.03.15-00.27.52:279][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.27.52:279][268]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.03.15-00.27.52:279][268]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.27.52:282][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.27.52:284][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-00.27.52:289][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.27.52:299][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.27.52:299][268]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.15-00.27.52:299][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.03.15-00.27.52:301][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.03.15-00.27.52:314][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.15-00.27.52:384][269]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: ================================================
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Total job queries 160, among them cache hits 66 (41.25%)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Tracking 38 distinct input hashes that result in 25 distinct outputs (65.79%)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: RAM used: 114.25 KiB of 1.60 GiB budget. Usage: 0.01%
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Shaders Compiled: 38
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Jobs assigned 38, completed 38 (100%)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Average time worker was idle: 125.16 s
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Time job spent in pending queue: average 0.21 s, longest 0.94 s
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 1.81 s
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Job life time (pending + execution): average 0.78 s, max 2.13
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Shader code size: average 5.785 KiB, min 544 B, max 28.898 KiB
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.09 s
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Jobs were issued in 38 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Average processing rate: 7.47 jobs/sec
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Total thread time: 13.076 s
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Total thread preprocess time: 1.408 s
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Percentage time preprocessing: 10.77%
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Effective parallelization: 2.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    7 times, average 0.54 sec, max 1.47 sec, min 0.33 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                                                FMeshDecalsVS (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.38 sec, max 0.54 sec, min 0.23 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.36 sec, max 0.52 sec, min 0.20 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.34 sec, max 0.42 sec, min 0.24 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 28.78% of total time (compiled    7 times, average 0.54 sec, max 1.47 sec, min 0.33 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.49% of total time (compiled    9 times, average 0.38 sec, max 0.54 sec, min 0.23 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.31% of total time (compiled    8 times, average 0.36 sec, max 0.52 sec, min 0.20 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.93% of total time (compiled    5 times, average 0.34 sec, max 0.42 sec, min 0.24 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.76% of total time (compiled    5 times, average 0.12 sec, max 0.15 sec, min 0.09 sec)
+[2024.03.15-00.28.58:696][985]LogShaderCompilers: Display: ================================================
+[2024.03.15-00.29.27:829][762]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-00.29.27:875][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-00.29.27:875][762]PIE: New page: PIE session: L_Jupiter (15 Mar 2024, 10:29:27 pm)
+[2024.03.15-00.29.27:875][762]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.03.15-00.29.27:920][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044690s)
+[2024.03.15-00.29.27:920][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.044717s)
+[2024.03.15-00.29.27:933][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.15-00.29.27:934][762]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.29.27:934][762]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.29.27:935][762]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.03.15-00.29.27:935][762]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2024.03.15-00.29.27:935][762]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.15-00.29.27:935][762]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-00.29.27:935][762]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-00.29.27:935][762]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-00.29.27:935][762]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-00.29.27:935][762]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.15-00.29.27:935][762]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-00.29.27:935][762]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.15-00.29.27:935][762]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-00.29.27:935][762]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-00.29.27:935][762]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-00.29.27:935][762]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-00.29.27:937][762]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-00.29.27:964][762]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.15-00.29.27:964][762]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-00.29.27:964][762]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-00.29.27:964][762]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-00.29.27:964][762]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.03.15-00.29.27:964][762]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.03.15-00.29.27:965][762]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.03.15-00.29.27:965][762]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.03.15-00.29.27:965][762]LogInit: FAudioDevice initialized with ID 9.
+[2024.03.15-00.29.27:965][762]LogAudio: Display: Audio Device (ID: 9) registered with world 'L_Jupiter'.
+[2024.03.15-00.29.27:965][762]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.15-00.29.27:967][762]LogLoad: Game class is 'BP_Jupiter_GameMode_C'
+[2024.03.15-00.29.27:973][762]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.03.15-11.29.27
+[2024.03.15-00.29.28:168][762]LogWorld: Bringing up level for play took: 0.200994
+[2024.03.15-00.29.28:170][762]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.03.15-00.29.28:173][762]PIE: Server logged in
+[2024.03.15-00.29.28:174][762]PIE: Play in editor total start time 0.299 seconds.
+[2024.03.15-00.29.36:647][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.29.36:648][750]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.03.15-00.29.36:648][750]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.29.36:651][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.29.36:653][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-00.29.36:657][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.29.36:666][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.29.36:670][750]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.15-00.29.36:670][750]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.15-00.29.36:672][750]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.15-00.29.36:679][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.03.15-00.29.36:781][751]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 0 (Found bundle for host: 0x465e51608a0 [serially])
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 6 (Closing connection)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 9 (  Trying 34.198.139.189:443...)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.198.139.189) port 443)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 34 (Closing connection)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: 00000466814A7D00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.30.02:256][235]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-00.32.14:322][159]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.15-00.32.14:367][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-00.32.14:367][159]PIE: New page: PIE session: L_Jupiter (15 Mar 2024, 10:32:14 pm)
+[2024.03.15-00.32.14:406][159]LogPlayLevel: Creating play world package: /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.03.15-00.32.14:450][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044123s)
+[2024.03.15-00.32.14:450][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Jupiter/L_Jupiter.L_Jupiter to /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter (0.044152s)
+[2024.03.15-00.32.14:462][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.03.15-00.32.14:464][159]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.15-00.32.14:464][159]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.15-00.32.14:465][159]LogAIModule: Creating AISystem for world L_Jupiter
+[2024.03.15-00.32.14:465][159]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2024.03.15-00.32.14:465][159]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.15-00.32.14:465][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.15-00.32.14:465][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.15-00.32.14:465][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.15-00.32.14:465][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.15-00.32.14:465][159]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.15-00.32.14:465][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.15-00.32.14:465][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.15-00.32.14:465][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.15-00.32.14:465][159]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.15-00.32.14:465][159]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.15-00.32.14:465][159]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.15-00.32.14:467][159]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.15-00.32.14:498][159]LogAudioMixer: Display: Using Audio Hardware Device U28E850 (NVIDIA High Definition Audio)
+[2024.03.15-00.32.14:498][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.15-00.32.14:498][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.15-00.32.14:498][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.15-00.32.14:498][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.03.15-00.32.14:498][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.03.15-00.32.14:500][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.15-00.32.14:500][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.03.15-00.32.14:500][159]LogInit: FAudioDevice initialized with ID 10.
+[2024.03.15-00.32.14:500][159]LogAudio: Display: Audio Device (ID: 10) registered with world 'L_Jupiter'.
+[2024.03.15-00.32.14:500][159]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.15-00.32.14:502][159]LogLoad: Game class is 'BP_Jupiter_GameMode_C'
+[2024.03.15-00.32.14:509][159]LogWorld: Bringing World /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter.L_Jupiter up for play (max tick rate 0) at 2024.03.15-11.32.14
+[2024.03.15-00.32.14:705][159]LogWorld: Bringing up level for play took: 0.202557
+[2024.03.15-00.32.14:707][159]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.03.15-00.32.14:710][159]PIE: Server logged in
+[2024.03.15-00.32.14:711][159]PIE: Play in editor total start time 0.343 seconds.
+[2024.03.15-00.32.27:446][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.32.27:446][650]LogWorld: BeginTearingDown for /Game/Levels/Jupiter/UEDPIE_0_L_Jupiter
+[2024.03.15-00.32.27:447][650]LogWorld: UWorld::CleanupWorld for L_Jupiter, bSessionEnded=true, bCleanupResources=true
+[2024.03.15-00.32.27:449][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.32.27:452][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.15-00.32.27:456][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.15-00.32.27:467][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.15-00.32.27:471][650]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.15-00.32.27:471][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.15-00.32.27:473][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.15-00.32.27:480][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.15-00.32.27:565][651]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 0 (Found bundle for host: 0x465e5160a80 [serially])
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 6 (Closing connection)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 9 (  Trying 3.229.186.2:443...)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.229.186.2) port 443)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 25 (Server certificate:)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 34 (Closing connection)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: 0000046679109600: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.15-00.33.02:010][174]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8861286-4DE1-ED3F-A07D-0D95D409EE43%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=4a56226949986f191956ce9859877a71%7C%7C92fdd2e8-3f0f-4e7b-89b2-9df0b659c7bf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.15-00.33.19:063][921]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.15-00.33.59:327][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.03.15-00.33.59:332][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.15-00.33.59:573][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.03.15-00.33.59:815][ 59]LogSavePackage: Moving output files for package: /Game/Levels/Jupiter/L_Jupiter
+[2024.03.15-00.33.59:816][ 59]LogSavePackage: Moving '../../../../../Users/1028560/Desktop/Space Game/SpaceTrip/Saved/L_Jupiter624B5E144A23219FAD7CB38CBD3DFDA3.tmp' to '../../../../../Users/1028560/Desktop/Space Game/SpaceTrip/Content/Levels/Jupiter/L_Jupiter.umap'
+[2024.03.15-00.33.59:859][ 59]LogFileHelpers: Saving map 'L_Jupiter' took 0.480
+[2024.03.15-00.33.59:871][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 540 ms (total: 669 ms)
+[2024.03.15-00.33.59:876][ 59]AssetCheck: New page: Asset Save: L_Jupiter
+[2024.03.15-00.33.59:876][ 59]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Jupiter/L_Jupiter.L_Jupiter
+[2024.03.15-00.34.09:000][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
